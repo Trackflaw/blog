@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Trackflaw | Blog</title>
+    <link>https://trackflaw.com/news/</link>
+    <description>Recent content in News on Trackflaw | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 22 Nov 2022 17:25:42 +0100</lastBuildDate><atom:link href="https://trackflaw.com/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les4ActusCyber - Semaine du 4 septembre</title>
+      <link>https://trackflaw.com/news/1/</link>
+      <pubDate>Tue, 22 Nov 2022 17:25:42 +0100</pubDate>
+      
+      <guid>https://trackflaw.com/news/1/</guid>
+      <description>Les4ActusCyber - Semaine du 4 septembre TODO</description>
+    </item>
+    
+  </channel>
+</rss>

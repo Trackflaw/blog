@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Articles - Trackflaw | Blog</title>
+        <link>https://trackflaw.com/posts/</link>
+        <description>Articles | Trackflaw | Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 24 Mar 2023 17:25:42 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>CVE-2023-23397 - La réunion Outlook qui exfiltre votre mot de passe.</title>
+    <link>https://trackflaw.com/cve-outlook/</link>
+    <pubDate>Fri, 24 Mar 2023 17:25:42 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>https://trackflaw.com/cve-outlook/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cve-outlook/CVE-2023-23397.png" referrerpolicy="no-referrer">
+            </div>⏰ Le rappel de réunion qui vous veut du mal Découverte Le 14 mars 2023, la société MdSec publiait un article traitant d&rsquo;une nouvelle vulnérabilité corrigée dans la dernière mise à jour proposée par Microsoft.
+La vulnérabilité était décrite de la façon suivante :
+Patch KB5005413 Microsoft Office Outlook contains a privilege escalation vulnerability that allows for a NTLM Relay attack against another service to authenticate as the user. L&rsquo;analyse d&rsquo;un script d&rsquo;analyse fournit par Microsoft permet d&rsquo;obtenir quelques indices sur l&rsquo;exploitation de cette vulnérabilité.]]></description>
+</item>
+</channel>
+</rss>

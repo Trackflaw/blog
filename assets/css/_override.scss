@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+$code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospace;
+
+$global-background-color-dark: #182B36;
+$header-background-color-dark: #0F222D;
+
+.header-title, h1.home-title {
+    font-family: "Comfortaa", "Roboto Condensed", sans-serif!important;
+    letter-spacing: 4px;
+    font-weight: 400!important;
+    font-size: 22px!important;
+}
+
+.home-subtitle {
+    text-transform: uppercase;
+    font-family: 'Comfortaa';
+    letter-spacing: 3px;
+    font-size: 0.8em!important;
+}
+
+.menu {
+    font-family: "Comfortaa", "Roboto Condensed", sans-serif!important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+}
+
+$global-font-family: "Roboto", "Source Sans Pro", sans-serif;
+
+.cc-color-override-183142524.cc-window, a.cc-link {
+    color: rgba(255,255,255,0.7)!important;
+    background-color: #304e5f!important;
+    font-family: "Roboto", "Source Sans Pro", sans-serif!important;
+}
+
+.archive .single-title {
+    text-align: center!important;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(255,255,255,0.05);
+}
