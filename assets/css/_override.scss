@@ -40,3 +40,65 @@ $global-font-family: "Roboto", "Source Sans Pro", sans-serif;
     padding-bottom: 20px;
     border-bottom: 3px solid rgba(255,255,255,0.05);
 }
+
+@media screen and (max-width: 600px) {
+    .flex-container {
+        display: block;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: normal;
+        align-content: normal;
+      }
+
+    .flex-items:nth-child(1) {
+        text-align: center;
+    }
+ }
+
+@media screen and (min-width: 600px) { 
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: normal;
+        align-content: normal;
+    }
+}
+
+iframe[src*="https://www.youtube.com/embed/"] {
+    position: relative !important;
+    // width: 100% !important;
+    height: auto !important;
+    max-width: 300px!important;
+    aspect-ratio: 9 / 16 !important;
+}
+  
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding: 10px;
+}
+
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding: 10px;
+}
+
+.single .content h2 {
+    margin-top: 70px!important;
+}
+
+.single .content h3 {
+    margin-top: 30px!important;
+}

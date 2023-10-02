@@ -219,7 +219,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  title shown in home page (HTML format is supported)
       title = "TRACKFLAW"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "FULL OVERALL PENTESTING"
+      subtitle = "EXPERT EN SÉCURITE OFFENSIVE"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -240,10 +240,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     GitHub = "https://github.com/trackflaw"
     Linkedin = "https://www.linkedin.com/company/75490897"
     Twitter = "https://twitter.com/trackflaw"
-    Instagram = ""
+    Instagram = "https://www.instagram.com/trackflaw/"
     Facebook = ""
     Telegram = ""
-    Medium = ""
+    Medium = " https://trackflaw.medium.com"
     Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = "../@trackflaw"
