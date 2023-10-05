@@ -95,10 +95,22 @@ iframe[src*="https://www.youtube.com/embed/"] {
     padding: 10px;
 }
 
+.single .content h1 {
+    margin-bottom: -40px!important;
+}
+
 .single .content h2 {
     margin-top: 70px!important;
 }
 
 .single .content h3 {
     margin-top: 30px!important;
+}
+
+.single .content p {
+    margin: 1.2rem 0!important;
+}
+
+.page {
+    max-width: 1000px!important;
 }
