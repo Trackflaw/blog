@@ -11,7 +11,7 @@ featuredImagePreview: "/images/bypass-file-upload/htaccess.png"
 
 ## Introduction
 
-Une vulnérabilité de type dépot de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d'autres dommages.
+Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d'autres dommages.
 
 Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de [l'Insomni'hack Teaser 2019 CTF](https://ctftime.org/event/686).
 
