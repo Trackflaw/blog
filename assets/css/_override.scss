@@ -5,6 +5,23 @@ $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospac
 $global-background-color-dark: #182B36;
 $header-background-color-dark: #0F222D;
 
+/* Home page */
+
+article.single.summary {
+    width: 50%; /* Divisez l'espace en 2 colonnes égales */
+    box-sizing: border-box; /* Inclure les marges et les bordures dans la largeur */
+    float: left; /* Flottez les articles à gauche */
+    padding: 15px; /* Espace intérieur autour des articles (ajustez selon vos besoins) */
+}
+
+@media screen and (max-width: 768px) {
+    article {
+      width: 100%; /* Afficher les articles en pleine largeur */
+      float: none; /* Annuler la flottaison pour afficher en colonne */
+      padding: 15px; /* Ajustez l'espacement intérieur si nécessaire */
+    }
+  }
+
 .header-title, h1.home-title {
     font-family: "Comfortaa", "Roboto Condensed", sans-serif!important;
     letter-spacing: 4px;
