@@ -237,13 +237,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Social config about the author
   [params.social]
-    GitHub = "https://github.com/trackflaw"
-    Linkedin = "https://www.linkedin.com/company/75490897"
-    Twitter = "https://twitter.com/trackflaw"
-    Instagram = "https://www.instagram.com/trackflaw/"
+    GitHub = "trackflaw"
+    Linkedin = "../company/75490897"
+    Twitter = "trackflaw"
+    Instagram = "trackflaw"
     Facebook = ""
     Telegram = ""
-    Medium = " https://trackflaw.medium.com"
+    Medium = "@trackflaw"
     Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = "../@trackflaw"
