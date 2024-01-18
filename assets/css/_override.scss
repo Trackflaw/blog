@@ -12,13 +12,17 @@ article.single.summary {
     box-sizing: border-box; /* Inclure les marges et les bordures dans la largeur */
     float: left; /* Flottez les articles à gauche */
     padding: 15px; /* Espace intérieur autour des articles (ajustez selon vos besoins) */
+    min-height: 430px;
 }
 
 @media screen and (max-width: 768px) {
-    article {
+    article.single.summary  {
       width: 100%; /* Afficher les articles en pleine largeur */
       float: none; /* Annuler la flottaison pour afficher en colonne */
       padding: 15px; /* Ajustez l'espacement intérieur si nécessaire */
+    }
+    .page.home{
+        width: 100%!important;
     }
   }
 
@@ -128,8 +132,9 @@ iframe[src*="https://www.youtube.com/embed/"] {
     margin: 1.2rem 0!important;
 }
 
-.page {
-    max-width: 1000px!important;
+.page.home{
+    max-width: 2000px;
+    width: 60%;
 }
 
 .home[data-home=posts] .summary {
@@ -143,4 +148,8 @@ iframe[src*="https://www.youtube.com/embed/"] {
 
 .single .content .admonition {
     margin: 2rem 0!important;
+}
+
+.featured-image-preview {
+    min-height: 100px;
 }

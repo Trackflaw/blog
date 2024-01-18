@@ -1,10 +1,12 @@
 ---
 title: "Le reverse tab nabbing, méthode de phishing sous stéroïdes."
+description: "Plongez dans les abysses du 'reverse tab nabbing', une technique de phishing redoutablement efficace. Découvrez comment les pirates informatiques exploitent astucieusement les onglets de votre navigateur pour vous rediriger vers des sites malveillants, tout en vous laissant croire que vous naviguez en toute sécurité sur vos sites familiers. À travers un scénario réaliste, nous vous montrons pas à pas comment cette attaque se déroule et soulignons les failles exploitables. Apprenez des mesures essentielles pour vous protéger, comme éviter l'usage de l'attribut target=_blank ou incorporer rel=noopener noreferrer. Cet article est un incontournable pour renforcer votre cybersécurité et déjouer les pièges du phishing moderne."
 date: 2023-11-16T17:44:12+01:00
 draft: false
 images: [/images/reverse-tabnabbing/main.png]
 featuredImage: "/images/reverse-tabnabbing/main.png"
 featuredImagePreview: "/images/reverse-tabnabbing/main.png"
+tags: ["Phishing", "Pentest", "Hacking"]
 ---
 
 # 💉 Le reverse tab nabbing, méthode de phishing sous stéroïdes.

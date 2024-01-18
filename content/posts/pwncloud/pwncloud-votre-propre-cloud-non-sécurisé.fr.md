@@ -1,10 +1,12 @@
 ---
 title: "Pwncloud : votre propre cloud (non) sécurisé"
+description: "OwnCloud est un logiciel libre offrant une plateforme de services de stockage et partage de fichiers et d'applications diverses en ligne. Il est présenté comme une alternative à Dropbox, lequel est basé sur un cloud public. Or, comme tous les logiciels il souffre de vulnérabilité."
 date: 2023-12-08T15:05:00+01:00
 draft: false
 images: [/images/pwncloud/pwncloud.png]
 featuredImage: "/images/pwncloud/pwncloud.png"
 featuredImagePreview: "/images/pwncloud/pwncloud.png"
+tags: ["Pwncloud", "Pentest", "Cloud"]
 ---
 
 # ☁️ Pwncloud : votre propre cloud (non) sécurisé

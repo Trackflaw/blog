@@ -11,7 +11,7 @@ defaultContentLanguage = "fr"
 [languages]
   [languages.en]
     weight = 1
-    title = "Trackflaw | Blog"
+    title = "Trackflaw | Expert en sécurité informatique"
     languageCode = "en"
     languageName = "English"
     [[languages.en.menu.main]]
@@ -42,7 +42,7 @@ defaultContentLanguage = "fr"
 
   [languages.fr]
     weight = 3
-    title = "Trackflaw | Blog"
+    title = "Trackflaw | Expert en sécurité informatique"
     languageCode = "fr"
     languageName = "Français"
     [[languages.fr.menu.main]]
@@ -69,6 +69,14 @@ defaultContentLanguage = "fr"
       name = "A propos"
       url = "/about/"
       title = "A propos"
+    [[languages.fr.menu.main]]
+      weight = 3
+      identifier = "About"
+      pre = ""
+      post = ""
+      name = "A propos"
+      url = "/about/"
+      title = "A propos"
 
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
@@ -76,9 +84,9 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
-googleAnalytics = ""
+googleAnalytics = "GTM-54SVS52T"
 # copyright description used only for seo schema
-copyright = "Trackflaw 2023"
+copyright = "Trackflaw 2024"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -107,7 +115,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  date format
   dateFormat = "02/01/2006"
   # website title for Open Graph and Twitter Cards
-  title = "Trackflaw | Blog"
+  title = "Trackflaw | Expert en sécurité offensive"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d'intrusion."
   # website images for Open Graph and Twitter Cards
@@ -171,7 +179,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Trackflaw | Blog"
+    title = "Trackflaw | Expert en sécurité offensive"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -426,7 +434,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         appKey = ""
         placeholder = ""
         avatar = "mp"
-        meta= "Trackflaw expert en sécurité informatique"
+        meta= "Trackflaw est une société spécialisée en sécurité offensive et particulièrement dans le domaine des tests d'intrusion."
         pageSize = 10
         # automatically adapt the current theme i18n configuration when empty
         lang = ""
@@ -506,8 +514,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+        name = "Thibaud Robin - Trackflaw"
+        logoUrl = "/images/logo.png"
 
   #  TypeIt config
   [params.typeit]
@@ -531,16 +539,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  Site SEO config
   [params.seo]
     # image URL
-    image = ""
+    image = "/images/logo.png"
     # thumbnail URL
-    thumbnailUrl = ""
+    thumbnailUrl = "/images/logo.png"
 
   #  Analytics config
   [params.analytics]
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "GTM-54SVS52T"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics

@@ -1,10 +1,12 @@
 ---
 title: "Htaccess, ou comment contourner les mécanismes de dépôt de fichiers."
+description: "Découvrez comment contourner les mécanismes de dépôt de fichiers en exploitant une vulnérabilité de type dépôt de fichier. Je vous guide à travers les techniques sophistiquées utilisées pour déposer un fichier malveillant sur un système cible, en illustrant avec l'exemple du challenge l33t-hoster de l’Insomni’hack Teaser 2019 CTF. Apprenez à créer un fichier polyglotte et à contourner la protection anti-PHP, tout en comprenant les mesures de sécurité nécessaires pour contrer de telles attaques. Un article incontournable pour les passionnés de cybersécurité cherchant à approfondir leurs connaissances en matière de sécurité des téléchargements de fichiers."
 date: 2023-10-04T16:00:00+01:00
 draft: false
 images: [/images/bypass-file-upload/htaccess.png]
 featuredImage: "/images/bypass-file-upload/htaccess.png"
 featuredImagePreview: "/images/bypass-file-upload/htaccess.png"
+tags: ["Pentest", "Test d'intrusion", "CTF"]
 ---
 
 # 📂 Comment contourner les mécanismes de dépôt de fichiers ?
