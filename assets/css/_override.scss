@@ -8,40 +8,55 @@ $header-background-color-dark: #0F222D;
 /* Home page */
 
 article.single.summary {
-    width: 50%; /* Divisez l'espace en 2 colonnes égales */
-    box-sizing: border-box; /* Inclure les marges et les bordures dans la largeur */
-    float: left; /* Flottez les articles à gauche */
-    padding: 15px; /* Espace intérieur autour des articles (ajustez selon vos besoins) */
+    width: 50%;
+    /* Divisez l'espace en 2 colonnes égales */
+    box-sizing: border-box;
+    /* Inclure les marges et les bordures dans la largeur */
+    float: left;
+    /* Flottez les articles à gauche */
+    padding: 15px;
+    /* Espace intérieur autour des articles (ajustez selon vos besoins) */
     min-height: 430px;
 }
 
 @media screen and (max-width: 768px) {
-    article.single.summary  {
-      width: 100%; /* Afficher les articles en pleine largeur */
-      float: none; /* Annuler la flottaison pour afficher en colonne */
-      padding: 15px; /* Ajustez l'espacement intérieur si nécessaire */
+    article.single.summary {
+        width: 100%;
+        /* Afficher les articles en pleine largeur */
+        float: none;
+        /* Annuler la flottaison pour afficher en colonne */
+        padding: 15px;
+        /* Ajustez l'espacement intérieur si nécessaire */
     }
-    .page.home{
-        width: 100%!important;
-    }
-  }
 
-.header-title, h1.home-title {
-    font-family: "Comfortaa", "Roboto Condensed", sans-serif!important;
+    .page.home {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page.home {
+        min-width: 60%;
+    }
+}
+
+.header-title,
+h1.home-title {
+    font-family: "Comfortaa", "Roboto Condensed", sans-serif !important;
     letter-spacing: 4px;
-    font-weight: 400!important;
-    font-size: 22px!important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
 }
 
 .home-subtitle {
     text-transform: uppercase;
     font-family: 'Comfortaa';
     letter-spacing: 3px;
-    font-size: 0.8em!important;
+    font-size: 0.8em !important;
 }
 
 .menu {
-    font-family: "Comfortaa", "Roboto Condensed", sans-serif!important;
+    font-family: "Comfortaa", "Roboto Condensed", sans-serif !important;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 11px;
@@ -49,17 +64,18 @@ article.single.summary {
 
 $global-font-family: "Roboto", "Source Sans Pro", sans-serif;
 
-.cc-color-override-183142524.cc-window, a.cc-link {
-    color: rgba(255,255,255,0.7)!important;
-    background-color: #304e5f!important;
-    font-family: "Roboto", "Source Sans Pro", sans-serif!important;
+.cc-color-override-183142524.cc-window,
+a.cc-link {
+    color: rgba(255, 255, 255, 0.7) !important;
+    background-color: #304e5f !important;
+    font-family: "Roboto", "Source Sans Pro", sans-serif !important;
 }
 
 .archive .single-title {
-    text-align: center!important;
+    text-align: center !important;
     margin-top: 40px;
     padding-bottom: 20px;
-    border-bottom: 3px solid rgba(255,255,255,0.05);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.05);
 }
 
 @media screen and (max-width: 600px) {
@@ -70,14 +86,14 @@ $global-font-family: "Roboto", "Source Sans Pro", sans-serif;
         justify-content: center;
         align-items: normal;
         align-content: normal;
-      }
+    }
 
     .flex-items:nth-child(1) {
         text-align: center;
     }
- }
+}
 
-@media screen and (min-width: 600px) { 
+@media screen and (min-width: 600px) {
     .flex-container {
         display: flex;
         flex-direction: row;
@@ -92,10 +108,10 @@ iframe[src*="https://www.youtube.com/embed/"] {
     position: relative !important;
     // width: 100% !important;
     height: auto !important;
-    max-width: 300px!important;
+    max-width: 300px !important;
     aspect-ratio: 9 / 16 !important;
 }
-  
+
 .flex-items:nth-child(1) {
     display: block;
     flex-grow: 0;
@@ -117,37 +133,32 @@ iframe[src*="https://www.youtube.com/embed/"] {
 }
 
 .single .content h1 {
-    margin-bottom: -40px!important;
+    margin-bottom: -40px !important;
 }
 
 .single .content h2 {
-    margin-top: 70px!important;
+    margin-top: 70px !important;
 }
 
 .single .content h3 {
-    margin-top: 40px!important;
+    margin-top: 40px !important;
 }
 
 .single .content p {
-    margin: 1.2rem 0!important;
-}
-
-.page.home{
-    max-width: 2000px;
-    width: 60%;
+    margin: 1.2rem 0 !important;
 }
 
 .home[data-home=posts] .summary {
-    padding-top: 2.3rem!important;
-    padding-bottom: 2rem!important;
+    padding-top: 2.3rem !important;
+    padding-bottom: 2rem !important;
 }
 
 .home .home-profile .home-title {
-    letter-spacing: 6px!important;
+    letter-spacing: 6px !important;
 }
 
 .single .content .admonition {
-    margin: 2rem 0!important;
+    margin: 2rem 0 !important;
 }
 
 .featured-image-preview {
