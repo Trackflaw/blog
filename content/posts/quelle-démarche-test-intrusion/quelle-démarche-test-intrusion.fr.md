@@ -23,7 +23,7 @@ Mais quelle est la différence entre ces trois termes ? Et comment choisir leque
 
 ## Partie 1 - Les tests en boite noire
 
-![Alt text](/images/quelle-d%C3%A9marche-test-intrusion/boite-noire.png)
+![Test d'intrusion en boite noire](/images/quelle-d%C3%A9marche-test-intrusion/boite-noire.png)
 
 
 ### Définition et approche
@@ -56,7 +56,7 @@ L'audit de sécurité en boite noire est adapté pour parcourir **rapidement des
 
 ## Partie 2 - Les tests en boite grise
 
-![Alt text](/images/quelle-d%C3%A9marche-test-intrusion/boite-grise.png)
+![Test d'intrusion en boite grise](/images/quelle-d%C3%A9marche-test-intrusion/boite-grise.png)
 
 ### Définition et approche
 
@@ -80,7 +80,7 @@ La **boite grise** garantit un bon équilibre entre l'exhaustivité et l'économ
 
 ## Partie 3 - Les tests en boite blanche
 
-![Alt text](/images/quelle-d%C3%A9marche-test-intrusion/boite-blanche.png)
+![Test d'intrusion en boite blanche](/images/quelle-d%C3%A9marche-test-intrusion/boite-blanche.png)
 
 ### Définition et approche
 
