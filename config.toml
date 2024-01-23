@@ -102,7 +102,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Thibaud Robin"
   email = ""
-  link = ""
+  link = "https://www.linkedin.com/in/thibaud-robin/"
+  picture = "https://trackflaw.com/images/thibaud.png"
 
 [params]
   # site default theme ["auto", "light", "dark"]

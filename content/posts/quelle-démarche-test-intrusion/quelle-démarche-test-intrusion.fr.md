@@ -49,9 +49,9 @@ Cependant, les tests en boîte noire peuvent être plus **limités en termes de 
 De plus, cette méthode peut nécessiter plus de temps pour identifier les failles de sécurité, puisque les auditeurs doivent d'abord découvrir et comprendre la structure du système. Et je vous avoue que c'est souvent très frustrant ! 😭
 
 {{< admonition type=tip title="Parfait pour les petits budgets" open=true >}}
-L'audit en boite noire est adapté pour parcourir **rapidement des larges périmètres** et pour un **petit budget**. Cependant, il faut prendre conscience du **manque d'exhaustivité** des tests effectués.
+L'audit de sécurité en boite noire est adapté pour parcourir **rapidement des larges périmètres** et pour un **petit budget**. Cependant, il faut prendre conscience du **manque d'exhaustivité** des tests effectués.
 
-**Trackflaw** recommande **la boite noire** pour un audit flash, rapide et régulier sur des périmètres aux **risques limités**. 
+**Trackflaw** recommande **la boite noire** pour un audit de sécurité de sécurité flash, rapide et régulier sur des périmètres aux **risques limités**. 
 {{< /admonition >}}
 
 ## Partie 2 - Les tests en boite grise
@@ -75,7 +75,7 @@ Bien que les tests en boîte grise offrent **un équilibre entre les deux autres
 {{< admonition type=tip title="Le bonne équilibre" open=true >}}
 La **boite grise** garantit un bon équilibre entre l'exhaustivité et l'économie.
 
-**Trackflaw** recommande **la boite grise** pour l'audit d'une application web de façon rapide et exhaustif tout en respectant un budget limité. 
+**Trackflaw** recommande **la boite grise** pour l'audit de sécurité d'une application web de façon rapide et exhaustif tout en respectant un budget limité. 
 {{< /admonition >}}
 
 ## Partie 3 - Les tests en boite blanche
@@ -99,7 +99,7 @@ Cependant, les tests en **boîte blanche** peuvent être très complexes et chro
 {{< admonition type=tip title="Le choix de Trackflaw" open=true >}}
 😊 Cette prestation est surement la meilleure à choisir !
 
-**Trackflaw** recommande systématiquement **la boite blanche** pour un audit complet et exhaustif. 
+**Trackflaw** recommande systématiquement **la boite blanche** pour un audit de sécurité complet et exhaustif. 
 {{< /admonition >}}
 
 ## Tableau récapitulatif
@@ -114,7 +114,7 @@ Pour conclure, voici un tableau récapitulatif des **3 démarches**.
 | **Temps et coût**           | Relativement faible : **2 à 4 jours**.                                     | Moyen : **4 à 6 jours**                                                                            | Elevé : **minimum 5 jours**                                                                        |
 | **Contextes recommandés**   | - Test de la résilience externe<br>- Scénarios d'attaques réalistes        | - Quand une connaissance partielle est disponible<br>- Pour des tests équilibrés                   | - Audits internes approfondis<br>- Vérification de la conformité et des standards de développement |
 | **Type d'attaque simulée**  | Attaquant externe sans connaissance spécifique.                            | Attaquant avec une connaissance limitée de l'entreprise.                                           | Attaquant interne ou audit de conformité.                                                          |
-| **Exemple de scénario**     | Test de sécurité d'un ou plusieurs périmètres externes.                    | Test de la sécurité d'une application avec des informations d'identification utilisateur limitées. | Audit complet du code et des configurations de sécurité d'une application.                         |
+| **Exemple de scénario**     | Test de sécurité d'un ou plusieurs périmètres externes.                    | Test de la sécurité d'une application avec des informations d'identification utilisateur limitées. | Audit de sécurité complet du code et des configurations de sécurité d'une application.                         |
 
 Si vous avez des questions sur cet article n'hésitez pas à contacter Trackflaw sur les réseaux ou par email !
 

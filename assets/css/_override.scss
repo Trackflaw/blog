@@ -200,3 +200,26 @@ iframe[src*="https://www.youtube.com/embed/"] {
 [theme=dark] .search input {
     background-color: transparent!important;
 }
+
+.thibaud-picture {
+    background-image: url("https://trackflaw.com/images/thibaud.png");
+    display: inline-block;
+    background-size: cover;
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 100%;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+
+.thibaud-picture-big {
+    background-image: url("https://trackflaw.com/images/thibaud.png");
+    display: inline-block;
+    background-size: cover;
+    height: 3.5vh;
+    width: 3.5vh;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
