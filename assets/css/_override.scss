@@ -1,9 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-$code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospace;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+@import url('./Gotham-Font/Gotham-Black.otf');
+@import url('./Gotham-Font/Gotham-Light.otf');
+@import url('./Gotham-Font/Gotham-Thin.otf');
+@import url('./Gotham-Font/Gotham-XLight.otf');
+@import url('./Gotham-Font/Gotham-Bold.otf');
+@import url('./Gotham-Font/GothamMedium.ttf');
+@import url('./Gotham-Font/GothamMedium_1.ttf');
 
-$global-background-color-dark: #182B36;
-$header-background-color-dark: #0F222D;
+$code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospace;
+$global-font-family: "Inter", "Source Sans Pro", sans-serif;
+
+// $global-background-color-dark: #182B36;
+// $header-background-color-dark: #0F222D;
+
+[theme=dark] header {
+    background: linear-gradient(90deg, #152d3b, #08131a);
+}
+
+body[theme=dark] {
+    background: linear-gradient(149deg, #24323f 0%, #182B36 100%, #08131a 100%);
+}
 
 /* Home page */
 
@@ -48,6 +67,20 @@ h1.home-title {
     font-size: 22px !important;
 }
 
+h1 {
+    font-family: "Gotham", "Comfortaa", "Roboto Condensed", sans-serif !important;
+}
+
+h2 {
+    font-family: "Gotham Light", "Comfortaa", "Roboto Condensed", sans-serif !important;
+    font-weight: 900!important;
+    letter-spacing: 0.7px;
+}
+
+h3 {
+    font-family: "Gotham Light", "Comfortaa", "Roboto Condensed", sans-serif !important;
+}
+
 .home-subtitle {
     text-transform: uppercase;
     font-family: 'Comfortaa';
@@ -62,7 +95,6 @@ h1.home-title {
     font-size: 11px;
 }
 
-$global-font-family: "Roboto", "Source Sans Pro", sans-serif;
 
 .cc-color-override-183142524.cc-window,
 a.cc-link {
@@ -163,4 +195,8 @@ iframe[src*="https://www.youtube.com/embed/"] {
 
 .featured-image-preview {
     min-height: 100px;
+}
+
+[theme=dark] .search input {
+    background-color: transparent!important;
 }
