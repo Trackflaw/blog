@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
-@import url('../../static/fonts/Gotham-Font/Gotham-Black.otf');
-@import url('../../static/fonts/Gotham-Font/Gotham-Light.otf');
-@import url('../../static/fonts/Gotham-Font/Gotham-Thin.otf');
-@import url('../../static/fonts/Gotham-Font/Gotham-XLight.otf');
-@import url('../../static/fonts/Gotham-Font/Gotham-Bold.otf');
-@import url('../../static/fonts/Gotham-Font/GothamMedium.ttf');
-@import url('../../static/fonts/Gotham-Font/GothamMedium_1.ttf');
+@import url('https://db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham');
+@import url('https://db.onlinewebfonts.com/c/056353a27c68233bab7e618c8b191d65?family=GothamPro');
+@import url('https://db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham-Thin');
+@import url('https://db.onlinewebfonts.com/c/fc74760c72164d5321ac886797ce62eb?family=Gotham-Light');
+@import url('https://db.onlinewebfonts.com/c/9a2bc11be56851dde98c1b49302cc21a?family=Gotham+Medium');
+@import url('https://db.onlinewebfonts.com/c/0ff8990774ec4865c7f45befbafd4910?family=Gotham+Regular');
+@import url('https://db.onlinewebfonts.com/c/924ee4158324c02e3e0d62e54cafd14f?family=GothamBook');
+@import url('https://db.onlinewebfonts.com/c/5d6f50ed2dde0e4ad455448f896c09f0?family=Gotham+Bold');
+@import url('https://db.onlinewebfonts.com/c/34abfd1ab1319100e46597c745b7f434?family=Gotham-Ultra');
 
 $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospace;
 $global-font-family: "Inter", "Source Sans Pro", sans-serif;
@@ -61,24 +63,24 @@ article.single.summary {
 
 .header-title,
 h1.home-title {
-    font-family: "Comfortaa", "Roboto Condensed", sans-serif !important;
+    font-family: "Comfortaa", "Roboto", sans-serif !important;
     letter-spacing: 4px;
     font-weight: 400 !important;
     font-size: 22px !important;
 }
 
 h1 {
-    font-family: "Gotham", "Comfortaa", "Roboto Condensed", sans-serif !important;
+    font-family: "Gotham Bold", "Roboto", sans-serif !important;
 }
 
 h2 {
-    font-family: "Gotham Light", "Comfortaa", "Roboto Condensed", sans-serif !important;
+    font-family: "Gotham Light", "Roboto", sans-serif !important;
     font-weight: 900!important;
     letter-spacing: 0.7px;
 }
 
 h3 {
-    font-family: "Gotham Light", "Comfortaa", "Roboto Condensed", sans-serif !important;
+    font-family: "Gotham Light", "Roboto", sans-serif !important;
 }
 
 .home-subtitle {
@@ -89,7 +91,7 @@ h3 {
 }
 
 .menu {
-    font-family: "Comfortaa", "Roboto Condensed", sans-serif !important;
+    font-family: "Comfortaa", "Roboto", sans-serif !important;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 11px;
