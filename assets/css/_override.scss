@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
-@import url('./Gotham-Font/Gotham-Black.otf');
-@import url('./Gotham-Font/Gotham-Light.otf');
-@import url('./Gotham-Font/Gotham-Thin.otf');
-@import url('./Gotham-Font/Gotham-XLight.otf');
-@import url('./Gotham-Font/Gotham-Bold.otf');
-@import url('./Gotham-Font/GothamMedium.ttf');
-@import url('./Gotham-Font/GothamMedium_1.ttf');
+@import url('../fonts/Gotham-Font/Gotham-Black.otf');
+@import url('../fonts/Gotham-Font/Gotham-Light.otf');
+@import url('../fonts/Gotham-Font/Gotham-Thin.otf');
+@import url('../fonts/Gotham-Font/Gotham-XLight.otf');
+@import url('../fonts/Gotham-Font/Gotham-Bold.otf');
+@import url('../fonts/Gotham-Font/GothamMedium.ttf');
+@import url('../fonts/Gotham-Font/GothamMedium_1.ttf');
 
 $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospace;
 $global-font-family: "Inter", "Source Sans Pro", sans-serif;
