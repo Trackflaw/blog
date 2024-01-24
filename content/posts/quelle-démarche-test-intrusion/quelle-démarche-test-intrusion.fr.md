@@ -17,9 +17,13 @@ Dans le monde en constante évolution de la cybersécurité, où les cyberattaqu
 
 Ces tests, souvent désignés sous les termes de tests en **boîte noire**, **boîte grise** et **boîte blanche**, sont des composantes cruciales de toute stratégie de sécurité informatique robuste. Chacun de ces types de tests offre une approche unique pour évaluer la sécurité des systèmes d'information et identifier les vulnérabilités potentielles susceptibles d'être exploitées par des attaquants informatiques.
 
+<video src="/images/quelle-d%C3%A9marche-test-intrusion/video.mp4" controls autoplay loop title="Comprendre la différence entre la boite noire, grise et blanche" style="width:100%"></video>
+
 {{< admonition type=question title="Boite noire, boite grise, boite blanche ?" open=true >}}
 Mais quelle est la différence entre ces trois termes ? Et comment choisir lequel vous conviendra le mieux ? Trackflaw vous éclaire juste en dessous 😉
 {{< /admonition >}}
+
+
 
 ## Partie 1 - Les tests en boite noire
 

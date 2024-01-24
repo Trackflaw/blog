@@ -335,7 +335,7 @@ Dans les grandes lignes :
 
 👇 Ci-dessous, une vidéo réalisée par Charles Fol, le rédacteur de l'article concernant le scénario anonyme. Patchez vos instances !
 
-<video src="/images/pwncloud/exploit-privilege-escalation.mp4" controls title="Exploitation WebDav OwnCloud" style="width:100%"></video>
+<video src="/images/pwncloud/exploit-privilege-escalation.mp4" controls autoplay loop title="Exploitation WebDav OwnCloud" style="width:100%"></video>
 
 ## CVE-2023-49104
 
