@@ -11,7 +11,7 @@ defaultContentLanguage = "fr"
 [languages]
   [languages.en]
     weight = 1
-    title = "Trackflaw | Expert en sécurité informatique"
+    title = "Trackflaw | Cybersecurity expert"
     languageCode = "en"
     languageName = "English"
     [[languages.en.menu.main]]
