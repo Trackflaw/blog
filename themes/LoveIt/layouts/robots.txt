@@ -3,5 +3,6 @@ User-agent: *
 Disallow: /images/
 Disallow: /js/
 Disallow: /css/
+Disallow: /news/
 
 Sitemap: https://blog.trackflaw.com/sitemap.xml
