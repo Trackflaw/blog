@@ -73,6 +73,10 @@ h1 {
     font-family: "Gotham Bold", "Roboto", sans-serif !important;
 }
 
+h2.bold-summary {
+    font-family: "Gotham Bold", "Roboto", sans-serif !important;
+}
+
 h2 {
     font-family: "Gotham Light", "Roboto", sans-serif !important;
     font-weight: 900!important;
@@ -207,19 +211,19 @@ iframe[src*="https://www.youtube.com/embed/"] {
     background-image: url("https://trackflaw.com/images/thibaud.png");
     display: inline-block;
     background-size: cover;
-    height: 1.5vh;
-    width: 1.5vh;
+    height: 3.5vh;
+    width: 3.5vh;
     border-radius: 100%;
     margin-right: 5px;
-    vertical-align: text-top;
+    vertical-align: bottom;
 }
 
 .thibaud-picture-big {
     background-image: url("https://trackflaw.com/images/thibaud.png");
     display: inline-block;
     background-size: cover;
-    height: 3.5vh;
-    width: 3.5vh;
+    height: 6.5vh;
+    width: 6.5vh;
     border-radius: 100%;
     margin-right: 10px;
     margin-bottom: 10px;
