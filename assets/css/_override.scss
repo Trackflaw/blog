@@ -211,19 +211,19 @@ iframe[src*="https://www.youtube.com/embed/"] {
     background-image: url("https://trackflaw.com/images/thibaud.png");
     display: inline-block;
     background-size: cover;
-    height: 3.5vh;
-    width: 3.5vh;
+    height: 1.5vh;
+    width: 1.5vh;
     border-radius: 100%;
     margin-right: 5px;
-    vertical-align: bottom;
+    vertical-align: text-bottom;
 }
 
 .thibaud-picture-big {
     background-image: url("https://trackflaw.com/images/thibaud.png");
     display: inline-block;
     background-size: cover;
-    height: 6.5vh;
-    width: 6.5vh;
+    height: 3.5vh;
+    width: 3.5vh;
     border-radius: 100%;
     margin-right: 10px;
     margin-bottom: 10px;
