@@ -87,6 +87,16 @@ h3 {
     font-family: "Gotham Light", "Roboto", sans-serif !important;
 }
 
+h4 {
+    font-family: "Gotham Light", "Roboto", sans-serif !important;
+    font-style: italic;
+}
+
+h5 {
+    font-family: "Gotham Light", "Roboto", sans-serif !important;
+    font-style: italic;
+}
+
 .home-subtitle {
     text-transform: uppercase;
     font-family: 'Comfortaa';
@@ -179,6 +189,14 @@ iframe[src*="https://www.youtube.com/embed/"] {
 }
 
 .single .content h3 {
+    margin-top: 40px !important;
+}
+
+.single .content h4 {
+    margin-top: 40px !important;
+}
+
+.single .content h5 {
     margin-top: 40px !important;
 }
 
