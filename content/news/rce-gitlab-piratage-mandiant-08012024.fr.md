@@ -1,5 +1,5 @@
 ---
-title: "Les4ActusCyber - Semaine du 08 janvier"
+title: "Vulnérabilité critique chez Gitlab et suite de la compromission de Mandiant - Les4ActusCyber : semaine du 08 janvier"
 date: 2024-01-08T08:00:00+0000
 draft: false
 images: [/images/logo.png]

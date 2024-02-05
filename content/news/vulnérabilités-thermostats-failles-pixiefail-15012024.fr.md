@@ -1,5 +1,5 @@
 ---
-title: "Les4ActusCyber - Semaine du 15 janvier"
+title: "Ransomware sur les thermostats connectés et faille PixieFail impactant l'UEFI - Les4ActusCyber : semaine du 15 janvier"
 date: 2024-01-15T08:00:00+0000
 draft: false
 images: [/images/logo.png]

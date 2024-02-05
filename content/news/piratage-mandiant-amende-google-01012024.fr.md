@@ -1,5 +1,5 @@
 ---
-title: "Les4ActusCyber - Semaine du 01 janvier"
+title: "Piratage du compte X de Mandiant et amande record pour Google - Les4ActusCyber : semaine du 01 janvier"
 date: 2024-01-01T08:00:00+0000
 draft: false
 images: [/images/logo.png]
@@ -29,12 +29,12 @@ hiddenFromHomePage: True
 ## Google paie 5 milliards de dollars d'amende concernant le suivi en mode "Incognito"
 
 Google est poursuivi en justice concernant l'utilisation du mode "Incognito" dans ses navigateurs web. Les plaignants affirmaient que Google avait violé les lois fédérales sur les écoutes téléphoniques en suivant l'activité des utilisateurs en mode "Incognito" à l'aide de Google Analytics.
-Les utilisateurs pensaient que le mode "Incognito" offrait une navigation privée, alors que Google collectait des informations durant cette période. Les conditions du règlement n'ont pas été divulguées.
+Les utilisateurs pensaient que le mode "Incognito" offrait une navigation prxivée, alors que Google collectait des informations durant cette période. Les conditions du règlement n'ont pas été divulguées.
 
 
 <br>
 
-## Le compte Twitter de Mandiant piraté pour une escroquerie aux cryptomonnaies
+## Le compte X de Mandiant piraté pour une escroquerie aux cryptomonnaies
 
 Le compte Twitter de Mandiant, une société de cybersécurité, a été compromis par un attaquant ayant utilisé le compte afin de propager une escroquerie à la crypto-monnaie durant 6 heures. Le compte a depuis été rétabli.
 L'attaque a impliqué un changement de nom de compte afin d'usurper l'identité d'un service de portefeuille de crypto-monnaies. Les messages diffusés incitaient les utilisateurs à cliquer sur un lien malveillant pour gagner des jetons gratuits. Pour le moment, la source de l'attaque n'est pas encore connue.
@@ -42,7 +42,7 @@ L'attaque a impliqué un changement de nom de compte afin d'usurper l'identité 
 
 <br>
 
-## Terrapin : nouvelle faille mineure dans le protocole SSH :
+## Terrapin : nouvelle faille mineure dans le protocole SSH
 
 Des chercheurs en sécurité ont découvert une vulnérabilité dans le protocole SSH appelée Terrapin. Cette faille permet à un attaquant de réduire la sécurité de la connexion en manipulant les numéros de séquence durant le premier échange avec le service.
 Les attaquants en position de Man in The Middle (MiTM) peuvent exploiter cette vulnérabilité. Cette faille affecte la négociation de l'extension SSH. Sa criticité est très limitée (CVSS : 5.9) et ne présente pas un danger immédiat pour les services exposés.
