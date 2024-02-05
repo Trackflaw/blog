@@ -3,13 +3,13 @@ title: "How to Hack a 20 billion euro multinational corporation (legally)?"
 description: "Canon, a 20 billion euro multinational corporation, is impacted by 2 critical vulnerabilities that, under certain conditions, can compromise the infrastructure hosting the vulnerable application. Trackflaw shares its discovery and responsible disclosure process."
 date: 2024-02-02T06:13:21+01:00
 draft: false
-images: [/images/hacker-canon-via-file-upload-et-ssrf/logo.png]
-featuredImage: "/images/hacker-canon-via-file-upload-et-ssrf/logo.png"
-featuredImagePreview: "/images/hacker-canon-via-file-upload-et-ssrf/logo.png"
+images: [/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png]
+featuredImage: "/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png"
+featuredImagePreview: "/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png"
 tags: ["Penetration Testing", "Pentest", "CVE"]
 ---
 
-# 📸 CVE-2023-2520{2|3}: How to hack canon with file upload and SSRF?
+# 📸 CVE-2023-2520{2|3}: How to hack MULTINATIONAL company with file upload and SSRF?
 
 ## Introduction
 
@@ -41,7 +41,7 @@ When discovering a vulnerability, it is preferable to directly contact the devel
 
 It generates a revenue of around **25 billion dollars** annually.
 
-![Alt text](/images/hacker-canon-via-file-upload-et-ssrf/canon.png)
+![Alt text](/images/hacker-multinationale-via-file-upload-et-ssrf/canon.png)
 
 ## A "routine" penetration test
 
@@ -73,7 +73,7 @@ Normally, it's the client's responsibility to handle the process:
 2. The initial client analyzes and sends the report to the developer (Therefore).
 3. The developer (Therefore) fixes the vulnerabilities.
 
-<video src="/images/hacker-canon-via-file-upload-et-ssrf/report.mp4" controls autoplay loop title="Report Communication" style="width:100%"></video>
+<video src="/images/hacker-multinationale-via-file-upload-et-ssrf/report.mp4" controls autoplay loop title="Report Communication" style="width:100%"></video>
 
 
 However, here, communication was not... optimal. The process had to evolve.
@@ -100,7 +100,7 @@ To facilitate the traceability of vulnerabilities discovered in "public" product
 `Common Vulnerabilities and Exposures` or `CVE` is a public information dictionary related to security vulnerabilities. The database is maintained by the `MITRE` organization, supported by the United States Department of Homeland Security.
 {{< /admonition >}}
 
-<video src="/images/hacker-canon-via-file-upload-et-ssrf/mitre.mp4" controls autoplay loop title="MITRE Database" style="width:100%"></video>
+<video src="/images/hacker-multinationale-via-file-upload-et-ssrf/mitre.mp4" controls autoplay loop title="MITRE Database" style="width:100%"></video>
 
 In parallel with writing the advisory, **2 declarations** were made concerning the two discovered weaknesses. No technical information is available at this stage. Only the identifiers of the vulnerabilities are available.
 
@@ -113,7 +113,7 @@ In our case, 2 numbers:
 
 ### Communication with ANSSI
 
-![Alt text](/images/hacker-canon-via-file-upload-et-ssrf/anssi.png)
+![Alt text](/images/hacker-multinationale-via-file-upload-et-ssrf/anssi.png)
 
 **ANSSI** or **the French National Agency for the Security of Information Systems** is a French service created by decree in July 2009. This national competency service is attached to the Secretariat-General for National Defence and Security (SGDSN), the authority responsible for assisting the Prime Minister in exercising his responsibilities in terms of defense and national security.
 
@@ -146,7 +146,7 @@ After many unreturned messages, ANSSI, in agreement with the Austrian CERT, auth
 
 ### CVE-2023-25202: Insecure file upload mechanism
 
-![CVE-2023-25202](/images/hacker-canon-via-file-upload-et-ssrf/CVE-2023-25202.png)
+![CVE-2023-25202](/images/hacker-multinationale-via-file-upload-et-ssrf/CVE-2023-25202.png)
 
 
 {{< admonition type=warning title="Context" open=true >}}
@@ -165,7 +165,7 @@ These files could allow, under certain conditions, **the execution of system com
 
 The image below summarizes the different extensions that can be used in the application (generated with the `intruder` function of Burp Suite Pro).
 
-![Too many file extensions](/images/hacker-canon-via-file-upload-et-ssrf/screens/file-upload-1.png)
+![Too many file extensions](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/file-upload-1.png)
 
 #### Exploitation
 
@@ -173,7 +173,7 @@ The application prevents `HTML` files from being uploaded. This protection can b
 
 It's important to note that it is **not possible to upload executable files** such as malware.
 
-![Upload of Markdown file containing iframe](/images/hacker-canon-via-file-upload-et-ssrf/screens/file-upload-2.png)
+![Upload of Markdown file containing iframe](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/file-upload-2.png)
 
 This lack of control over the uploaded content facilitates the exploitation of the following vulnerability.
 
@@ -191,13 +191,13 @@ A standard user most of the time needs only text processing files (e.g., office 
 
 ### CVE-2023-25203: Application Vulnerable to SSRF (Server Side Request Forgery) Attacks
 
-![CVE-2023-25203](/images/hacker-canon-via-file-upload-et-ssrf/CVE-2023-25203.png)
+![CVE-2023-25203](/images/hacker-multinationale-via-file-upload-et-ssrf/CVE-2023-25203.png)
 
 #### Description
 
 The **Therefore** solution uses the `Aspose` software to manage the conversion of uploaded files to PDF format (see screenshot below).
 
-![Version disclosure in PDF metadata.](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-1.png)
+![Version disclosure in PDF metadata.](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-1.png)
 
 Using this type of solution allows the conversion of a large number of different files (more info in Aspose's documentation).
 
@@ -213,7 +213,7 @@ The solution provided by Therefore is vulnerable to SSRF attacks in several ways
 
 The use of an SVG file illustrates the possibility of making an `HTTP GET` request by the application to a server controlled by the attacker.
 
-![HTTP callback from remote victim application with a malicious SVG file.](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-2.png)
+![HTTP callback from remote victim application with a malicious SVG file.](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-2.png)
 
 The screenshot above illustrates this SSRF vulnerability using an SVG file (available below).
 
@@ -232,7 +232,7 @@ The latter will receive the `NetNTLMv2` hash of this service account.
 
 In the screenshot below, an `SMB` server was deployed on the attacker's machine. By interpreting the SVG file, the attacker's server collects the digest of the machine account `FR********4$`.
 
-![Receiving NetNTLMv2 local machine account digest from the remote server.](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-3.png)
+![Receiving NetNTLMv2 local machine account digest from the remote server.](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-3.png)
 
 This digest could then be relayed and/or cracked to **attack the initial client's Active Directory environment**.
 
@@ -242,7 +242,7 @@ This SSRF vulnerability also allows an attacker to map the internal architecture
 
 In the screenshot below, it is possible to reach the server `google.fr`. The attacker could also use the victim machine as a proxy to **impersonate its public IP address**.
 
-![Iframe google.fr](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-4.png)
+![Iframe google.fr](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-4.png)
 
 Finally, an attacker is also able to perform the following actions (not conclusive due to lack of time):
 
@@ -250,7 +250,7 @@ Finally, an attacker is also able to perform the following actions (not conclusi
 - **File Reading**: the Aspose plugin seems to be protected against file reading (e.g., the screenshot below. The service redirects to loading the file `C:\Windows\win.ini` but nothing is displayed).
 - **Denial of Service**: an attacker is able to upload a document referring to very large images. When processing this image, the library consumes memory and time to process these images.
 
-![No file disclosure with server redirection](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-5.png)
+![No file disclosure with server redirection](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-5.png)
 
 #### Risks
 
@@ -295,4 +295,4 @@ Whew! A lot of information! 😅
 
 👇 A video is available on Trackflaw's channel for better simplification. Feel free to leave your feedback in the comments 🙏
 
-{{< youtube FIXME >}}
+{{< youtube TnIGum11HnY >}}

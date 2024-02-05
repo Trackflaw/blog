@@ -3,13 +3,13 @@ title: "Comment hacker (légalement) une multinationale de 20 milliards d'euros 
 description: "Canon une multinationale de 20 milliards d'euros est impacté par 2 vulnérabilités critiques permettant dans certaines conditions, de compromettre l'infrastructure hébergeant l'application vulnérable. Trackflaw raconte sa découverte et son processus de divulgation responsable."
 date: 2024-02-02T06:13:21+01:00
 draft: false
-images: [/images/hacker-canon-via-file-upload-et-ssrf/logo.png]
-featuredImage: "/images/hacker-canon-via-file-upload-et-ssrf/logo.png"
-featuredImagePreview: "/images/hacker-canon-via-file-upload-et-ssrf/logo.png"
+images: [/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png]
+featuredImage: "/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png"
+featuredImagePreview: "/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png"
 tags: ["Penetration Testing", "Pentest", "CVE"]
 ---
 
-# 📸 CVE-2023-2520{2|3} : Comment hacker Canon avec un dépôt de fichiers et une SSRF ?
+# 📸 CVE-2023-2520{2|3} : Comment hacker une MULTINATIONALE avec un dépôt de fichiers et une SSRF ?
 
 ## Introduction
 
@@ -42,7 +42,7 @@ Lors de la découverte d'une vulnérabilité, il est préférable de prendre dir
 
 Elle produit tous les ans un CA aux alentours de **25 milliards de dollars**.
 
-![Alt text](/images/hacker-canon-via-file-upload-et-ssrf/canon.png)
+![Alt text](/images/hacker-multinationale-via-file-upload-et-ssrf/canon.png)
 
 ## Un test d'intrusion "banal"
 
@@ -74,7 +74,7 @@ En temps normal c'est au client de traiter le processus :
 2. Le client initial analyse et envoi le rapport au développeur (Therefore).
 3. Le développeur (Therefore) corrige les vulnérabilités.
 
-<video src="/images/hacker-canon-via-file-upload-et-ssrf/report.mp4" controls autoplay loop title="Communication des rapports" style="width:100%"></video>
+<video src="/images/hacker-multinationale-via-file-upload-et-ssrf/report.mp4" controls autoplay loop title="Communication des rapports" style="width:100%"></video>
 
 
 Or, ici, la communication n'était pas... optimale. Il a fallu faire évoluer le processus.
@@ -101,7 +101,7 @@ Afin de faciliter la traçabilité des vulnérabilités découvertes dans des pr
 `Common Vulnerabilities and Exposures` ou `CVE` est un dictionnaire d'informations publiques relatives aux vulnérabilités de sécurité. La base est maintenue par l'organisme `MITRE`, soutenu par le département de la Sécurité intérieure des États-Unis.
 {{< /admonition >}}
 
-<video src="/images/hacker-canon-via-file-upload-et-ssrf/mitre.mp4" controls autoplay loop title="Base de données MITRE" style="width:100%"></video>
+<video src="/images/hacker-multinationale-via-file-upload-et-ssrf/mitre.mp4" controls autoplay loop title="Base de données MITRE" style="width:100%"></video>
 
 En parallèle de la rédaction de l'advisory, **2 déclarations** ont été effectuées concernant les deux faiblesses découvertes. Aucune informatique technique n'est encore disponible à ce stade. Uniquement les identifiants des vulnérabilités sont disponibles.
 
@@ -114,7 +114,7 @@ Dans notre cas, 2 numéros :
 
 ### Communication avec l'ANSSI
 
-![Alt text](/images/hacker-canon-via-file-upload-et-ssrf/anssi.png)
+![Alt text](/images/hacker-multinationale-via-file-upload-et-ssrf/anssi.png)
 
 **L'ANSSI** ou **l'Agence nationale de la sécurité des systèmes d'information** est un service français créé par décret en juillet 2009. Ce service à compétence nationale est rattaché au secrétariat général de la Défense et de la Sécurité nationale (SGDSN), autorité chargée d'assister le Premier ministre dans l'exercice de ses responsabilités en matière de défense et de sécurité nationale.
 
@@ -147,7 +147,7 @@ Au bout de nombreux messages sans retour, l'ANSSI en accord avec le CERT autrich
 
 ### CVE-2023-25202 : Mécanisme de dépôt de fichier non sécurisé
 
-![CVE-2023-25202](/images/hacker-canon-via-file-upload-et-ssrf/CVE-2023-25202.png)
+![CVE-2023-25202](/images/hacker-multinationale-via-file-upload-et-ssrf/CVE-2023-25202.png)
 
 
 {{< admonition type=warning title="Contexte" open=true >}}
@@ -166,7 +166,7 @@ Ces fichiers peuvent permettre, sous certaines conditions, **d'exécuter des com
 
 L'image ci-dessous résume les différentes extensions pouvant être utilisées sur l'application (générée avec la fonction `intruder` de Burp Suite Pro).
 
-![Too many file extensions](/images/hacker-canon-via-file-upload-et-ssrf/screens/file-upload-1.png)
+![Too many file extensions](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/file-upload-1.png)
 
 #### Exploitation
 
@@ -175,7 +175,7 @@ L'application empêche les fichiers `HTML` d'être déposés. Cette protection p
 
 Il est important de noter qu'il n'est **pas possible de télécharger des fichiers exécutables** tels que les logiciels malveillants.
 
-![Upload of Markdown fichier containing iframe](/images/hacker-canon-via-file-upload-et-ssrf/screens/file-upload-2.png)
+![Upload of Markdown fichier containing iframe](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/file-upload-2.png)
 
 Ce manque de contrôle sur le contenu déposé facilite l'exploitation de la vulnérabilité suivante.
 
@@ -194,13 +194,13 @@ Un utilisateur standard n'a besoin, la plupart du temps, que de fichiers de trai
 
 ### CVE-2023-25203 : Application vulnérable aux attaques de type SSRF (Server Side Request Forgery)
 
-![CVE-2023-25203](/images/hacker-canon-via-file-upload-et-ssrf/CVE-2023-25203.png)
+![CVE-2023-25203](/images/hacker-multinationale-via-file-upload-et-ssrf/CVE-2023-25203.png)
 
 #### Description
 
 La solution **Therefore** utilise le logiciel `Aspose` pour gérer la conversion des fichiers déposées au format PDF (cf. capture ci-dessous).
 
-![Version divulgation in PDF metadata.](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-1.png)
+![Version divulgation in PDF metadata.](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-1.png)
 
 L'utilisation de ce type de solution permet de convertir une grande quantité de fichiers différents (plus d'infos dans la documentation d'Aspose).
 
@@ -217,7 +217,7 @@ La solution proposée par Therefore est vulnérable aux attaques SSRF de plusieu
 
 L'utilisation d'un fichier SVG illustre la possibilité de faire une requête `HTTP GET` par l'application vers un serveur contrôlé par l'attaquant.
 
-![HTTP callback from remote victim application with a malicious SVG fichier.](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-2.png)
+![HTTP callback from remote victim application with a malicious SVG fichier.](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-2.png)
 
 La capture d'écran ci-dessus illustre cette vulnérabilité SSRF à l'aide d'un fichier SVG (disponible ci-dessous).
 
@@ -237,7 +237,7 @@ Ce dernier recevra l'empreinte `NetNTLMv2` de ce compte de service.
 
 Dans la capture d'écran ci-dessous, un serveur `SMB` a été déployé sur la machine attaquante. En interprétant le fichier SVG, le serveur attaquant collecte le condensat du compte machine `FR********4$`.
 
-![Receiving NetNTLMv2 local machine account digest from the remote server.](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-3.png)
+![Receiving NetNTLMv2 local machine account digest from the remote server.](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-3.png)
 
 Ce condensat pourrait ensuite être relayé et/ou cassé afin **d'attaquer l'environnement Active Directory** du client initial.
 
@@ -247,7 +247,7 @@ Cette vulnérabilité SSRF permet également à un attaquant de cartographier l'
 
 Sur la capture d'écran ci-dessous, il est possible d'atteindre le serveur `google.fr`. L'attaquant pourrait également utiliser la machine victime comme proxy pour **usurper son adresse IP publique**.
 
-![Ifram google.fr](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-4.png)
+![Ifram google.fr](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-4.png)
 
 Enfin, un attaquant est également en mesure d'effectuer les actions suivantes (non concluantes par manque de temps) :
 
@@ -256,7 +256,7 @@ Enfin, un attaquant est également en mesure d'effectuer les actions suivantes (
 Le service redirige vers le chargement du fichier `C:\Windows\win.ini` mais rien n'est affiché).
 - **Déni de service** : un attaquant est en mesure de télécharger un document faisant référence à des images très volumineuses. Lors du traitement de cette image, la bibliothèque consomme de la mémoire et du temps pour traiter ces images.
 
-![No file disclosure with server redirection](/images/hacker-canon-via-file-upload-et-ssrf/screens/ssrf-5.png)
+![No file disclosure with server redirection](/images/hacker-multinationale-via-file-upload-et-ssrf/screens/ssrf-5.png)
 
 
 #### Risques
@@ -302,4 +302,4 @@ Ouf ! Beaucoup d'informations ! 😅
 
 👇 Une vidéo est disponible sur la chaine de Trackflaw pour une meilleur vulgarisation. N'hésitez pas à noter vos retours en commentaire 🙏
 
-{{< youtube FIXME >}}
+{{< youtube TnIGum11HnY >}}
