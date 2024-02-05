@@ -1,5 +1,5 @@
 ---
-title: "Les4ActusCyber - Semaine du 22 janvier"
+title: "Ferme sentence pour le créateur de BreachForum & faille critique chez Jenkins et Cisco - Les4ActusCyber : semaine du 22 janvier"
 date: 2024-01-22T08:00:00+0000
 draft: false
 images: [/images/logo.png]
