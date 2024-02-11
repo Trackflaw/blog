@@ -1,5 +1,5 @@
 ---
-title: "Piratage du compte X de Mandiant et amande record pour Google - Les4ActusCyber : semaine du 01 janvier"
+title: "Piratage du compte X de Mandiant et amende record pour Google - Les4ActusCyber : semaine du 01 janvier"
 date: 2024-01-01T08:00:00+0000
 draft: false
 images: [/images/logo.png]
