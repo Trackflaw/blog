@@ -109,7 +109,9 @@ In our case, 2 numbers:
 - **CVE-2023-25202**: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25202
 - **CVE-2023-25203**: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25203
 
+The CVE-2023-25202 and CVE-2023-25203 are affected `Therefore Case Manager 2018/2021` and `Therefore Solution Designer 2018/2021` (https://www.therefore.net/help/2021/en-us/rn_releasenotes.html). 
 
+All the versions equal or lower at `18.4.0` and equal or lower at `26.1.1`  are vulnerable to both vulnerabilities. To this day, I still have no news about Therefore and if the new version is correctly patched.
 
 ### Communication with ANSSI
 
