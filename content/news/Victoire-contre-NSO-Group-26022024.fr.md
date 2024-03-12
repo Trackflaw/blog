@@ -10,7 +10,6 @@ hiddenFromHomePage: True
     
 <div class="flex-container">
    <div class="flex-items">
-   <iframe width="456" height="811" src="https://www.youtube.com/embed/KEBLewfxv28" title="Petite (ou grande !) victoire contre NSO Group - #Les4ActusCyber : semaine du 26 février" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </div>
 
    <div class="flex-items">
