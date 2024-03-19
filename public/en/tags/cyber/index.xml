@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Cyber - Tag - Trackflaw | Cybersecurity expert</title>
+        <link>http://localhost:1313/en/tags/cyber/</link>
+        <description>Cyber - Tag - Trackflaw | Cybersecurity expert</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 23 Jan 2024 10:39:40 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/cyber/" rel="self" type="application/rss+xml" /><item>
+    <title>Which approach to choose for conducting a penetration test?</title>
+    <link>http://localhost:1313/en/approach-penetration-test/</link>
+    <pubDate>Tue, 23 Jan 2024 10:39:40 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/approach-penetration-test/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quelle-d%c3%a9marche-test-intrusion/logo.png" referrerpolicy="no-referrer">
+            </div>🤔 How to choose the right approach for conducting a penetration test? Black Box, Gray Box, White Box? In the constantly evolving world of cybersecurity, where cyberattacks are becoming increasingly sophisticated, conducting penetration tests has become a necessity for businesses concerned about protecting their IT systems and sensitive data.
+These tests, often referred to as black box, gray box, and white box tests, are crucial components of any robust IT security strategy.]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Cisco - Balise - Trackflaw | Expert en sécurité informatique</title>
+        <link>http://localhost:1313/tags/cisco/</link>
+        <description>Cisco - Balise - Trackflaw | Expert en sécurité informatique</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 20 Oct 2023 10:00:00 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/cisco/" rel="self" type="application/rss+xml" /><item>
+    <title>CVE-2023-20198 Cisco IOS-XE ZeroDay - Ou comment créer son réseau de botnet ?</title>
+    <link>http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/</link>
+    <pubDate>Fri, 20 Oct 2023 10:00:00 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cisco-cve-2023-20198/cisco.png" referrerpolicy="no-referrer">
+            </div>🧟 Cisco CVE-2023-20198 - Ou comment créer son réseau de botnet ? Introduction Le 16 octobre 2023, Cisco a communiqué sur une vulnérabilité critique d&rsquo;élevation de privilèges via l&rsquo;interface Web sous l&rsquo;identifiant CVE-2023-20198 au score CVSS de 10.
+Cisco affirme que la vulnérabilité est largement exploitée. La vulnérabilité permet à un attaquant non authentifié de créer un compte aux privilèges maximales. Il n&rsquo;existe pas de correctif pour cette vulnérabilité pour le moment.]]></description>
+</item>
+</channel>
+</rss>

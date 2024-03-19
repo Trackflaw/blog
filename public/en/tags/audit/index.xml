@@ -1,0 +1,30 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Audit - Tag - Trackflaw | Cybersecurity expert</title>
+        <link>http://localhost:1313/en/tags/audit/</link>
+        <description>Audit - Tag - Trackflaw | Cybersecurity expert</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 01 Feb 2024 11:47:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/audit/" rel="self" type="application/rss+xml" /><item>
+    <title>Compromise Jenkins reading files CVE-2024-23897</title>
+    <link>http://localhost:1313/en/compromise-jenkins-reading-files-cve-2024-23897/</link>
+    <pubDate>Thu, 01 Feb 2024 11:47:21 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/compromise-jenkins-reading-files-cve-2024-23897/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/compromettre-jenkins-lecture-fichiers-CVE-2024-23897/logo.png" referrerpolicy="no-referrer">
+            </div>💣 From a minor verbose error to full compromise The origin On January 25, 2024, researchers from Sonar published 2 vulnerabilities related to the leader in open-source continuous integration and continuous deployment (CI/CD) software: Jenkins.
+Jenkins plays a central role in automating software development processes for a large part of the industry, holding about 44% market share in 2023. The potential impact of these vulnerabilities is therefore significant.
+The most concerning flaw, identified as CVE-2024-23897, allows unauthenticated attackers to read limited data from arbitrary files and &ldquo;read-only&rdquo; authorized attackers to access an entire file on the Jenkins server.]]></description>
+</item>
+<item>
+    <title>Which approach to choose for conducting a penetration test?</title>
+    <link>http://localhost:1313/en/approach-penetration-test/</link>
+    <pubDate>Tue, 23 Jan 2024 10:39:40 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/approach-penetration-test/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quelle-d%c3%a9marche-test-intrusion/logo.png" referrerpolicy="no-referrer">
+            </div>🤔 How to choose the right approach for conducting a penetration test? Black Box, Gray Box, White Box? In the constantly evolving world of cybersecurity, where cyberattacks are becoming increasingly sophisticated, conducting penetration tests has become a necessity for businesses concerned about protecting their IT systems and sensitive data.
+These tests, often referred to as black box, gray box, and white box tests, are crucial components of any robust IT security strategy.]]></description>
+</item>
+</channel>
+</rss>

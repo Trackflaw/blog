@@ -2,59 +2,183 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://trackflaw.com/cve-outlook/</loc><lastmod>2023-03-24T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/news/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://localhost:1313/news/nouvelle-condamnation-affaire-lockbit-11032024/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://trackflaw.com/en/cve-outlook/"
+                        href="http://localhost:1313/en/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://trackflaw.com/cve-outlook/"
+                    href="http://localhost:1313/"
                     /></url><url>
-            <loc>https://trackflaw.com/posts/</loc><lastmod>2023-03-24T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/news/sanctions-concernant-le-spyware-predator-04032024/</loc><lastmod>2024-03-04T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/news/victoire-contre-nso-group-26022024/</loc><lastmod>2024-02-26T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/news/tournant-majeur-lutte-contre-lockbit-19022024/</loc><lastmod>2024-02-19T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/news/lourd-bilan-s%C3%A9curit%C3%A9-windows-f%C3%A9vrier-2024-12022024/</loc><lastmod>2024-02-12T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/fuite-donn%C3%A9es-33-millions-fran%C3%A7ais-05022024/</loc><lastmod>2024-02-05T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/hacker-multinationale-via-file-upload-et-ssrf/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/cve/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://trackflaw.com/en/posts/"
+                        href="http://localhost:1313/en/tags/cve/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://trackflaw.com/posts/"
+                    href="http://localhost:1313/tags/cve/"
                     /></url><url>
-            <loc>https://trackflaw.com/</loc><lastmod>2023-03-24T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/tags/penetration-testing/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://trackflaw.com/en/"
+                        href="http://localhost:1313/en/tags/penetration-testing/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://trackflaw.com/"
+                    href="http://localhost:1313/tags/penetration-testing/"
                     /></url><url>
-            <loc>https://trackflaw.com/about/</loc><lastmod>2022-11-22T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/tags/pentest/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://trackflaw.com/en/about/"
+                        href="http://localhost:1313/en/tags/pentest/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://trackflaw.com/about/"
+                    href="http://localhost:1313/tags/pentest/"
                     /></url><url>
-            <loc>https://trackflaw.com/news/1/</loc><lastmod>2022-11-22T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://trackflaw.com/news/</loc><lastmod>2022-11-22T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://trackflaw.com/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://trackflaw.com/en/categories/"
+                        href="http://localhost:1313/en/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://trackflaw.com/categories/"
+                    href="http://localhost:1313/posts/"
                     /></url><url>
-            <loc>https://trackflaw.com/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/tags/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://trackflaw.com/en/tags/"
+                        href="http://localhost:1313/en/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://trackflaw.com/tags/"
+                    href="http://localhost:1313/tags/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/audit/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/audit/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/audit/"
+                    /></url><url>
+            <loc>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/test-dintrusion/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/faille-critique-glibc-faille-gitlab-29012024/</loc><lastmod>2024-01-29T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/quelle-d%C3%A9marche-test-intrusion/</loc><lastmod>2024-01-23T10:39:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/sentence-breachforum-faille-jenkins-22012024/</loc><lastmod>2024-01-22T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</loc><lastmod>2024-01-19T17:32:30&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/exploit/</loc><lastmod>2024-01-19T17:32:30&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/exploit/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/exploit/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/gitlab/</loc><lastmod>2024-01-19T17:32:30&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/gitlab/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/gitlab/"
+                    /></url><url>
+            <loc>http://localhost:1313/news/vuln%C3%A9rabilit%C3%A9s-thermostats-failles-pixiefail-15012024/</loc><lastmod>2024-01-15T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/rce-gitlab-piratage-mandiant-08012024/</loc><lastmod>2024-01-08T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</loc><lastmod>2024-01-03T15:34:12&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/piratage-mandiant-amende-google-01012024/</loc><lastmod>2024-01-01T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-11122023/</loc><lastmod>2023-12-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/cloud/</loc><lastmod>2023-12-08T15:05:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/cloud/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/cloud/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/pwncloud/</loc><lastmod>2023-12-08T15:05:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/pwncloud/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/pwncloud/"
+                    /></url><url>
+            <loc>http://localhost:1313/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</loc><lastmod>2023-12-08T15:05:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-04122023/</loc><lastmod>2023-12-04T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-27112023/</loc><lastmod>2023-11-27T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-20112023/</loc><lastmod>2023-11-20T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/hacking/</loc><lastmod>2023-11-16T17:44:12&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/reverse-tabnabbing-phishing-sous-st%C3%A9ro%C3%AFdes/</loc><lastmod>2023-11-16T17:44:12&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/phishing/</loc><lastmod>2023-11-16T17:44:12&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-13112023/</loc><lastmod>2023-11-13T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-06112023/</loc><lastmod>2023-11-06T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-30102023/</loc><lastmod>2023-10-30T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-23102023/</loc><lastmod>2023-10-23T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/botnet/</loc><lastmod>2023-10-20T10:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/cisco/</loc><lastmod>2023-10-20T10:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/</loc><lastmod>2023-10-20T10:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-16102023/</loc><lastmod>2023-10-16T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-09102023/</loc><lastmod>2023-10-09T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/ctf/</loc><lastmod>2023-10-04T16:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</loc><lastmod>2023-10-04T16:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-02102023/</loc><lastmod>2023-10-02T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-25092023/</loc><lastmod>2023-09-25T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-18092023/</loc><lastmod>2023-09-18T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-11092023/</loc><lastmod>2023-09-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-04092023/</loc><lastmod>2023-09-04T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-28082023/</loc><lastmod>2023-08-28T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-21082023/</loc><lastmod>2023-08-21T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-24072023/</loc><lastmod>2023-07-24T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-17072023/</loc><lastmod>2023-07-17T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-10072023/</loc><lastmod>2023-07-10T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-03072023/</loc><lastmod>2023-07-03T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-26062023/</loc><lastmod>2023-06-26T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-19062023/</loc><lastmod>2023-06-19T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-12062023/</loc><lastmod>2023-06-12T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-05062023/</loc><lastmod>2023-06-05T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-29052023/</loc><lastmod>2023-05-29T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-22052023/</loc><lastmod>2023-05-22T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-15052023/</loc><lastmod>2023-05-15T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-08052023/</loc><lastmod>2023-05-08T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-01052023/</loc><lastmod>2023-05-01T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-17042023/</loc><lastmod>2023-04-24T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-24042023/</loc><lastmod>2023-04-24T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-10042023/</loc><lastmod>2023-04-10T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-03042023/</loc><lastmod>2023-04-03T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/news-27032023/</loc><lastmod>2023-03-27T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/</loc><lastmod>2023-03-24T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/about/</loc><lastmod>2022-11-22T17:25:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/about/"
+                    /></url><url>
+            <loc>http://localhost:1313/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/categories/"
                     /></url></urlset>

@@ -1,14 +1,117 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Articles - Trackflaw | Blog</title>
-        <link>https://trackflaw.com/posts/</link>
-        <description>Articles | Trackflaw | Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 24 Mar 2023 17:25:42 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>Articles - Trackflaw | Expert en sécurité informatique</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Articles | Trackflaw | Expert en sécurité informatique</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Comment hacker (légalement) une multinationale de 20 milliards d&#39;euros ?</title>
+    <link>http://localhost:1313/hacker-multinationale-via-file-upload-et-ssrf/</link>
+    <pubDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/hacker-multinationale-via-file-upload-et-ssrf/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png" referrerpolicy="no-referrer">
+            </div>📸 CVE-2023-2520{2|3} : Comment hacker une MULTINATIONALE avec un dépôt de fichiers et une SSRF ? Introduction La sécurité informatique est maintenant au coeur de notre quotidien. Aux infos, sur internet, sur les réseaux, tout le monde, avec ou sans connaissance, semble déjà avoir été victime d’une attaque informatique plus ou moins grave.
+Et cela peut toucher des petites entreprises comme les plus grosses du CAC40. Si vous pensiez que la sécurité des plus grosses sociétés de ce monde est inviolable, détrompez vous.]]></description>
+</item>
+<item>
+    <title>Compromettre Jenkins via une simple lecture de fichiers : CVE-2024-23897</title>
+    <link>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</link>
+    <pubDate>Thu, 01 Feb 2024 11:47:21 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/compromettre-jenkins-lecture-fichiers-CVE-2024-23897/logo.png" referrerpolicy="no-referrer">
+            </div>💣 D&rsquo;une petite erreur verbeuse à une compromission complète A l&rsquo;origine Le 25 janvier 2024, des chercheurs de chez Sonar publient 2 vulnérabilités concernant le leader des logiciels d&rsquo;intégration et de déploiement continus open-source (CI/CD) : Jenkins.
+Jenkins joue un rôle central dans l&rsquo;automatisation des processus de développement logiciel pour une grande partie de l&rsquo;industrie, avec une part de marché d&rsquo;environ 44% en 2023. L&rsquo;impact potentiel de ces vulnérabilités est donc considérable.]]></description>
+</item>
+<item>
+    <title>Quelle démarche choisir pour effectuer un test d&#39;intrusion ?</title>
+    <link>http://localhost:1313/quelle-d%C3%A9marche-test-intrusion/</link>
+    <pubDate>Tue, 23 Jan 2024 10:39:40 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/quelle-d%C3%A9marche-test-intrusion/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quelle-d%c3%a9marche-test-intrusion/logo.png" referrerpolicy="no-referrer">
+            </div>🤔 Comment bien choisir sa démarche pour effectuer un test d&rsquo;intrusion ? Boite noire, boite grise, boite blanche ? Dans le monde en constante évolution de la cybersécurité, où les cyberattaques deviennent de plus en plus sophistiquées, la réalisation de tests d&rsquo;intrusion est devenue une nécessité pour les entreprises soucieuses de protéger leurs systèmes informatiques et données sensibles.
+Ces tests, souvent désignés sous les termes de tests en boîte noire, boîte grise et boîte blanche, sont des composantes cruciales de toute stratégie de sécurité informatique robuste.]]></description>
+</item>
+<item>
+    <title>Compromettre des comptes Gitlab avec la vulnérabilité CVE-2023-7028</title>
+    <link>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</link>
+    <pubDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/compromettre-comptes-Gitlab-avec-CVE-2023-7028/logo.png" referrerpolicy="no-referrer">
+            </div>😮 Exposer GitLab publiquement en 2024 : trop dangereux ? Est ce que exposer son propre Gitlab est une bonne pratique de sécurité ? Et bien vous allez voir que non.
+2024 commence fort et donne encore de bonnes raisons de ne pas exposer ce service sur Internet (mais plutôt de l&rsquo;héberger derrière un VPN).
+Un début d&rsquo;année sous haute tension Le 11 janvier 2024, GitLab, la célèbre plateforme communautaire, a publié une annonce importante concernant les nouvelles versions 16.]]></description>
+</item>
+<item>
+    <title>Comment bien choisir un prestataire de tests d&#39;intrusion en 2024 ?</title>
+    <link>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</link>
+    <pubDate>Wed, 03 Jan 2024 15:34:12 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pentest-provider/main.png" referrerpolicy="no-referrer">
+            </div>🕵️ Comment bien choisir un prestataire de tests d&rsquo;intrusion en 2024 ? Un test d&rsquo;intrusion est il utile ? La réponse est oui !
+Les tests d&rsquo;intrusion sont une étape essentielle de la sécurité informatique. Ils permettent d&rsquo;identifier les vulnérabilités d&rsquo;un système informatique et de les corriger avant qu&rsquo;elles ne soient exploitées par des attaquants malveillants.
+Le choix d&rsquo;un prestataire de tests d&rsquo;intrusion est une décision importante. Il est important de sélectionner un prestataire fiable et compétent, capable de fournir des résultats de qualité.]]></description>
+</item>
+<item>
+    <title>Pwncloud : votre propre cloud (non) sécurisé</title>
+    <link>http://localhost:1313/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</link>
+    <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pwncloud/pwncloud.png" referrerpolicy="no-referrer">
+            </div>☁️ Pwncloud : votre propre cloud (non) sécurisé 1, 2 et 3 vulnérabilités critiques OwnCloud est un logiciel libre offrant une plateforme de services de stockage et partage de fichiers et d&rsquo;applications diverses en ligne. Il est présenté comme une alternative à Dropbox, lequel est basé sur un cloud public.
+Fin novembre 2023, OwnCloud publiait 3 articles concernant 3 vulnérabilités critiques :
+La CVE-2023-49103 :
+Score CVSS de 10 ! 😱 Divulgation d&rsquo;informations d&rsquo;identification et de configuration sensibles dans des déploiements conteneurisés.]]></description>
+</item>
+<item>
+    <title>Le reverse tab nabbing, méthode de phishing sous stéroïdes.</title>
+    <link>http://localhost:1313/reverse-tabnabbing-phishing-sous-st%C3%A9ro%C3%AFdes/</link>
+    <pubDate>Thu, 16 Nov 2023 17:44:12 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/reverse-tabnabbing-phishing-sous-st%C3%A9ro%C3%AFdes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/reverse-tabnabbing/main.png" referrerpolicy="no-referrer">
+            </div>💉 Le reverse tab nabbing, méthode de phishing sous stéroïdes. Connaissez vous le &ldquo;reverse tab nabbing&rdquo; ? 🐟 Le reverse tab nabbing est une technique d&rsquo;attaque par hameçonnage consistant à rediriger la page d&rsquo;origine d&rsquo;un onglet vers une page malveillante. Cette technique est particulièrement vicieuse car elle peut tromper les utilisateurs en leur faisant croire qu&rsquo;ils sont toujours sur le site légitime qu&rsquo;ils ont initialement visité.
+Un exemple Pour comprendre cette attaque, voici ci-dessous un scénario réaliste concernant ce type d&rsquo;attaque.]]></description>
+</item>
+<item>
+    <title>CVE-2023-20198 Cisco IOS-XE ZeroDay - Ou comment créer son réseau de botnet ?</title>
+    <link>http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/</link>
+    <pubDate>Fri, 20 Oct 2023 10:00:00 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cisco-cve-2023-20198/cisco.png" referrerpolicy="no-referrer">
+            </div>🧟 Cisco CVE-2023-20198 - Ou comment créer son réseau de botnet ? Introduction Le 16 octobre 2023, Cisco a communiqué sur une vulnérabilité critique d&rsquo;élevation de privilèges via l&rsquo;interface Web sous l&rsquo;identifiant CVE-2023-20198 au score CVSS de 10.
+Cisco affirme que la vulnérabilité est largement exploitée. La vulnérabilité permet à un attaquant non authentifié de créer un compte aux privilèges maximales. Il n&rsquo;existe pas de correctif pour cette vulnérabilité pour le moment.]]></description>
+</item>
+<item>
+    <title>Htaccess, ou comment contourner les mécanismes de dépôt de fichiers.</title>
+    <link>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</link>
+    <pubDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
+            </div>📂 Comment contourner les mécanismes de dépôt de fichiers ? Introduction Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d&rsquo;autres dommages.
+Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de l&rsquo;Insomni&rsquo;hack Teaser 2019 CTF.]]></description>
+</item>
+<item>
     <title>CVE-2023-23397 - La réunion Outlook qui exfiltre votre mot de passe.</title>
-    <link>https://trackflaw.com/cve-outlook/</link>
+    <link>http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/</link>
     <pubDate>Fri, 24 Mar 2023 17:25:42 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
-    <guid>https://trackflaw.com/cve-outlook/</guid>
+    <guid>http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/cve-outlook/CVE-2023-23397.png" referrerpolicy="no-referrer">
             </div>⏰ Le rappel de réunion qui vous veut du mal Découverte Le 14 mars 2023, la société MdSec publiait un article traitant d&rsquo;une nouvelle vulnérabilité corrigée dans la dernière mise à jour proposée par Microsoft.

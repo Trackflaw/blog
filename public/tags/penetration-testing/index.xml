@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Penetration Testing - Balise - Trackflaw | Expert en sécurité informatique</title>
+        <link>http://localhost:1313/tags/penetration-testing/</link>
+        <description>Penetration Testing - Balise - Trackflaw | Expert en sécurité informatique</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/penetration-testing/" rel="self" type="application/rss+xml" /><item>
+    <title>Comment hacker (légalement) une multinationale de 20 milliards d&#39;euros ?</title>
+    <link>http://localhost:1313/hacker-multinationale-via-file-upload-et-ssrf/</link>
+    <pubDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/hacker-multinationale-via-file-upload-et-ssrf/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png" referrerpolicy="no-referrer">
+            </div>📸 CVE-2023-2520{2|3} : Comment hacker une MULTINATIONALE avec un dépôt de fichiers et une SSRF ? Introduction La sécurité informatique est maintenant au coeur de notre quotidien. Aux infos, sur internet, sur les réseaux, tout le monde, avec ou sans connaissance, semble déjà avoir été victime d’une attaque informatique plus ou moins grave.
+Et cela peut toucher des petites entreprises comme les plus grosses du CAC40. Si vous pensiez que la sécurité des plus grosses sociétés de ce monde est inviolable, détrompez vous.]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,40 @@
+# Les4ActusCyber - Semaine du 26 juin
+
+    
+Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.
+
+<br>
+
+**Plus d'informations sur nos réseaux :**
+
+🔴 Pour s'abonner à la chaine [YouTube](https://www.youtube.com/@trackflaw) de Trackflaw.
+
+📸 Pour suivre l'actualité Cyber sur [Instagram](https://www.instagram.com/trackflaw/).
+
+👉 Pour visiter le site web de [Trackflaw](https://trackflaw.com).
+
+    
+## L'opération EncroChat conduit à la saisie de 900 millions d'euros
+
+Europol a annoncé mardi que le démantèlement d'EncroChat en juillet 2020 avait conduit à 6 558 arrestations dans le monde entier et à la saisie de 900 millions d'euros de produits criminels illicites.
+L'agence d'application de la loi a déclaré qu'une enquête conjointe ultérieure lancée par les autorités françaises et néerlandaises a intercepté et analysé plus de 115 millions de conversations qui ont eu lieu sur la plateforme de messagerie chiffrée entre pas moins de 60 000 utilisateurs.
+
+
+## Le réseau d'escroquerie CryptosLabs cible les investisseurs francophones et récolte 480 millions d'euros
+
+Des chercheurs en cybersécurité ont dévoilé les rouages d'un réseau d'escroquerie appelé CryptosLabs qui aurait réalisé 480 millions d'euros de profits illégaux en ciblant des utilisateurs de particuliers francophones en France, en Belgique et au Luxembourg depuis avril 2018.
+Les faux plans d'investissement massifs du syndicat impliquent principalement l'usurpation de l'identité de 40 banques, fin-techs, sociétés de gestion d'actifs et plateformes cryptographiques bien connues, en mettant en place une infrastructure d'escroquerie couvrant plus de 350 domaines hébergés sur plus de 80 serveurs.
+
+
+## Vulnérabilité sur un plugin WordPress populaire pour créer des comptes d'administrateur secrets
+
+Pas moins de 200 000 sites web WordPress sont menacés à travers une vulnérabilité critique concernant le plugin Ultimate Member. La faille, répertoriée sous le nom de CVE-2023-3460 (score CVSS : 9.8), affecte toutes les versions du plugin Ultimate Member, y compris la dernière version (2.6.6) publiée le 29 juin 2023.
+Ultimate Member est un plugin populaire facilitant la création de profils d'utilisateurs et de communautés sur les sites WordPress. La faiblesse concerne un contournement lors du mécanisme de création.
+
+
+## Nouvelles attaques électromagnétiques permettant la prise de contrôle de drones
+
+Les drones sont la cible d'attaques par injection de défauts électromagnétiques (EMFI), permettant à un acteur malveillant d'exécuter du code arbitraire et de compromettre leur fonctionnalité ainsi que leur sécurité.
+Une étude réalisée par IOActive a constaté qu'il est "possible de compromettre l'appareil ciblé en injectant un défaut électromagnétique spécifique au bon moment lors d'une mise à jour du micrologiciel". L'exploitation a été effectuée sur un drone Mavic Pro à la sécurité durcie.
+
+

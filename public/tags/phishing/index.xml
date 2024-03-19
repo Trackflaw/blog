@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Phishing - Balise - Trackflaw | Expert en sécurité informatique</title>
+        <link>http://localhost:1313/tags/phishing/</link>
+        <description>Phishing - Balise - Trackflaw | Expert en sécurité informatique</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 16 Nov 2023 17:44:12 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/phishing/" rel="self" type="application/rss+xml" /><item>
+    <title>Le reverse tab nabbing, méthode de phishing sous stéroïdes.</title>
+    <link>http://localhost:1313/reverse-tabnabbing-phishing-sous-st%C3%A9ro%C3%AFdes/</link>
+    <pubDate>Thu, 16 Nov 2023 17:44:12 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/reverse-tabnabbing-phishing-sous-st%C3%A9ro%C3%AFdes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/reverse-tabnabbing/main.png" referrerpolicy="no-referrer">
+            </div>💉 Le reverse tab nabbing, méthode de phishing sous stéroïdes. Connaissez vous le &ldquo;reverse tab nabbing&rdquo; ? 🐟 Le reverse tab nabbing est une technique d&rsquo;attaque par hameçonnage consistant à rediriger la page d&rsquo;origine d&rsquo;un onglet vers une page malveillante. Cette technique est particulièrement vicieuse car elle peut tromper les utilisateurs en leur faisant croire qu&rsquo;ils sont toujours sur le site légitime qu&rsquo;ils ont initialement visité.
+Un exemple Pour comprendre cette attaque, voici ci-dessous un scénario réaliste concernant ce type d&rsquo;attaque.]]></description>
+</item>
+</channel>
+</rss>

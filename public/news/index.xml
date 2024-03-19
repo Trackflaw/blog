@@ -1,20 +1,334 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Trackflaw | Blog</title>
-    <link>https://trackflaw.com/news/</link>
-    <description>Recent content in News on Trackflaw | Blog</description>
+    <title>News on Trackflaw | Expert en sécurité informatique</title>
+    <link>http://localhost:1313/news/</link>
+    <description>Recent content in News on Trackflaw | Expert en sécurité informatique</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 22 Nov 2022 17:25:42 +0100</lastBuildDate><atom:link href="https://trackflaw.com/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2024 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Les4ActusCyber - Semaine du 4 septembre</title>
-      <link>https://trackflaw.com/news/1/</link>
-      <pubDate>Tue, 22 Nov 2022 17:25:42 +0100</pubDate>
-      
-      <guid>https://trackflaw.com/news/1/</guid>
-      <description>Les4ActusCyber - Semaine du 4 septembre TODO</description>
+      <title>Nouvelle condamnation dans l&#39;affaire LockBit - Les4ActusCyber : semaine du 11 mars</title>
+      <link>http://localhost:1313/news/nouvelle-condamnation-affaire-lockbit-11032024/</link>
+      <pubDate>Mon, 11 Mar 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/nouvelle-condamnation-affaire-lockbit-11032024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Condamnation d&amp;rsquo;un cybercriminel lié à LockBit Mikhail Vasiliev, russo-canadien de 34 ans, impliqué dans le ransomware LockBit, a été condamné au Canada à près de 4 ans de prison et à rembourser 860 000 dollars pour cyber-extorsion.</description>
     </item>
-    
+    <item>
+      <title>Sanctions concernant le spyware Predator - Les4ActusCyber : semaine du 04 mars</title>
+      <link>http://localhost:1313/news/sanctions-concernant-le-spyware-predator-04032024/</link>
+      <pubDate>Mon, 04 Mar 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/sanctions-concernant-le-spyware-predator-04032024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Sanctions américaines contre les créateurs de logiciels espions Les États-Unis ont imposé des sanctions à l&amp;rsquo;Intellexa Alliance, impliquée dans la création et la distribution de logiciels espions ciblant fonctionnaires et journalistes.</description>
+    </item>
+    <item>
+      <title>Petite (ou grande !) victoire contre NSO Group - Les4ActusCyber : semaine du 26 février</title>
+      <link>http://localhost:1313/news/victoire-contre-nso-group-26022024/</link>
+      <pubDate>Mon, 26 Feb 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/victoire-contre-nso-group-26022024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Réapparition de LockBit après la dernière opération de démantèlement Malgré une opération internationale ayant pris le contrôle de ses serveurs, LockBit ressurgit avec une nouvelle infrastructure sur le dark web, ajoutant 12 nouvelles victimes.</description>
+    </item>
+    <item>
+      <title>Tournant MAJEUR dans la lutte contre LOCKBIT - Les4ActusCyber : semaine du 19 février</title>
+      <link>http://localhost:1313/news/tournant-majeur-lutte-contre-lockbit-19022024/</link>
+      <pubDate>Mon, 19 Feb 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/tournant-majeur-lutte-contre-lockbit-19022024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Fermeture de l&amp;rsquo;opération LockBit et arrestations d&amp;rsquo;opérateurs La National Crime Agency (NCA) du Royaume-Uni a neutralisé le groupe cybercriminel LockBit, arrêtant des membres en Pologne et en Ukraine, ainsi qu&amp;rsquo;en gelant des comptes de crypto-monnaie.</description>
+    </item>
+    <item>
+      <title>Lourd BILAN pour la sécurité de Microsoft en Février - Les4ActusCyber : semaine du 12 février</title>
+      <link>http://localhost:1313/news/lourd-bilan-s%C3%A9curit%C3%A9-windows-f%C3%A9vrier-2024-12022024/</link>
+      <pubDate>Mon, 12 Feb 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/lourd-bilan-s%C3%A9curit%C3%A9-windows-f%C3%A9vrier-2024-12022024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Google rend Magika, son IA d&amp;rsquo;identification de fichiers, open-source Google a rendu open-source Magika, son IA pour identifier les types de fichiers, améliorant ainsi la détection des fichiers binaires et textuels.</description>
+    </item>
+    <item>
+      <title>Fuite de données CRITIQUE pour 33 MILLIONS de français - Les4ActusCyber : semaine du 05 février</title>
+      <link>http://localhost:1313/news/fuite-donn%C3%A9es-33-millions-fran%C3%A7ais-05022024/</link>
+      <pubDate>Mon, 05 Feb 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/fuite-donn%C3%A9es-33-millions-fran%C3%A7ais-05022024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Violation de données de deux opérateurs de tiers payant Fin janvier Viamedis et Almerys ont été victimes d&amp;rsquo;une attaque informatique. Ces opérateurs, assurant la gestion du tiers payant des complémentaires santé, ont vu les données nécessaires à leurs missions être compromises lors de cette violation.</description>
+    </item>
+    <item>
+      <title>Nouvelle faille critique dans la libc &amp; faille Gitlab - Les4ActusCyber : semaine du 29 janvier</title>
+      <link>http://localhost:1313/news/faille-critique-glibc-faille-gitlab-29012024/</link>
+      <pubDate>Mon, 29 Jan 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/faille-critique-glibc-faille-gitlab-29012024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Lourde sentence pour un ex-ingénieur de la CIA Joshua Adam Schulte, ancien ingénieur de la CIA, a été condamné à 40 ans de réclusion le 1er février pour avoir divulgué des documents classifiés à WikiLeaks et pour possession de matériel pédopornographique.</description>
+    </item>
+    <item>
+      <title>Ferme sentence pour le créateur de BreachForum &amp; faille critique chez Jenkins et Cisco - Les4ActusCyber : semaine du 22 janvier</title>
+      <link>http://localhost:1313/news/sentence-breachforum-faille-jenkins-22012024/</link>
+      <pubDate>Mon, 22 Jan 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/sentence-breachforum-faille-jenkins-22012024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Clémence pour le fondateur de BreachForum Conor Brian Fitzpatrick, créateur de BreachForums, a été condamné à 20 ans de liberté surveillée, évitant la prison.</description>
+    </item>
+    <item>
+      <title>Ransomware sur les thermostats connectés et faille PixieFail impactant l&#39;UEFI - Les4ActusCyber : semaine du 15 janvier</title>
+      <link>http://localhost:1313/news/vuln%C3%A9rabilit%C3%A9s-thermostats-failles-pixiefail-15012024/</link>
+      <pubDate>Mon, 15 Jan 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/vuln%C3%A9rabilit%C3%A9s-thermostats-failles-pixiefail-15012024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Vulnérabilités critiques dans les thermostats et systèmes intelligents Bosch Des failles de sécurité majeures ont été découvertes dans les thermostats Bosch BCC100 et les systèmes intelligents Rexroth NXA015S-36V-B de Bosch.</description>
+    </item>
+    <item>
+      <title>Vulnérabilité critique chez Gitlab et suite de la compromission de Mandiant - Les4ActusCyber : semaine du 08 janvier</title>
+      <link>http://localhost:1313/news/rce-gitlab-piratage-mandiant-08012024/</link>
+      <pubDate>Mon, 08 Jan 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/rce-gitlab-piratage-mandiant-08012024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;GitLab corrige des vulnérabilités critiques GitLab a rectifié deux vulnérabilités majeures, dont une permettant la prise de contrôle de comptes (CVE-2023-7028, score CVSS de 10.</description>
+    </item>
+    <item>
+      <title>Piratage du compte X de Mandiant et amende record pour Google - Les4ActusCyber : semaine du 01 janvier</title>
+      <link>http://localhost:1313/news/piratage-mandiant-amende-google-01012024/</link>
+      <pubDate>Mon, 01 Jan 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/piratage-mandiant-amende-google-01012024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Google paie 5 milliards de dollars d&amp;rsquo;amende concernant le suivi en mode &amp;ldquo;Incognito&amp;rdquo; Google est poursuivi en justice concernant l&amp;rsquo;utilisation du mode &amp;ldquo;Incognito&amp;rdquo; dans ses navigateurs web.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 11 décembre</title>
+      <link>http://localhost:1313/news/news-11122023/</link>
+      <pubDate>Mon, 11 Dec 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-11122023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Google teste la protection contre le pistage des cookies tiers dans Chrome Google prévoit de tester une fonctionnalité appelée &amp;ldquo;Tracking Protection&amp;rdquo; à partir de janvier 2024 dans Chrome.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 04 décembre</title>
+      <link>http://localhost:1313/news/news-04122023/</link>
+      <pubDate>Mon, 04 Dec 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-04122023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Meta renforce la sécurité avec le chiffrement par défaut sur Messenger : Meta introduit le chiffrement de bout en bout (E2EE) par défaut sur Messenger pour les appels et messages personnels.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 27 novembre</title>
+      <link>http://localhost:1313/news/news-27112023/</link>
+      <pubDate>Mon, 27 Nov 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-27112023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;WhatsApp introduit une fonction de code secret pour protéger les conversations WhatsApp lance la fonctionnalité Code secret pour sécuriser les discussions sensibles. Cette fonction complète Chat Lock, isolant les conversations dans un dossier sécurisé, accessible uniquement via un mot de passe distinct.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 20 novembre</title>
+      <link>http://localhost:1313/news/news-20112023/</link>
+      <pubDate>Mon, 20 Nov 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-20112023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;3 vulnérabilités critiques exposent les utilisateurs de ownCloud OwnCloud a signalé trois failles majeures dans son logiciel de partage de fichiers. Elles permettent la divulgation d&amp;rsquo;informations sensibles dans les déploiements conteneurisés, de contourner l&amp;rsquo;authentification API WebDAV ainsi que la validation de sous-domaine.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 13 novembre</title>
+      <link>http://localhost:1313/news/news-13112023/</link>
+      <pubDate>Mon, 13 Nov 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-13112023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Vulnérabilité non négligeable dans le logiciel de messagerie Zimbra Une faille de type &amp;ldquo;zero-day&amp;rdquo; dans le logiciel de messagerie Zimbra est actuellement exploitée par quatre groupes différents dans des attaques afin de voler des données de messagerie, des identifiants d&amp;rsquo;utilisateur et des jetons d&amp;rsquo;authentification.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 06 novembre</title>
+      <link>http://localhost:1313/news/news-06112023/</link>
+      <pubDate>Mon, 06 Nov 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-06112023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;WhatsApp introduit une nouvelle fonctionnalité de confidentialité WhatsApp déploie officiellement une nouvelle fonction de confidentialité dans son service de messagerie, appelée &amp;ldquo;Protect IP Address in Calls&amp;rdquo;, permettant de masquer les adresses IP des utilisateurs à d&amp;rsquo;autres parties en relayant les appels via ses serveurs.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 30 octobre</title>
+      <link>http://localhost:1313/news/news-30102023/</link>
+      <pubDate>Mon, 30 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-30102023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Fuite de données chez Okta touchant 134 clients Le fournisseur de solutions IAM Okta a révélé vendredi qu&amp;rsquo;une intrusion a été opérée sur ses systèmes et a affecté 134 de ses 18 400 clients.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 23 octobre</title>
+      <link>http://localhost:1313/news/news-23102023/</link>
+      <pubDate>Mon, 23 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-23102023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Vulnérabilité critique sur F5 BIG-IP permettant une exécution de commande F5 a communique sur une vulnérabilité de sécurité critique affectant BIG-IP permettant d&amp;rsquo;entraîner une exécution de code à distance non authentifiée.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 16 octobre</title>
+      <link>http://localhost:1313/news/news-16102023/</link>
+      <pubDate>Mon, 16 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-16102023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Cisco CVE-2023-20198, ou comment créer son réseau de botnet ? Le 16 octobre 2023, Cisco a communiqué sur une vulnérabilité critique d’élevation de privilèges via l’interface Web sous l’identifiant CVE-2023-20198 au score CVSS de 10.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 09 octobre</title>
+      <link>http://localhost:1313/news/news-09102023/</link>
+      <pubDate>Mon, 09 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-09102023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Microsoft abandonne progressivement NTLM au profit de Kerberos Microsoft a annoncé son intention de supprimer l&amp;rsquo;authentification NT LAN Manager (NTLM) dans Windows 11, afin de passer à d&amp;rsquo;autres méthodes d&amp;rsquo;authentification dans le but de renforcer la sécurité.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 02 octobre</title>
+      <link>http://localhost:1313/news/news-02102023/</link>
+      <pubDate>Mon, 02 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-02102023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;GitHub étend sa fonctionnalité de détection de secrets à d&amp;rsquo;autres plateformes GitHub a annoncé une amélioration et une extension de sa fonction d&amp;rsquo;analyse de secret à des services populaires tels que Amazon Web Services (AWS), Microsoft, Google et Slack.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 25 septembre</title>
+      <link>http://localhost:1313/news/news-25092023/</link>
+      <pubDate>Mon, 25 Sep 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-25092023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Microsoft déploie la prise en charge des passkey dans Windows 11 Microsoft déploie officiellement la prise en charge des passkeys dans Windows 11.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 18 septembre</title>
+      <link>http://localhost:1313/news/news-18092023/</link>
+      <pubDate>Mon, 18 Sep 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-18092023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Microsoft expose accidentellement 38 téraoctets de données confidentielles Microsoft a déclaré lundi avoir pris des mesures pour corriger une erreur de sécurité ayant conduit à l&amp;rsquo;exposition de 38 téraoctets de données privées.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 11 septembre</title>
+      <link>http://localhost:1313/news/news-11092023/</link>
+      <pubDate>Mon, 11 Sep 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-11092023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Amende massive de 345 millions d&amp;rsquo;euros pour violation de données contre TikTok La Commission irlandaise de protection des données (DPC) a infligé à TikTok une amende de 345 millions d&amp;rsquo;euros pour avoir enfreint le Règlement général sur la protection des données (RGPD) de l&amp;rsquo;Union européenne en ce qui concerne son traitement des données des enfants.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 04 septembre</title>
+      <link>http://localhost:1313/news/news-04092023/</link>
+      <pubDate>Mon, 04 Sep 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-04092023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Apple corrige de nouvelles failles 0day exploitées par Pegasus Apple a publié jeudi des mises à jour de sécurité d&amp;rsquo;urgence pour iOS, iPadOS, macOS et watchOS afin de corriger deux failles zero-day exploitées par le logiciel espion mercenaire Pegasus de NSO Group.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 28 août</title>
+      <link>http://localhost:1313/news/news-28082023/</link>
+      <pubDate>Mon, 28 Aug 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-28082023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Le FBI démantèle le logiciel malveillant QakBot et saisit 8,6 millions de dollars Un effort coordonné des forces de l&amp;rsquo;ordre sous le nom de code &amp;ldquo;Operation Duck Hunt&amp;rdquo; a mis à terme QakBot, une célèbre famille de logiciels malveillants pour Windows.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 21 août</title>
+      <link>http://localhost:1313/news/news-21082023/</link>
+      <pubDate>Mon, 21 Aug 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-21082023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Vulnérabilité critique dans le logiciel Sentry de Ivanti Le fournisseur logiciels Ivanti a communiqué sur une nouvelle faille critique de type &amp;ldquo;zero-day&amp;rdquo; affectant Ivanti Sentry (anciennement MobileIron Sentry).</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 24 juillet</title>
+      <link>http://localhost:1313/news/news-24072023/</link>
+      <pubDate>Mon, 24 Jul 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-24072023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Vulnérabilité critique d&amp;rsquo;injecton de commande à distance sur OpenSSH Des détails sont apparus concernant une faille désormais corrigée dans OpenSSH permettant d&amp;rsquo;être exploitée pour exécuter des commandes arbitraires à distance selon certaines conditions.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 17 juillet</title>
+      <link>http://localhost:1313/news/news-17072023/</link>
+      <pubDate>Mon, 17 Jul 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-17072023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Apple menace de retirer iMessage et FaceTime du Royaume-Uni Face à la pression du gouvernement britannique, Apple a prévenu qu&amp;rsquo;il comptait cesser d&amp;rsquo;offrir les services iMessage et FaceTime au Royaume-Uni plutôt que de répondre aux exigences de surveillances des agences de renseignement de l&amp;rsquo;état anglais.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 10 juillet</title>
+      <link>http://localhost:1313/news/news-10072023/</link>
+      <pubDate>Mon, 10 Jul 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-10072023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;WormGPT : ou comment contourner ChatGPT pour hacker Le détournement des IA par des acteurs malveillants à leur propre avantage est un sujet d&amp;rsquo;actualité.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 03 juillet</title>
+      <link>http://localhost:1313/news/news-03072023/</link>
+      <pubDate>Mon, 03 Jul 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-03072023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Lancement de Threads, alternative Twitter d&amp;rsquo;Instagram, suspendu en Europe Instagram Threads, le futur concurrent de Twitter de Meta, ne sera pas lancé dans l&amp;rsquo;Union européenne en raison de problèmes de confidentialité, selon la Commission irlandaise de protection des données (DPC).</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 26 juin</title>
+      <link>http://localhost:1313/news/news-26062023/</link>
+      <pubDate>Mon, 26 Jun 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-26062023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;L&amp;rsquo;opération EncroChat conduit à la saisie de 900 millions d&amp;rsquo;euros Europol a annoncé mardi que le démantèlement d&amp;rsquo;EncroChat en juillet 2020 avait conduit à 6 558 arrestations dans le monde entier et à la saisie de 900 millions d&amp;rsquo;euros de produits criminels illicites.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 19 juin</title>
+      <link>http://localhost:1313/news/news-19062023/</link>
+      <pubDate>Mon, 19 Jun 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-19062023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Plus de 100 000 comptes ChatGPT volés et vendus sur le dark web Plus de 100 000 comptes ChatGPT compromis se sont retrouvés sur les marchés illicites du dark web entre juin 2022 et mai 2023, l&amp;rsquo;Inde représentant à elle seule 12 632 identifiants volés.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 12 juin</title>
+      <link>http://localhost:1313/news/news-12062023/</link>
+      <pubDate>Mon, 12 Jun 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-12062023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;6% des employés collent des données sensibles dans des outils type chatGPT La technologie des outils GenAI, tels que ChatGPT, a entraîné des risques importants pour les données sensibles des organisations.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 05 juin</title>
+      <link>http://localhost:1313/news/news-05062023/</link>
+      <pubDate>Mon, 05 Jun 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-05062023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Exploitation de MOVEit Transfer : SQLi vers RCE Progress Software, l&amp;rsquo;entreprise à l&amp;rsquo;origine de l&amp;rsquo;application MOVEit Transfer, a publié des correctifs pour remédier à de nouvelles vulnérabilités d&amp;rsquo;injection SQL affectant la solution de transfert de fichiers et pouvant permettre le vol d&amp;rsquo;informations sensibles.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 29 mai</title>
+      <link>http://localhost:1313/news/news-29052023/</link>
+      <pubDate>Mon, 29 May 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-29052023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Hameçonnage via les nousveaux domaines .zip Une nouvelle technique d&amp;rsquo;hameçonnage appelée &amp;ldquo;file archiver in the browser&amp;rdquo; peut être utilisée pour ressembler à un logiciel d&amp;rsquo;archivage de fichiers dans un navigateur web lorsque la victime visite un domaine .</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 22 mai</title>
+      <link>http://localhost:1313/news/news-22052023/</link>
+      <pubDate>Mon, 22 May 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-22052023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Exploitation de KeePass : récupération du mot de passe maitre en mémoire Une faille de sécurité critique impactant le gestionnaire de mots de passe KeePass permet de récupérer le mot de passe maitre en clair d&amp;rsquo;une victime à travers différents fichiers mémoires.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 15 mai</title>
+      <link>http://localhost:1313/news/news-15052023/</link>
+      <pubDate>Mon, 15 May 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-15052023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Apple publie des correctifs pour 3 vulnérabilités Zero-Day Apple a déployé jeudi des mises à jour de sécurité pour iOS, iPadOS, macOS, tvOS, watchOS et le navigateur web Safari afin de corriger des dizaines de failles, dont trois nouvelles zero-days qui, selon elle, sont activement exploitées dans la nature.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 8 mai</title>
+      <link>http://localhost:1313/news/news-08052023/</link>
+      <pubDate>Mon, 08 May 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-08052023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;GitHub protège maintenant des fuites accidentelles de clés et de secrets GitHub a annoncé la disponibilité d&amp;rsquo;une nouvelle fonctionnalité de sécurité appelée &amp;ldquo;push protection&amp;rdquo; visant à empêcher les développeurs de divulguer par inadvertance des clés et d&amp;rsquo;autres secrets dans leur code.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 01 mai</title>
+      <link>http://localhost:1313/news/news-01052023/</link>
+      <pubDate>Mon, 01 May 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-01052023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;500 millions de package PHP Packagist compromis Le fournisseur de paquet PHP Packagist a révélé qu&amp;rsquo;un &amp;ldquo;attaquant&amp;rdquo; avait eu accès à quatre comptes inactifs de sa plateforme pour détourner plus d&amp;rsquo;une douzaine de paquets à plus de 500 millions d&amp;rsquo;installation.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 24 avril</title>
+      <link>http://localhost:1313/news/news-17042023/</link>
+      <pubDate>Mon, 24 Apr 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-17042023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Le groupe NSO continue sa lutte contre les défenseurs des droits humains Le fabricant israélien de logiciels espions NSO Group aurait abusé d&amp;rsquo;au moins trois nouveaux exploits &amp;ldquo;zéro clic&amp;rdquo; contre les iPhones durant 2022.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 24 avril</title>
+      <link>http://localhost:1313/news/news-24042023/</link>
+      <pubDate>Mon, 24 Apr 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-24042023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;ChatGPT est de retour en Italie après son blocage OpenAI, la société à l&amp;rsquo;origine de ChatGPT, a officiellement fait son retour en Italie après avoir répondu aux exigences de l&amp;rsquo;autorité de protection des données.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 10 avril</title>
+      <link>http://localhost:1313/news/news-10042023/</link>
+      <pubDate>Mon, 10 Apr 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-10042023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Microsoft publie des correctifs pour 97 défauts Microsoft a publié mardi dernier une série de mises à jour de sécurité pour corriger un total de 97 failles affectant ses logiciels.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 03 avril</title>
+      <link>http://localhost:1313/news/news-03042023/</link>
+      <pubDate>Mon, 03 Apr 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-03042023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;ChatGPT interdit en Italie pour des raisons de protection des données L&amp;rsquo;organisme italien de surveillance de la protection des données a imposé une interdiction temporaire du service ChatGPT d&amp;rsquo;OpenAI dans le pays, invoquant des problèmes de protection des données.</description>
+    </item>
+    <item>
+      <title>Les4ActusCyber - Semaine du 27 mars</title>
+      <link>http://localhost:1313/news/news-27032023/</link>
+      <pubDate>Mon, 27 Mar 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/news-27032023/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d&amp;rsquo;informations sur nos réseaux :&#xA;🔴 Pour s&amp;rsquo;abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l&amp;rsquo;actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Attaque de la chaîne d&amp;rsquo;approvisionnement 3CX Le fabricant de logiciels de communication 3CX a annoncé que plusieurs versions de son application de bureau pour Windows et macOS sont affectées par une attaque du type &amp;lsquo;chaîne d&amp;rsquo;approvisionnement&amp;rsquo;.</description>
+    </item>
   </channel>
 </rss>

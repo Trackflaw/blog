@@ -1,0 +1,52 @@
+# Les4ActusCyber - Semaine du 11 décembre
+
+    
+<div class="flex-container">
+   <div class="flex-items">
+   <iframe width="456" height="811" src="https://www.youtube.com/embed/AL877TgvLI0" title="#Les4ActusCyber - Semaine du 11 décembre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
+
+   <div class="flex-items">
+      <p>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.</p>
+      <br>
+      <p><strong>Plus d’informations sur nos réseaux :</strong></p>
+      <p>🔴 Pour s’abonner à la chaine <a href="https://www.youtube.com/@trackflaw" target="_blank" rel="noopener noreffer ">YouTube</a> de Trackflaw.</p>
+      <p>📸 Pour suivre l’actualité Cyber sur <a href="https://www.instagram.com/trackflaw/" target="_blank" rel="noopener noreffer ">Instagram</a>.</p>
+      <p>👉 Pour visiter le site web de <a href="https://trackflaw.com" target="_blank" rel="noopener noreffer ">Trackflaw</a>.</p>
+   </div>
+</div>
+
+    
+<br>
+
+## Google teste la protection contre le pistage des cookies tiers dans Chrome
+
+Google prévoit de tester une fonctionnalité appelée "Tracking Protection" à partir de janvier 2024 dans Chrome. Cette fonctionnalité vise à restreindre l'accès des sites web aux cookies tiers par défaut, limitant ainsi le suivi intersite.
+Les cookies tiers sont souvent utilisés pour le suivi des utilisateurs à travers différents sites web à des fins publicitaires. Cette initiative vise à renforcer la vie privée des utilisateurs sans compromettre l'accès aux contenus gratuits en ligne.
+
+
+<br>
+
+## Vulnérabilités importantes découvertes dans le pare-feu pfSense
+
+Des failles de sécurité ont été identifiées dans le pare-feu open-source pfSense, permettant à un attaquant de potentiellement exécuter des commandes arbitraires. Les vulnérabilités comprennent deux XSS (cross-site scripting) et une faille d'injection de commande. La vulnérabilité la plus critique est la CVE-2023-42326 au score CVSS  de 8.8.
+Ces failles affectent les versions antérieures de pfSense CE et pfSense Plus. Il est fortement recommandé de mettre à jour vers les versions corrigées pour éviter toute exploitation.
+
+
+
+<br>
+
+## Vulnérabilité RCE critique découverte dans Apache Struts 2
+
+Apache a identifié une faille de sécurité critique (CVE-2023-50164) au CVSS de 10/10 dans Struts 2, un framework Java pour les applications web. Cette vulnérabilité concerne une logique de téléchargement de fichiers, permettant l'exécution de code à distance. Un PoC est disponible (https://xz.aliyun.com/t/13172).
+Les versions affectées sont la 2.5.33 et la 6.3.0.2 (et au dessus). Des correctifs sont disponibles pour résoudre ce problème. Les développeurs sont vivement encouragés à mettre à jour leurs systèmes.
+
+
+<br>
+
+## Cyberattaque majeur paralysant Kyivstar, l'opérateur de télécommunications ukrainien :
+
+Kyivstar, le plus grand opérateur de télécommunications d'Ukraine, a été victime d'une cyberattaque majeure, affectant les services de téléphonie mobile et d'Internet dans tout le pays.
+L'attaque a été qualifiée de "puissante" par NetBlocks, et bien que les détails de l'attaque ne soient pas encore clairs, elle a eu un impact significatif. Kyivstar a indiqué que l'attaque était liée à la situation de guerre en Ukraine.
+
+

