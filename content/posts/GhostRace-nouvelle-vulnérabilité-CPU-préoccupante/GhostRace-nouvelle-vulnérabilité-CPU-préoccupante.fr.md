@@ -1,6 +1,6 @@
 ---
 title: "GhostRace : nouvelle vulnérabilité CPU préoccupante"
-description: "FIXME description à remplir"
+description: "Une nouvelle classe de vulnérabilités d'exécution spéculative a été découverte courant mars 2024, appelée GhostRace."
 date: 2024-03-19T15:39:17+01:00
 draft: false
 images: [/images/GhostRace-nouvelle-vulnérabilité-CPU-préoccupante/logo.fr.png]
