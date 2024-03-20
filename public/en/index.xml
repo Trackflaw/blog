@@ -3,9 +3,22 @@
         <title>Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Why do an intrusion test on its WordPress site</title>
+    <link>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</link>
+    <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" referrerpolicy="no-referrer">
+            </div>Why a Penetration Test is MANDATORY for Your Wordpress Site in 2024? Introduction WordPress, as one of the most widely used content management systems (CMS) in the world, powers a significant portion of websites, ranging from personal blogs to corporate sites.
+However, its popularity comes with increased security risks, making penetration testing crucial for safeguarding these sites against cyber attacks.
+📈 Some staggering statistics (according to lesmakers.fr):
+The #1 CMS in the world.]]></description>
+</item>
+<item>
     <title>GhostRace: New concern CPU vulnerability</title>
     <link>http://localhost:1313/en/ghostrace-new-concern-cpu-vulnerability/</link>
     <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
@@ -107,16 +120,6 @@ An example To help you understand this attack, here&rsquo;s a realistic scenario
                 <img src="/images/cisco-cve-2023-20198/cisco.png" referrerpolicy="no-referrer">
             </div>🧟 Cisco CVE-2023-20198 - Or how to create your own botnet? Introduction On October 16, 2023, Cisco disclosed a critical privilege elevation vulnerability via the web interface under the identifier CVE-2023-20198 with a CVSS score of 10.
 Cisco claims that the vulnerability is widely exploited. The vulnerability allows an unauthenticated attacker to create an account with maximum privileges. There is no patch for this vulnerability at the moment.]]></description>
-</item>
-<item>
-    <title>Bypass file upload filter with .htaccess</title>
-    <link>http://localhost:1313/en/bypass-file-upload/</link>
-    <pubDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/bypass-file-upload/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
-            </div>📂 How to bypass file upload filter with .htaccess Introduction A file upload vulnerability is a security flaw that allows an attacker to drop a malicious file onto a target system. This malicious file can then be used to execute arbitrary code, steal data or cause other damage.]]></description>
 </item>
 </channel>
 </rss>

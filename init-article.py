@@ -10,8 +10,8 @@ title_fr = input("[?] Titre article : ")
 translator = Translator()
 title_en = translator.translate(title_fr, src='fr', dest='en').text
 
-title_fr_transformed = title_fr.replace(" ", "-").replace("'", "")
-title_en_transformed = title_en.replace(" ", "-").replace("'", "")
+title_fr_transformed = title_fr.replace("-", "").replace(" ", "-").replace("'", "").replace("?", "").replace("!", "").lower()
+title_en_transformed = title_en.replace("-", "").replace(" ", "-").replace("'", "").replace("?", "").replace("!", "").lower()
 
 current_datetime = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+01:00")
 

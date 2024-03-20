@@ -3,7 +3,19 @@
         <title>Audit - Balise - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/tags/audit/</link>
         <description>Audit - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 01 Feb 2024 11:47:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/audit/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/audit/" rel="self" type="application/rss+xml" /><item>
+    <title>Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?</title>
+    <link>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</link>
+    <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" referrerpolicy="no-referrer">
+            </div>Pourquoi un test d&rsquo;intrusion est OBLIGATOIRE sur votre site Wordpress en 2024 ? Introduction WordPress, en tant que l&rsquo;un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d&rsquo;entreprise.
+Sa popularité s&rsquo;accompagne toutefois de risques de sécurité accrus, rendant les tests d&rsquo;intrusion cruciaux pour protéger ces sites contre les cyberattaques.
+📈 Quelques statistiques faramineuses (selon lesmakers.]]></description>
+</item>
+<item>
     <title>Compromettre Jenkins via une simple lecture de fichiers : CVE-2024-23897</title>
     <link>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</link>
     <pubDate>Thu, 01 Feb 2024 11:47:21 &#43;0100</pubDate>

@@ -3,9 +3,21 @@
         <title>Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?</title>
+    <link>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</link>
+    <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" referrerpolicy="no-referrer">
+            </div>Pourquoi un test d&rsquo;intrusion est OBLIGATOIRE sur votre site Wordpress en 2024 ? Introduction WordPress, en tant que l&rsquo;un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d&rsquo;entreprise.
+Sa popularité s&rsquo;accompagne toutefois de risques de sécurité accrus, rendant les tests d&rsquo;intrusion cruciaux pour protéger ces sites contre les cyberattaques.
+📈 Quelques statistiques faramineuses (selon lesmakers.]]></description>
+</item>
+<item>
     <title>GhostRace : nouvelle vulnérabilité CPU préoccupante</title>
     <link>http://localhost:1313/ghostrace-nouvelle-vuln%C3%A9rabilit%C3%A9-cpu-pr%C3%A9occupante/</link>
     <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
@@ -108,17 +120,6 @@ Un exemple Pour comprendre cette attaque, voici ci-dessous un scénario réalist
                 <img src="/images/cisco-cve-2023-20198/cisco.png" referrerpolicy="no-referrer">
             </div>🧟 Cisco CVE-2023-20198 - Ou comment créer son réseau de botnet ? Introduction Le 16 octobre 2023, Cisco a communiqué sur une vulnérabilité critique d&rsquo;élevation de privilèges via l&rsquo;interface Web sous l&rsquo;identifiant CVE-2023-20198 au score CVSS de 10.
 Cisco affirme que la vulnérabilité est largement exploitée. La vulnérabilité permet à un attaquant non authentifié de créer un compte aux privilèges maximales. Il n&rsquo;existe pas de correctif pour cette vulnérabilité pour le moment.]]></description>
-</item>
-<item>
-    <title>Htaccess, ou comment contourner les mécanismes de dépôt de fichiers.</title>
-    <link>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</link>
-    <pubDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
-            </div>📂 Comment contourner les mécanismes de dépôt de fichiers ? Introduction Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d&rsquo;autres dommages.
-Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de l&rsquo;Insomni&rsquo;hack Teaser 2019 CTF.]]></description>
 </item>
 </channel>
 </rss>

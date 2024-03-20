@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ? - Trackflaw | Expert en sécurité informatique</title><meta name="Description" content="WordPress, en tant que l’un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d’entreprise."><meta property="og:title" content="Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?" />
+<meta property="og:description" content="WordPress, en tant que l’un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d’entreprise." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" /><meta property="og:image" content="http://localhost:1313/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-20T10:54:14+01:00" />
+<meta property="article:modified_time" content="2024-03-20T10:54:14+01:00" /><meta property="og:site_name" content="Trackflaw | Expert en sécurité offensive" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" /><meta name="twitter:title" content="Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?"/>
+<meta name="twitter:description" content="WordPress, en tant que l’un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d’entreprise."/>
+      <meta name="twitter:site" content="@trackflaw"/>
+<meta name="application-name" content="Trackflaw | Expert en sécurité offensive">
+<meta name="apple-mobile-web-app-title" content="Trackflaw | Expert en sécurité offensive"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" /><link rel="prev" href="http://localhost:1313/ghostrace-nouvelle-vuln%C3%A9rabilit%C3%A9-cpu-pr%C3%A9occupante/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Pourquoi faire un test d'intrusion sur son site Wordpress en 2024 ?",
+        "inLanguage": "fr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress\/"
+        },"image": ["http:\/\/localhost:1313\/images\/logo.png"],"genre": "posts","keywords": "Test d\u0027intrusion, Pentest, Audit","wordcount":  1298 ,
+        "url": "http:\/\/localhost:1313\/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress\/","datePublished": "2024-03-20T10:54:14+01:00","dateModified": "2024-03-20T10:54:14+01:00","publisher": {
+            "@type": "Organization",
+            "name": "Thibaud Robin - Trackflaw","logo": "http:\/\/localhost:1313\/images\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Thibaud Robin"
+            },"description": "WordPress, en tant que l’un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d’entreprise."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="Articles"> Articles </a><a class="menu-item" href="/news/" title="Actualités"> Actualités </a><a class="menu-item" href="/about/" title="A propos"> A propos </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Choisir la langue">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" selected>Français</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="Articles">Articles</a><a class="menu-item" href="/news/" title="Actualités">Actualités</a><a class="menu-item" href="/about/" title="A propos">A propos</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Choisir la langue">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" selected>Français</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenu</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Pourquoi faire un test d'intrusion sur son site Wordpress en 2024 ?</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author">
+                    <a href="https://www.linkedin.com/in/thibaud-robin/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="thibaud-picture-big" aria-hidden="true"></i>Thibaud Robin</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="20/03/2024">20/03/2024</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1298 mots&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png"
+        data-srcset="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png 1.5x, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png"
+        title="WordPress, en tant que l’un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d’entreprise." /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenu</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#une-popularité-à-double-tranchant">Une popularité à double tranchant</a></li>
+    <li><a href="#pourquoi-se-protéger-">Pourquoi se protéger ?</a></li>
+    <li><a href="#le-test-dintrusion--une-protection-par-lattaque">Le test d&rsquo;intrusion : une protection par l&rsquo;attaque</a>
+      <ul>
+        <li><a href="#réponse-aux-enjeux">Réponse aux enjeux</a></li>
+        <li><a href="#méthodologie">Méthodologie</a>
+          <ul>
+            <li><a href="#reconnaissance">Reconnaissance</a></li>
+            <li><a href="#exploitation">Exploitation</a></li>
+            <li><a href="#outillage">Outillage</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#se-protéger-après-le-test-dintrusion">Se protéger après le test d&rsquo;intrusion</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#sources">Sources</a>
+      <ul>
+        <li><a href="#statistiques">Statistiques</a></li>
+        <li><a href="#ressources">Ressources</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="pourquoi-un-test-dintrusion-est-obligatoire-sur-votre-site-wordpress-en-2024-">Pourquoi un test d&rsquo;intrusion est OBLIGATOIRE sur votre site Wordpress en 2024 ?</h1>
+<h2 id="introduction">Introduction</h2>
+<p><strong>WordPress</strong>, en tant que l&rsquo;un des systèmes de gestion de contenu (CMS) <strong>les plus utilisés au monde</strong>, alimente une part significative des sites web, allant des blogs personnels aux sites d&rsquo;entreprise.</p>
+<p>Sa popularité s&rsquo;accompagne toutefois de risques de sécurité accrus, rendant les tests d&rsquo;intrusion cruciaux pour protéger ces sites contre les cyberattaques.</p>
+<p>📈 Quelques statistiques faramineuses (selon lesmakers.fr) :</p>
+<ul>
+<li>Le CMS <strong>n°1</strong> au monde.</li>
+<li>Plus de <strong>62% part de marché</strong> des CMS.</li>
+<li>Plus de <strong>43% des sites mondiaux</strong> utilisent Wordpress.</li>
+<li><strong>9 000 thèmes</strong> gratuits.</li>
+<li><strong>60 000 plugins</strong> gratuits actifs.</li>
+</ul>
+<br>
+<figure><img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/1.png"><figcaption>
+      <h4>Plus de 62% des sites avec un CMS utilisent Wordpress</h4>
+    </figcaption>
+</figure>
+
+<figure><img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/2.png"><figcaption>
+      <h4>Plus de 455 millions de sites web dans le monde utilisent WordPress.</h4>
+    </figcaption>
+</figure>
+
+<h2 id="une-popularité-à-double-tranchant">Une popularité à double tranchant</h2>
+<p><strong>WordPress</strong> est souvent ciblé par les attaquants en raison de sa large adoption.</p>
+<p>Les vulnérabilités, qu&rsquo;elles soient dans le noyau de WordPress, les thèmes ou les plugins, peuvent être exploitées pour compromettre un site. Les tests d&rsquo;intrusion permettent d&rsquo;identifier ces faiblesses avant qu&rsquo;elles ne soient exploitées par des acteurs malveillants.</p>
+<p>Encore quelques statistiques alarmantes 😅</p>
+<ul>
+<li>En 2023, il y a eu plus de <strong>90 millions d&rsquo;attaques</strong> contre des sites WordPress. (source : <a href="https://www.wordfence.com/" target="_blank" rel="noopener noreffer ">https://www.wordfence.com/</a>)</li>
+<li>Plus de <strong>50% des sites WordPress</strong> sont attaqués chaque année. (source : <a href="https://sucuri.net/" target="_blank" rel="noopener noreffer ">https://sucuri.net/</a>)</li>
+<li>Plus de <strong>90% des attaques</strong> contre les sites WordPress ciblent des vulnérabilités dans les plugins, les thèmes ou le noyau de WordPress lui-même. (<a href="https://www.wordfence.com/" target="_blank" rel="noopener noreffer ">https://www.wordfence.com/</a>)</li>
+</ul>
+<br>
+<figure><img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/3.png"><figcaption>
+      <h4>Proportion de l&#39;état des vulnérabilités du CMS Wordpress (source : wpscan.com).</h4>
+    </figcaption>
+</figure>
+
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i>Attention<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Ces chiffres sont à prendre avec précaution. En effet, il est très difficile de connaitre les proportions exactes des vulnérabilités exploitées.</div>
+        </div>
+    </div>
+<h2 id="pourquoi-se-protéger-">Pourquoi se protéger ?</h2>
+<p>Question évidente penserez-vous ? 😉</p>
+<p>Pour plusieurs raisons :</p>
+<ul>
+<li><strong>Protéger ses données sensibles</strong> : les sites WordPress hébergent très souvent des données sensibles, telles que les informations personnelles des utilisateurs et les détails de paiement.</li>
+<li><strong>Se conformer aux normes de sécurité</strong> : pour les entreprises, la conformité aux normes de sécurité comme GDPR ou PCI DSS n&rsquo;est pas une option mais une obligation.</li>
+<li><strong>Améliorer sa réputation et sa confiance</strong> : Un site sécurisé renforce la confiance des utilisateurs et des clients. En revanche, un site compromis peut nuire gravement à la réputation d&rsquo;une entreprise.</li>
+<li><strong>Prévenir les pertes financières</strong> : les cyberattaques peuvent entraîner des pertes financières considérables, dues au vol de données, à la rançon pour récupérer des données chiffrées, ou aux coûts de rétablissement des services.</li>
+<li><strong>Assurer sa continuité</strong> : une cyberattaque réussie peut perturber les opérations d&rsquo;un site WordPress, entraînant des temps d&rsquo;arrêt et affectant la continuité des activités.</li>
+</ul>
+<h2 id="le-test-dintrusion--une-protection-par-lattaque">Le test d&rsquo;intrusion : une protection par l&rsquo;attaque</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/4.png"
+        data-srcset="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/4.png, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/4.png 1.5x, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/4.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/4.png"
+        title="Faire un test d&amp;rsquo;intrusion" /></p>
+<p>Un test d&rsquo;intrusion, également appelé pentest, est un moyen efficace de simuler une attaque et d&rsquo;identifier les failles de sécurité de votre site <strong>WordPress</strong>.</p>
+<h3 id="réponse-aux-enjeux">Réponse aux enjeux</h3>
+<p>Reprenons les enjeux précédents et appliquons les au domaine des tests d&rsquo;intrusion :</p>
+<ul>
+<li><strong>Protéger ses données sensibles</strong> : un test d&rsquo;intrusion aide à évaluer la robustesse des mécanismes de protection de ses données, garantissant leur intégrité et leur confidentialité.</li>
+<li><strong>Se conformer aux normes de sécurité</strong> : un test d&rsquo;intrusion révèle si un site WordPress répond aux exigences, évitant ainsi les sanctions potentielles liées à la non-conformité.</li>
+<li><strong>Améliorer sa réputation et sa confiance</strong> : les tests d&rsquo;intrusion contribuent à préserver sa réputation en assurant la sécurité de son site.</li>
+<li><strong>Prévenir les pertes financières</strong> : les tests d&rsquo;intrusion permettent de prévenir les incidents en détectant les vulnérabilités susceptibles d&rsquo;être exploitées.</li>
+<li><strong>Identifier les faiblesses dans les configurations personnalisées</strong> : de nombreux sites WordPress sont fortement personnalisés, avec des thèmes sur mesure et des plugins spécifiques. Ces personnalisations peuvent introduire des failles de sécurité uniques, que seul un test d&rsquo;intrusion peut efficacement identifier et évaluer.</li>
+<li><strong>Assurer sa continuité</strong> : les tests d&rsquo;intrusion aident à maintenir la disponibilité et la fiabilité du site, essentielles pour les activités commerciales en ligne.</li>
+</ul>
+<h3 id="méthodologie">Méthodologie</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/5.png"
+        data-srcset="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/5.png, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/5.png 1.5x, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/5.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/5.png"
+        title="Méthodologie d&amp;rsquo;un test d&amp;rsquo;intrusion Wordpress" /></p>
+<p>Chez <strong>Trackflaw</strong>, nous sommes en mesure de procéder à un audit complet de votre site Wordpress pour éliminer tous risques (c&rsquo;est votre jour de chance) ! 😉</p>
+<p>Cette méthodologie s&rsquo;articule autour de grandes étapes. Elle commence par une <strong>phase de reconnaissance</strong>.</p>
+<h4 id="reconnaissance">Reconnaissance</h4>
+<p>L&rsquo;auditeur commence par effectuer une <strong>collecte des informations de base</strong> :</p>
+<ol>
+<li>Déterminer la version de WordPress, les plugins et les thèmes utilisés.</li>
+<li>Identifier les technologies et les frameworks utilisés (<code>JavaScript</code>, <code>PHP</code>, etc.).</li>
+<li>Analyser les en-têtes <code>HTTP</code> pour d&rsquo;éventuelles informations sensibles.</li>
+</ol>
+<p>Par exemple, pour vérifier qu&rsquo;un site web fonctionne sous Wordpress :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl https://victim.com/ <span class="p">|</span> grep <span class="s1">&#39;content=&#34;WordPress&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ou sinon, vous pouvez aussi utiliser l&rsquo;excellente extension <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreffer ">Wappalyzer</a> comme sur le screen ci-dessous (pas très sécurisé le Wordpresse de la capture d&rsquo;ailleurs&hellip;) ! 😀</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/wappalizer.png"
+        data-srcset="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/wappalizer.png, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/wappalizer.png 1.5x, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/wappalizer.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/wappalizer.png"
+        title="Wappalyser" /></p>
+<p>Par la suite, le pentester peut tenter de <strong>récupérer des fichiers</strong> :</p>
+<ol>
+<li>Tenter de télécharger des fichiers potentiellement sensibles, par exemple en libre accès dans le répertoire <code>wp-contents</code>.</li>
+<li>Rechercher des fichiers de sauvegarde ou des fichiers de configuration non protégés.</li>
+</ol>
+<p>Petit exemple pour obtenir la liste des plugins et thèmes (lorsque cela est possible)</p>
+<p><strong>Plugins</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -H <span class="s1">&#39;Cache-Control: no-cache, no-store&#39;</span> -L -ik -s https://vuln.trackflaw.com/support/article/pages/ <span class="p">|</span> grep -E <span class="s1">&#39;wp-content/plugins/&#39;</span> <span class="p">|</span> sed -E <span class="s1">&#39;s,href=|src=,THIIIIS,g&#39;</span> <span class="p">|</span> awk -F <span class="s2">&#34;THIIIIS&#34;</span> <span class="s1">&#39;{print $2}&#39;</span> <span class="p">|</span> cut -d <span class="s2">&#34;&#39;&#34;</span> -f2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>Thèmes</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -s -X GET https://vuln.trackflaw.com/support/article/pages/ <span class="p">|</span> grep -E <span class="s1">&#39;wp-content/themes&#39;</span> <span class="p">|</span> sed -E <span class="s1">&#39;s,href=|src=,THIIIIS,g&#39;</span> <span class="p">|</span> awk -F <span class="s2">&#34;THIIIIS&#34;</span> <span class="s1">&#39;{print $2}&#39;</span> <span class="p">|</span> cut -d <span class="s2">&#34;&#39;&#34;</span> -f2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Enfin, l&rsquo;auditeur <strong>énumère les utilisateurs</strong> :</p>
+<ol>
+<li>Identifier les utilisateurs et les rôles existants sur le site.</li>
+<li>Tenter de deviner les noms d&rsquo;utilisateurs et les mots de passe par des attaques par force brute ou par dictionnaire.</li>
+</ol>
+<p>Plusieurs moyens pour effectuer cette action :</p>
+<ul>
+<li>Par force brute des identifiants : <code>curl -s -I -X GET http://vuln.trackflaw.com/?author=1</code>.</li>
+<li>Via la route <code>wp-json</code> : <code>curl http://vuln.trackflaw.com/wp-json/wp/v2/users</code>.</li>
+<li>Via de l&rsquo;énumération sur la page <code>wp-login.php</code>.</li>
+</ul>
+<h4 id="exploitation">Exploitation</h4>
+<p>Par la suite, l&rsquo;auditeur est amené à étudier les vulnérabilités impactant le site, ses plugins et ses thêmes.</p>
+<p>Quelques exemples de vulnérabilités :</p>
+<ul>
+<li><strong>Tests d&rsquo;injection SQL</strong> : exploiter des failles de sécurité dans les plugins ou le thème pour injecter du code SQL malveillant.</li>
+<li><strong>Cross-Site Scripting (XSS)</strong> : injecter du code <code>JavaScript</code> malveillant dans le site pour détourner les utilisateurs.</li>
+<li><strong>Cross-Site Request Forgery (CSRF)</strong> : forcer un utilisateur authentifié à effectuer des actions non désirées.</li>
+</ul>
+<p>Pour cette partie, nous la laissons en exercice au lecteur. Nous n&rsquo;allons quand même pas dévoiler tous nos secrets ! 😉</p>
+<h4 id="outillage">Outillage</h4>
+<p>Il existe des outils permettant <strong>d&rsquo;automatiser l&rsquo;exploitation</strong> et de <strong>faciliter la tâche du pentester</strong> durant le test d&rsquo;intrusion comme par exemple :</p>
+<ul>
+<li><code>Cmsmap</code></li>
+<li><code>Wpscan</code></li>
+</ul>
+<p>Quelques exemples ci-dessous 👇</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cmsmap -s http://localhost -t <span class="m">2</span> -a <span class="s2">&#34;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0&#34;</span>
+</span></span><span class="line"><span class="cl">wpscan --rua -e ap,at,tt,cb,dbe,u,m --url http://localhost --api-token &lt;API_TOKEN&gt; --passwords /usr/share/wordlists/external/SecLists/Passwords/probable-v2-top1575.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="se-protéger-après-le-test-dintrusion">Se protéger après le test d&rsquo;intrusion</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/6.png"
+        data-srcset="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/6.png, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/6.png 1.5x, /images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/6.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/6.png"
+        title="Se protéger" /></p>
+<p>Une fois après avoir effectué votre test d&rsquo;intrusion, il est important de suivre certaines étapes pour <strong>sécuriser</strong> votre site web :</p>
+<ol>
+<li>Activer les mises à jour automatiques avec le code ci-dessous :</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="nx">define</span><span class="p">(</span> <span class="s1">&#39;WP_AUTO_UPDATE_CORE&#39;</span><span class="p">,</span> <span class="k">true</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nx">add_filter</span><span class="p">(</span> <span class="s1">&#39;auto_update_plugin&#39;</span><span class="p">,</span> <span class="s1">&#39;__return_true&#39;</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nx">add_filter</span><span class="p">(</span> <span class="s1">&#39;auto_update_theme&#39;</span><span class="p">,</span> <span class="s1">&#39;__return_true&#39;</span> <span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>Installer des plugins de sécurité comme <a href="https://wordpress.org/plugins/wordfence/" target="_blank" rel="noopener noreffer ">Wordfence</a>, <a href="https://wordpress.org/plugins/sucuri-scanner/" target="_blank" rel="noopener noreffer ">Sucuri Security</a> ou <a href="https://wordpress.org/plugins/better-wp-security/" target="_blank" rel="noopener noreffer ">iThemes Security</a>.</li>
+</ol>
+<p><strong>Quelques autres recommandations :</strong></p>
+<ol>
+<li>Supprimer l&rsquo;utilisateur administrateur par défaut.</li>
+<li>Utiliser des mots de passe forts avec du 2FA.</li>
+<li>Réviser périodiquement les permissions des utilisateurs.</li>
+<li>Limiter les tentatives de connexion pour prévenir les attaques par force brute.</li>
+<li>Renommer <code>wp-admin.php</code> et n&rsquo;autoriser l&rsquo;accès qu&rsquo;en interne ou à partir de certaines adresses IP.</li>
+<li>Désactiver le directory listing.</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>Faire un test d&rsquo;intrusion sur son site WordPress n&rsquo;est pas un luxe mais une <strong>nécessité dans l&rsquo;environnement numérique actuel</strong>. En identifiant proactivement les <strong>vulnérabilités</strong> et en <strong>renforçant la sécurité du site</strong>, vous pouvez protéger vos actifs numériques, maintenir la confiance des utilisateurs et assurer la continuité de vos opérations commerciales.</p>
+<p>Face à la menace croissante des cyberattaques, les tests d&rsquo;intrusion sont un investissement indispensable dans la sécurité d&rsquo;un site <strong>WordPress</strong>. Prenez contact dés maintenant avec <strong>Trackflaw</strong> !</p>
+<h2 id="sources">Sources</h2>
+<h3 id="statistiques">Statistiques</h3>
+<ul>
+<li><a href="https://lesmakers.fr/statistique-wordpress" target="_blank" rel="noopener noreffer ">https://lesmakers.fr/statistique-wordpress</a></li>
+<li><a href="https://wpscan.com/statistics/" target="_blank" rel="noopener noreffer ">https://wpscan.com/statistics/</a></li>
+</ul>
+<h3 id="ressources">Ressources</h3>
+<ul>
+<li><a href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/wordpress" target="_blank" rel="noopener noreffer ">https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/wordpress</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Mis à jour le 20/03/2024</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/index.md" target="_blank">Lire Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Partager sur Twitter" data-sharer="twitter" data-url="http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" data-title="Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?" data-via="trackflaw" data-hashtags="Test d&#39;intrusion,Pentest,Audit"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Facebook" data-sharer="facebook" data-url="http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" data-hashtag="Test d&#39;intrusion"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" data-title="Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Line" data-sharer="line" data-url="http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" data-title="Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur 微博" data-sharer="weibo" data-url="http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/" data-title="Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?" data-image="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href=""></a>,&nbsp;<a href="/tags/pentest/">Pentest</a>,&nbsp;<a href="/tags/audit/">Audit</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Retour</a></span>&nbsp;|&nbsp;<span><a href="/">Accueil</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/ghostrace-nouvelle-vuln%C3%A9rabilit%C3%A9-cpu-pr%C3%A9occupante/" class="prev" rel="prev" title="GhostRace : nouvelle vulnérabilité CPU préoccupante"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>GhostRace : nouvelle vulnérabilité CPU préoccupante</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Trackflaw</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Remonter en haut">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les commentaires">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.fr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Ok !","link":"En savoir plus","message":"Trackflaw utilise des cookies pour améliorer votre expérience et effectuer des statistiques."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"fr","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRE4WGVY4F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRE4WGVY4F');
+</script></body>
+</html>

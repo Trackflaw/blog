@@ -3,15 +3,30 @@
         <title>All Posts - Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/posts/</link>
         <description>All Posts | Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Why do an intrusion test on its WordPress site</title>
+    <link>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</link>
+    <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Why-do-an-intrusion-test-on-its-WordPress-site/logo.png" referrerpolicy="no-referrer">
+            </div>Why a Penetration Test is MANDATORY for Your Wordpress Site in 2024? Introduction WordPress, as one of the most widely used content management systems (CMS) in the world, powers a significant portion of websites, ranging from personal blogs to corporate sites.
+However, its popularity comes with increased security risks, making penetration testing crucial for safeguarding these sites against cyber attacks.
+📈 Some staggering statistics (according to lesmakers.fr):
+The #1 CMS in the world.]]></description>
+</item>
+<item>
     <title>GhostRace: New concern CPU vulnerability</title>
-    <link>http://localhost:1313/en/ghostrate-new-concern-cpu-vulnerability/</link>
+    <link>http://localhost:1313/en/ghostrace-new-concern-cpu-vulnerability/</link>
     <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/ghostrate-new-concern-cpu-vulnerability/</guid>
+    <guid>http://localhost:1313/en/ghostrace-new-concern-cpu-vulnerability/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/GhostRace-nouvelle-vuln%c3%a9rabilit%c3%a9-CPU-pr%c3%a9occupante/logo.en.png" referrerpolicy="no-referrer">
-            </div>FIXME FIXME ]]></description>
+            </div>👻 GhostRace: Specter v2.0? TL;DR A new class of speculative execution vulnerabilities, named GhostRace, has been discovered in March 2024. This attack is particularly dangerous as it can be used to exploit a wide array of software, including web browsers, operating systems, and critical applications.
+The Theory But how does the GhostRace attack work? 🤔
+The GhostRace attack (CVE-2024-2193) exploits flaws in synchronization primitives, which are software tools used to coordinate the execution of multiple processes or threads.]]></description>
 </item>
 <item>
     <title>How to Hack a 20 billion euro multinational corporation (legally)?</title>
@@ -103,16 +118,6 @@ An example To help you understand this attack, here&rsquo;s a realistic scenario
                 <img src="/images/cisco-cve-2023-20198/cisco.png" referrerpolicy="no-referrer">
             </div>🧟 Cisco CVE-2023-20198 - Or how to create your own botnet? Introduction On October 16, 2023, Cisco disclosed a critical privilege elevation vulnerability via the web interface under the identifier CVE-2023-20198 with a CVSS score of 10.
 Cisco claims that the vulnerability is widely exploited. The vulnerability allows an unauthenticated attacker to create an account with maximum privileges. There is no patch for this vulnerability at the moment.]]></description>
-</item>
-<item>
-    <title>Bypass file upload filter with .htaccess</title>
-    <link>http://localhost:1313/en/bypass-file-upload/</link>
-    <pubDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/bypass-file-upload/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
-            </div>📂 How to bypass file upload filter with .htaccess Introduction A file upload vulnerability is a security flaw that allows an attacker to drop a malicious file onto a target system. This malicious file can then be used to execute arbitrary code, steal data or cause other damage.]]></description>
 </item>
 </channel>
 </rss>

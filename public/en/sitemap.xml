@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/en/tags/audit/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/audit/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/audit/"
@@ -11,8 +11,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/audit/"
                     /></url><url>
-            <loc>http://localhost:1313/en/ghostrate-new-concern-cpu-vulnerability/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/en/tags/pentest/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/pentest/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/pentest/"
@@ -21,7 +20,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/pentest/"
                     /></url><url>
-            <loc>http://localhost:1313/en/posts/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/posts/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/posts/"
@@ -30,7 +29,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/"
@@ -39,7 +38,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/test-dintrusion/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/test-dintrusion/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/test-dintrusion/"
@@ -48,7 +47,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/test-dintrusion/"
                     /></url><url>
-            <loc>http://localhost:1313/en/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/"
@@ -57,6 +56,8 @@
                     hreflang="en"
                     href="http://localhost:1313/en/"
                     /></url><url>
+            <loc>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/en/ghostrace-new-concern-cpu-vulnerability/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/en/tags/cve/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
