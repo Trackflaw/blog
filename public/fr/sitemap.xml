@@ -2,9 +2,29 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/news/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:1313/news/nouvelle-condamnation-affaire-lockbit-11032024/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>http://localhost:1313/tags/cpu/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/ghostrace/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/ghostrace-nouvelle-vuln%C3%A9rabilit%C3%A9-cpu-pr%C3%A9occupante/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/posts/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/spectre-meltdown/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/"
+                    /></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/"
@@ -13,6 +33,8 @@
                     hreflang="fr"
                     href="http://localhost:1313/"
                     /></url><url>
+            <loc>http://localhost:1313/news/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://localhost:1313/news/nouvelle-condamnation-affaire-lockbit-11032024/</loc><lastmod>2024-03-11T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://localhost:1313/news/sanctions-concernant-le-spyware-predator-04032024/</loc><lastmod>2024-03-04T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>http://localhost:1313/news/victoire-contre-nso-group-26022024/</loc><lastmod>2024-02-26T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://localhost:1313/news/tournant-majeur-lutte-contre-lockbit-19022024/</loc><lastmod>2024-02-19T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
@@ -46,24 +68,6 @@
                     hreflang="fr"
                     href="http://localhost:1313/tags/pentest/"
                     /></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/posts/"
-                    /></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/tags/"
-                    /></url><url>
             <loc>http://localhost:1313/tags/audit/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -74,7 +78,15 @@
                     href="http://localhost:1313/tags/audit/"
                     /></url><url>
             <loc>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/test-dintrusion/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/tags/test-dintrusion/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/test-dintrusion/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/test-dintrusion/"
+                    /></url><url>
             <loc>http://localhost:1313/news/faille-critique-glibc-faille-gitlab-29012024/</loc><lastmod>2024-01-29T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/quelle-d%C3%A9marche-test-intrusion/</loc><lastmod>2024-01-23T10:39:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/news/sentence-breachforum-faille-jenkins-22012024/</loc><lastmod>2024-01-22T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

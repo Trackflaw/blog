@@ -2,6 +2,61 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://localhost:1313/en/tags/audit/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/tags/audit/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/en/tags/audit/"
+                    /></url><url>
+            <loc>http://localhost:1313/en/ghostrate-new-concern-cpu-vulnerability/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/en/tags/pentest/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/tags/pentest/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/en/tags/pentest/"
+                    /></url><url>
+            <loc>http://localhost:1313/en/posts/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/en/posts/"
+                    /></url><url>
+            <loc>http://localhost:1313/en/tags/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/en/tags/"
+                    /></url><url>
+            <loc>http://localhost:1313/en/tags/test-dintrusion/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/tags/test-dintrusion/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/en/tags/test-dintrusion/"
+                    /></url><url>
+            <loc>http://localhost:1313/en/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/en/"
+                    /></url><url>
             <loc>http://localhost:1313/en/tags/cve/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
@@ -20,51 +75,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="http://localhost:1313/en/tags/penetration-testing/"
-                    /></url><url>
-            <loc>http://localhost:1313/en/tags/pentest/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="http://localhost:1313/tags/pentest/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://localhost:1313/en/tags/pentest/"
-                    /></url><url>
-            <loc>http://localhost:1313/en/posts/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="http://localhost:1313/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://localhost:1313/en/posts/"
-                    /></url><url>
-            <loc>http://localhost:1313/en/tags/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="http://localhost:1313/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://localhost:1313/en/tags/"
-                    /></url><url>
-            <loc>http://localhost:1313/en/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="http://localhost:1313/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://localhost:1313/en/"
-                    /></url><url>
-            <loc>http://localhost:1313/en/tags/audit/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="http://localhost:1313/tags/audit/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://localhost:1313/en/tags/audit/"
                     /></url><url>
             <loc>http://localhost:1313/en/compromise-jenkins-reading-files-cve-2024-23897/</loc><lastmod>2024-02-01T11:47:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/en/tags/cyber/</loc><lastmod>2024-01-23T10:39:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

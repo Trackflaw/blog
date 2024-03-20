@@ -3,7 +3,31 @@
         <title>Tags - Balise - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/tags/</link>
         <description>Tags - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>CPU</title>
+    <link>http://localhost:1313/tags/cpu/</link>
+    <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/tags/cpu/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>GhostRace</title>
+    <link>http://localhost:1313/tags/ghostrace/</link>
+    <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/tags/ghostrace/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Spectre-Meltdown</title>
+    <link>http://localhost:1313/tags/spectre-meltdown/</link>
+    <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/tags/spectre-meltdown/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>CVE</title>
     <link>http://localhost:1313/tags/cve/</link>
     <pubDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</pubDate>
@@ -57,30 +81,6 @@
     <pubDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/tags/gitlab/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Cloud</title>
-    <link>http://localhost:1313/tags/cloud/</link>
-    <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/tags/cloud/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Pwncloud</title>
-    <link>http://localhost:1313/tags/pwncloud/</link>
-    <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/tags/pwncloud/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Hacking</title>
-    <link>http://localhost:1313/tags/hacking/</link>
-    <pubDate>Thu, 16 Nov 2023 17:44:12 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/tags/hacking/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

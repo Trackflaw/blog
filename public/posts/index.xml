@@ -3,7 +3,19 @@
         <title>Articles - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/posts/</link>
         <description>Articles | Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>GhostRace : nouvelle vulnérabilité CPU préoccupante</title>
+    <link>http://localhost:1313/ghostrace-nouvelle-vuln%C3%A9rabilit%C3%A9-cpu-pr%C3%A9occupante/</link>
+    <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/ghostrace-nouvelle-vuln%C3%A9rabilit%C3%A9-cpu-pr%C3%A9occupante/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/GhostRace-nouvelle-vuln%c3%a9rabilit%c3%a9-CPU-pr%c3%a9occupante/logo.fr.png" referrerpolicy="no-referrer">
+            </div>👻 GhostRace : Spectre v2.0 ? TL;DR Une nouvelle classe de vulnérabilités d&rsquo;exécution spéculative a été découverte courant mars 2024, appelée GhostRace. Cette attaque est particulièrement dangereuse car elle peut être utilisée pour exploiter un grand nombre de logiciels, y compris les navigateurs web, les systèmes d&rsquo;exploitation et les applications critiques.
+En théorie Mais comment fonctionne l&rsquo;attaque GhostRace ? 🤔
+L&rsquo;attaque GhostRace (CVE-2024-2193) repose sur l&rsquo;exploitation de failles dans les primitives de synchronisation, qui sont des outils logiciels utilisés pour coordonner l&rsquo;exécution de plusieurs processus ou threads.]]></description>
+</item>
+<item>
     <title>Comment hacker (légalement) une multinationale de 20 milliards d&#39;euros ?</title>
     <link>http://localhost:1313/hacker-multinationale-via-file-upload-et-ssrf/</link>
     <pubDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</pubDate>
@@ -105,18 +117,6 @@ Cisco affirme que la vulnérabilité est largement exploitée. La vulnérabilit�
                 <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
             </div>📂 Comment contourner les mécanismes de dépôt de fichiers ? Introduction Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d&rsquo;autres dommages.
 Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de l&rsquo;Insomni&rsquo;hack Teaser 2019 CTF.]]></description>
-</item>
-<item>
-    <title>CVE-2023-23397 - La réunion Outlook qui exfiltre votre mot de passe.</title>
-    <link>http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/</link>
-    <pubDate>Fri, 24 Mar 2023 17:25:42 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/cve-outlook/CVE-2023-23397.png" referrerpolicy="no-referrer">
-            </div>⏰ Le rappel de réunion qui vous veut du mal Découverte Le 14 mars 2023, la société MdSec publiait un article traitant d&rsquo;une nouvelle vulnérabilité corrigée dans la dernière mise à jour proposée par Microsoft.
-La vulnérabilité était décrite de la façon suivante :
-Patch KB5005413 Microsoft Office Outlook contains a privilege escalation vulnerability that allows for a NTLM Relay attack against another service to authenticate as the user. L&rsquo;analyse d&rsquo;un script d&rsquo;analyse fournit par Microsoft permet d&rsquo;obtenir quelques indices sur l&rsquo;exploitation de cette vulnérabilité.]]></description>
 </item>
 </channel>
 </rss>

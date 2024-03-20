@@ -3,7 +3,17 @@
         <title>All Posts - Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/posts/</link>
         <description>All Posts | Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>GhostRace: New concern CPU vulnerability</title>
+    <link>http://localhost:1313/en/ghostrate-new-concern-cpu-vulnerability/</link>
+    <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/ghostrate-new-concern-cpu-vulnerability/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/GhostRace-nouvelle-vuln%c3%a9rabilit%c3%a9-CPU-pr%c3%a9occupante/logo.en.png" referrerpolicy="no-referrer">
+            </div>FIXME FIXME ]]></description>
+</item>
+<item>
     <title>How to Hack a 20 billion euro multinational corporation (legally)?</title>
     <link>http://localhost:1313/en/multinational-hacking-with-file-upload-and-ssrf/</link>
     <pubDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</pubDate>
@@ -103,17 +113,6 @@ Cisco claims that the vulnerability is widely exploited. The vulnerability allow
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
             </div>📂 How to bypass file upload filter with .htaccess Introduction A file upload vulnerability is a security flaw that allows an attacker to drop a malicious file onto a target system. This malicious file can then be used to execute arbitrary code, steal data or cause other damage.]]></description>
-</item>
-<item>
-    <title>CVE-2023-23397 - The Outlook meeting that exfiltrates your password.</title>
-    <link>http://localhost:1313/en/cve-outlook/</link>
-    <pubDate>Fri, 24 Mar 2023 17:25:42 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/cve-outlook/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/cve-outlook/CVE-2023-23397.png" referrerpolicy="no-referrer">
-            </div>Outlook suffers from a lack of control over the user input that allows to configure the sound of a meeting and appointment reminder. Indeed, an attacker is able to force a victim to make a connection to its server without any manipulation from the user (zero click vulnerability).
-An attacker exploiting this vulnerability retrieves a NetNTLMv2 digest based on the password of the trapped user through an SMB request. The request is triggered as soon as the mail arrives in the inbox.]]></description>
 </item>
 </channel>
 </rss>
