@@ -69,7 +69,30 @@ Pour plusieurs raisons :
 
 ![Faire un test d'intrusion](/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/4.png)
 
-Un test d'intrusion, également appelé pentest, est un moyen efficace de simuler une attaque et d'identifier les failles de sécurité de votre site **WordPress**.
+Un test d'intrusion, également appelé pentest, est un moyen efficace de simuler une attaque et d'identifier les failles de sécurité de votre site **WordPress**. 
+
+C'est une **simulation d'attaque informatique** autorisée visant à évaluer la sécurité d'un système d'information (SI). Réalisé par un **testeur qualifié**, il permet d'identifier les vulnérabilités et les menaces susceptibles d'être exploitées par des pirates informatiques.
+
+Le but d'un test d'intrusion est de **détecter les failles de sécurité** et de **mesurer le niveau de résistance d'un système aux attaques**. Le testeur se met dans la peau d'un pirate et utilise différentes techniques pour tenter de s'introduire dans le système, comme l'analyse de code, l'injection de code SQL ou l'exploitation de vulnérabilités logicielles.
+
+Il existe plusieurs types de tests d'intrusion, dont les plus courants sont :
+
+- **Test de boîte noire** : le testeur n'a aucune connaissance du système interne.
+- **Test de boîte blanche** : le testeur a accès au code source et à la documentation du système.
+- **Test de boîte grise** : le testeur a une connaissance partielle du système.
+
+{{< admonition tip "Plus d'infos !" >}}
+D'ailleurs, un article expliquant plus en détails les différentes types de boites est disponible sur le blog : https://blog.trackflaw.com/quelle-d%C3%A9marche-test-intrusion/ 😉
+{{< /admonition >}}
+
+Un test d'intrusion permet donc :
+
+- D'identifier les vulnérabilités et les failles de sécurité.
+- De mesurer le niveau de risque associé à ces vulnérabilités.
+- De prioriser les actions correctives à mettre en place.
+- D'améliorer la posture de sécurité de l'organisation.
+
+Le test d'intrusion se traduit par un **rapport détaillé** qui présente les vulnérabilités identifiées, les risques associés et les recommandations pour les corriger.
 
 ### Réponse aux enjeux
 
