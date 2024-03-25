@@ -3,16 +3,30 @@
 
 # 🕵️ Comment bien choisir un prestataire de tests d'intrusion en 2024 ?
 
-## Un test d'intrusion est il utile ?
 
+## Un test d'intrusion est-il utile ?
 
 La réponse est **oui** !
 
-Les tests d'intrusion sont une étape essentielle de la sécurité informatique. Ils permettent **d'identifier les vulnérabilités d'un système informatique** et de les **corriger** avant qu'elles ne soient exploitées par des attaquants malveillants.
+Les **tests d'intrusion**, aussi connus sous le nom de **tests de "pénétration"** (terme à éviter dans le langage courant français 😉), constituent une composante cruciale de la **cybersécurité** moderne.
 
-Le choix d'un prestataire de tests d'intrusion est une décision importante. Il est important de sélectionner un prestataire fiable et compétent, capable de fournir des résultats de qualité.
+En simulant des attaques informatiques dans des conditions contrôlées, ces tests permettent de **détecter les failles de sécurité** dans les **systèmes d'information**, les **serveurs**, les **applications web**, et autres composants informatiques. L'objectif est d'identifier les vulnérabilités avant qu'elles ne soient exploitées par des **pirates informatiques** ou des acteurs **malveillants**, garantissant ainsi la **sécurisation** des **données sensibles** et des **informations confidentielles**.
 
-Dans cet article, **Trackflaw** vous propose ses conseils afin de bien choisir votre nouveau prestataire de tests d'intrusion.
+Un test d'intrusion efficace révèle non seulement les **failles de sécurité** existantes mais évalue également la **résilience des systèmes informatiques** face aux **cyberattaques**.
+
+Les experts en sécurité utilisent diverses méthodes, incluant les approches de **boîte noire**, **boîte blanche**, et **boîte grise**, pour fournir une évaluation complète de la **sécurité des systèmes d'information**.
+
+Ces tests aident à comprender comment un **attaquant** pourrait **compromettre** un système, en exploitant des **vulnérabilités** ou en utilisant des **techniques de piratage** avancées.
+
+{{< admonition tip "Plus d'infos !" >}}
+D'ailleurs, un article expliquant plus en détails les différentes types de boites est disponible sur le blog : https://blog.trackflaw.com/quelle-d%C3%A9marche-test-intrusion/ 😉
+{{< /admonition >}}
+
+En outre, les tests d'intrusion jouent un rôle essentiel dans le maintien de la **conformité** avec les réglementations et les standards de **sécurité du système**, tels que l'ANSSI, PCI DSS, et autres cadres réglementaires. Ils permettent aux entreprises de démontrer leur engagement envers la **sécurité informatique**, renforçant ainsi la **confiance** de leurs clients et partenaires.
+
+Choisir un prestataire de tests d'intrusion est donc une décision stratégique. Il est vital de sélectionner un partenaire fiable et compétent, capable de mener des tests approfondis et de fournir des **audits de sécurité** détaillés. Les résultats de ces tests permettent de mettre en place des **correctifs** et des **mesures de sécurité** adaptées, améliorant la **protection contre les cyberattaques** et renforçant la **sécurité des réseaux informatiques** et des **systèmes d'information**.
+
+🤔 Mais du coup comment bien choisir ?
 
 ![Alt text](/images/pentest-provider/pentest.png)
 
@@ -20,21 +34,21 @@ Dans cet article, **Trackflaw** vous propose ses conseils afin de bien choisir v
 
 Il existe de nombreux critères à prendre en compte pour choisir un prestataire de tests d'intrusion. Voici les plus importants :
 
-- **L'expérience** : le prestataire doit avoir une expérience significative dans le domaine des tests d'intrusion.
-- **Les compétences** : le prestataire doit disposer d'une équipe de professionnels qualifiés et expérimentés.
-- **Les certifications** : le prestataire doit être certifié par un organisme reconnu.
-- **La méthodologie** : le prestataire doit utiliser une méthodologie de tests d'intrusion reconnue.
-- **La confidentialité** : le prestataire doit garantir la confidentialité des données de l'entreprise.
+- **L'expérience** : le prestataire doit avoir une expérience significative dans le domaine des **systèmes informatiques** et des **tests d'intrusion**.
+- **Les compétences** : le prestataire doit disposer d'une équipe d'**experts en sécurité** qualifiés et expérimentés dans la **sécurité des systèmes d'information**.
+- **Les certifications** : le prestataire doit être certifié par un organisme reconnu, démontrant ainsi sa compétence en **cybersécurité**.
+- **La méthodologie** : le prestataire doit utiliser une méthodologie de tests d'intrusion reconnue, incluant potentiellement des approches de **boîte noire**, **boîte blanche** ou **boîte grise** selon le contexte.
+- **La confidentialité** : le prestataire doit garantir la confidentialité des **données confidentielles** de l'entreprise à travers des protocoles d'**authentification** sécurisés et l'utilisation de **pare-feu** avancés.
 
 {{< admonition type=success title="Trackflaw coche toute les cases !" open=true >}}
 
 Trackflaw remplit tous les critères détaillés ci-dessus :
 
-- **L'expérience** : nous avons plus de 6 ans d'expérience dans la sécurité offensive.
-- **Les compétences** : nous réalisation des dizaines de prestations par an pour des clients de tous les domaines.
-- **Les certifications** : nous sommes reconnus par l'état et certifiés OSCP.
-- **La méthodologie** : nous suivons scrupuleusement le testing guide de l'OWASP afin d'être le plus exhaustif lors de nos tests.
-- **La confidentialité** : nous réalisons toutes nos missions à travers des contrats et des protocoles d'accord afin de garantir la confidentialité de nos audits.
+- **L'expérience** : nous avons plus de 6 ans d'expérience dans la **sécurité offensive**.
+- **Les compétences** : nous réalisons des dizaines de prestations par an pour des clients de tous les domaines, affinant notre expertise en **détection des vulnérabilités** et **prévention des intrusions**.
+- **Les certifications** : nous sommes reconnus par l'état et certifiés OSCP, une référence en matière de **hacking éthique**.
+- **La méthodologie** : nous suivons scrupuleusement le testing guide de l'OWASP afin d'être le plus exhaustif lors de nos tests, assurant une **évaluation de la sécurité** complète.
+- **La confidentialité** : nous réalisons toutes nos missions à travers des contrats et des protocoles d'accord afin de garantir la confidentialité de nos audits, protégeant ainsi les **informations sensibles** de nos clients.
 
 {{< /admonition >}}
 
@@ -102,7 +116,7 @@ Quelques références (liste non exhaustive) :
 
 ## Les + de Trackflaw
 
-En appelant **Trackflaw** pour réaliser vos audits vous bénéficez d'une rigueur et d'une exhaustivité supérieur aux concurents du marché. 
+En appelant **Trackflaw** pour réaliser vos audits, vous bénéficiez d'une rigueur et d'une exhaustivité supérieure aux concurrents du marché. 
 
 ![Alt text](/images/pentest-provider/avantages.png)
 
@@ -114,17 +128,19 @@ Chacune de ses sections comporte des exemples de tests permettant de vérifier l
 
 ### 2. Pas de rapport de scanner
 
-Les scanners automatiques de vulnérabilités sont des outils puissants et utiles dans notre métier.
+Les scanners automatiques de vulnérabilités sont des outils **puissants et utiles** dans notre métier.
 
-Cependant, des entreprises peu scrupuleuses proposent ce type d'outil comme un véritable service de test d'intrusion, dégradant ainsi notre image d'auditeurs.
+Cependant, des entreprises peu scruleuses proposent ce type d'outil comme un véritable service de test d'intrusion, dégradant ainsi notre image d'auditeurs.
 
 Ces outils **ne permettent pas de garantir l'exhaustivité des tests** effectués et faussent donc le jugement général du niveau de sécurité du périmètre audité.
+
+Chez Trackflaw, **chaque faille de sécurité identifiée est vérifiée manuellement** par nos experts en sécurité, assurant une précision et une pertinence des résultats sans équivalent.
 
 ### 3. Un rapport exhaustif
 
 Le travail d'un auditeur est avant tout de transmettre de façon claire et concise aux équipes auditées les différentes faiblesses relevées afin de leur apporter la plus grande aide possible dans leurs chantiers de correction.
 
-Les rapports d'audit sont ainsi **les éléments les plus importants**. Trackflaw leur accorde une très grande attention afin qu'ils puissent être totalement assimilés par un **public managérial comme très technique**.
+Les rapports d'audit sont ainsi **les éléments les plus importants**. Trackflaw leur accorde une très grande attention afin qu'ils puissent être totalement assimilés par un **public managérial comme très technique**. Ils sont donc conçus pour être **totalement assimilés par un public managérial** comme très technique, intégrant des recommandations précises et des scénarios de compromission réels pour faciliter la compréhension des risques associés à chaque vulnérabilité.
 
 Les différentes sections sont conçues dans le but d'être comprises par les différents échelons de la hiérarchie d'une entreprise.
 
@@ -142,4 +158,8 @@ Trackflaw possède une politique tarifaire attractive destinée aux très petite
 
 ## Conclusion
 
-Choisir un prestataire pour effectuer ses audits est une tâche complexe. Trackflaw est la pour vous aider et vous accompagner. Prenez contact avec nous : commande@trackflaw.com
+Choisir un prestataire pour effectuer ses audits est une tâche **complexe**. Trackflaw est là pour vous aider et vous accompagner.
+
+Avec notre approche exhaustive, allant de la **détection d'intrusion aux correctifs en passant par la simulation de cyberattaques**, nous offrons une couverture complète pour protéger votre infrastructure contre les menaces informatiques.
+
+Prenez contact avec nous : commande@trackflaw.com et assurez la sécurité de votre système informatique contre les pirates informatiques et autres acteurs malveillants.

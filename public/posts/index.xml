@@ -80,9 +80,9 @@ Un début d&rsquo;année sous haute tension Le 11 janvier 2024, GitLab, la cél�
     <guid>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pentest-provider/main.png" referrerpolicy="no-referrer">
-            </div>🕵️ Comment bien choisir un prestataire de tests d&rsquo;intrusion en 2024 ? Un test d&rsquo;intrusion est il utile ? La réponse est oui !
-Les tests d&rsquo;intrusion sont une étape essentielle de la sécurité informatique. Ils permettent d&rsquo;identifier les vulnérabilités d&rsquo;un système informatique et de les corriger avant qu&rsquo;elles ne soient exploitées par des attaquants malveillants.
-Le choix d&rsquo;un prestataire de tests d&rsquo;intrusion est une décision importante. Il est important de sélectionner un prestataire fiable et compétent, capable de fournir des résultats de qualité.]]></description>
+            </div>🕵️ Comment bien choisir un prestataire de tests d&rsquo;intrusion en 2024 ? Un test d&rsquo;intrusion est-il utile ? La réponse est oui !
+Les tests d&rsquo;intrusion, aussi connus sous le nom de tests de &ldquo;pénétration&rdquo; (terme à éviter dans le langage courant français 😉), constituent une composante cruciale de la cybersécurité moderne.
+En simulant des attaques informatiques dans des conditions contrôlées, ces tests permettent de détecter les failles de sécurité dans les systèmes d&rsquo;information, les serveurs, les applications web, et autres composants informatiques.]]></description>
 </item>
 <item>
     <title>Pwncloud : votre propre cloud (non) sécurisé</title>
