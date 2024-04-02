@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - Les4ActusCyber : semaine du 25 mars - Trackflaw | Expert en sécurité informatique</title><meta name="Description" content="Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc."><meta property="og:title" content="Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - Les4ActusCyber : semaine du 25 mars" />
+<meta property="og:description" content="Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.
+Plus d’informations sur nos réseaux :
+🔴 Pour s’abonner à la chaine YouTube de Trackflaw.
+📸 Pour suivre l’actualité Cyber sur Instagram.
+👉 Pour visiter le site web de Trackflaw.
+Porte dérobée critique découverte dans XZ Utils RedHat a alerté sur une porte dérobée dans XZ Utils, une bibliothèque de compression de données populaire, touchant les versions 5." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/" /><meta property="og:image" content="http://localhost:1313/images/logo.png" /><meta property="article:section" content="news" />
+<meta property="article:published_time" content="2024-03-25T08:00:00+00:00" />
+<meta property="article:modified_time" content="2024-03-25T08:00:00+00:00" /><meta property="og:site_name" content="Trackflaw | Expert en sécurité offensive" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/images/logo.png" /><meta name="twitter:title" content="Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - Les4ActusCyber : semaine du 25 mars"/>
+<meta name="twitter:description" content="Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.
+Plus d’informations sur nos réseaux :
+🔴 Pour s’abonner à la chaine YouTube de Trackflaw.
+📸 Pour suivre l’actualité Cyber sur Instagram.
+👉 Pour visiter le site web de Trackflaw.
+Porte dérobée critique découverte dans XZ Utils RedHat a alerté sur une porte dérobée dans XZ Utils, une bibliothèque de compression de données populaire, touchant les versions 5."/>
+      <meta name="twitter:site" content="@trackflaw"/>
+<meta name="application-name" content="Trackflaw | Expert en sécurité offensive">
+<meta name="apple-mobile-web-app-title" content="Trackflaw | Expert en sécurité offensive"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/" /><link rel="prev" href="http://localhost:1313/news/arrestation-concernant-la-cyberattaque-contre-france-travail-18032024/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - Les4ActusCyber : semaine du 25 mars",
+        "inLanguage": "fr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/news\/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024\/"
+        },"image": ["http:\/\/localhost:1313\/images\/logo.png"],"genre": "news","wordcount":  341 ,
+        "url": "http:\/\/localhost:1313\/news\/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024\/","datePublished": "2024-03-25T08:00:00+00:00","dateModified": "2024-03-25T08:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "Thibaud Robin - Trackflaw","logo": "http:\/\/localhost:1313\/images\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Thibaud Robin"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="Articles"> Articles </a><a class="menu-item" href="/news/" title="Actualités"> Actualités </a><a class="menu-item" href="/about/" title="A propos"> A propos </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Choisir la langue">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/" selected>Français</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="Articles">Articles</a><a class="menu-item" href="/news/" title="Actualités">Actualités</a><a class="menu-item" href="/about/" title="A propos">A propos</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Choisir la langue">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/" selected>Français</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - Les4ActusCyber : semaine du 25 mars</h1><div class="content" id="content"><div class="flex-container">
+   <div class="flex-items">
+   <iframe width="456" height="811" src="https://www.youtube.com/embed/blG-YTZOyGA" title="Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - #Les4ActusCyber : semaine du 25 mars" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
+   <div class="flex-items">
+      <p>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.</p>
+      <br>
+      <p><strong>Plus d’informations sur nos réseaux :</strong></p>
+      <p>🔴 Pour s’abonner à la chaine <a href="https://www.youtube.com/@trackflaw" target="_blank" rel="noopener noreffer ">YouTube</a> de Trackflaw.</p>
+      <p>📸 Pour suivre l’actualité Cyber sur <a href="https://www.instagram.com/trackflaw/" target="_blank" rel="noopener noreffer ">Instagram</a>.</p>
+      <p>👉 Pour visiter le site web de <a href="https://trackflaw.com" target="_blank" rel="noopener noreffer ">Trackflaw</a>.</p>
+   </div>
+</div>
+<br>
+<h2 id="porte-dérobée-critique-découverte-dans-xz-utils">Porte dérobée critique découverte dans XZ Utils</h2>
+<p>RedHat a alerté sur une porte dérobée dans XZ Utils, une bibliothèque de compression de données populaire, touchant les versions 5.6.0 et 5.6.1. La faille permet un accès à distance non autorisé au score CVSS de 10/10.
+Le code malveillant, bien caché et poussé par un acteur malveillant, visait à modifier le fonctionnement de SSH via systemd, exposant les systèmes à des risques d&rsquo;accès non autorisés.</p>
+<br>
+<h2 id="vulnérabilités-dans-les-serrures-électroniques-dormakaba">Vulnérabilités dans les serrures électroniques Dormakaba</h2>
+<p>Des failles dans les serrures RFID Dormakaba ont été découvertes et pourraient être exploitées pour accéder aux chambres d&rsquo;hôtel. Les failles, nommées Unsaflok, ont été trouvées par des chercheurs et signalées en septembre 2022.
+Dormakaba a mis à jour 36 % des serrures concernées en mars 2024. Plus de trois millions de serrures dans 13 000 hôtels mondiaux sont concernées.</p>
+<br>
+<h2 id="vulnérabilité-dans-la-commande-wall-de-linux">Vulnérabilité dans la commande &ldquo;wall&rdquo; de Linux</h2>
+<p>Une vulnérabilité (CVE-2024-28085) dans la commande &ldquo;wall&rdquo; de Linux (utilisée pour écrire un message sur les terminaux de tous les utilisateurs) nommée WallEscape, permet de divulguer des mots de passe ou de manipuler le presse-papiers sur certaines distributions.
+La commande &ldquo;wall&rdquo; pourrait être exploitée pour afficher un message arbitraire sur les terminaux des utilisateurs, exposant les systèmes à des risques de sécurité.</p>
+<br>
+<h2 id="cyberattaque-contre-la-fédération-française-de-football">Cyberattaque contre la Fédération Française de Football</h2>
+<p>La Fédération française de football (FFF) a subi une cyberattaque majeure, résultant en la fuite de données personnelles de 1,5 million de licenciés. Le parquet de Paris a été informé de l&rsquo;incident le 22 mars.
+Les informations dérobées comprennent noms, contacts, dates de naissance et affiliations, mais les données sensibles telles que les informations bancaires ou médicales n&rsquo;ont pas été touchées. La FFF a réagi en collaborant avec la Cnil et en déposant plainte. Une enquête est en cours.</p>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Trackflaw</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Remonter en haut">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les commentaires">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.fr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Ok !","link":"En savoir plus","message":"Trackflaw utilise des cookies pour améliorer votre expérience et effectuer des statistiques."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"fr","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRE4WGVY4F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRE4WGVY4F');
+</script></body>
+</html>

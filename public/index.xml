@@ -3,9 +3,20 @@
         <title>Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>XZ Utils : la backdoor faisant trembler le monde libre et de la cybersécurité</title>
+    <link>http://localhost:1313/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</link>
+    <pubDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" referrerpolicy="no-referrer">
+            </div>🕶️ Nouvelle et sulfureuse porte dérobée dans XZ Utils sur Linux Introduction Le 29 mars 2024, une faille de sécurité majeure a été découverte dans XZ Utils, un paquet largement utilisé dans les distributions Linux populaires. Cette faille, connue sous le nom de CVE-2024-3094, permet aux attaquants d&rsquo;exécuter du code à distance sur les systèmes affectés.
+TL;DR La CVE-2024-3094 introduit un backdoor dans le serveur OpenSSH, permettant à des attaquants en possession d&rsquo;une clef privée UNIQUE de lancer des commandes avant l&rsquo;étape d&rsquo;authentification.]]></description>
+</item>
+<item>
     <title>Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?</title>
     <link>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</link>
     <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
@@ -109,17 +120,6 @@ Score CVSS de 10 ! 😱 Divulgation d&rsquo;informations d&rsquo;identification 
                 <img src="/images/reverse-tabnabbing/main.png" referrerpolicy="no-referrer">
             </div>💉 Le reverse tab nabbing, méthode de phishing sous stéroïdes. Connaissez vous le &ldquo;reverse tab nabbing&rdquo; ? 🐟 Le reverse tab nabbing est une technique d&rsquo;attaque par hameçonnage consistant à rediriger la page d&rsquo;origine d&rsquo;un onglet vers une page malveillante. Cette technique est particulièrement vicieuse car elle peut tromper les utilisateurs en leur faisant croire qu&rsquo;ils sont toujours sur le site légitime qu&rsquo;ils ont initialement visité.
 Un exemple Pour comprendre cette attaque, voici ci-dessous un scénario réaliste concernant ce type d&rsquo;attaque.]]></description>
-</item>
-<item>
-    <title>CVE-2023-20198 Cisco IOS-XE ZeroDay - Ou comment créer son réseau de botnet ?</title>
-    <link>http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/</link>
-    <pubDate>Fri, 20 Oct 2023 10:00:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/cr%C3%A9er-son-r%C3%A9seau-botnet-cisco-cve-2023-20198/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/cisco-cve-2023-20198/cisco.png" referrerpolicy="no-referrer">
-            </div>🧟 Cisco CVE-2023-20198 - Ou comment créer son réseau de botnet ? Introduction Le 16 octobre 2023, Cisco a communiqué sur une vulnérabilité critique d&rsquo;élevation de privilèges via l&rsquo;interface Web sous l&rsquo;identifiant CVE-2023-20198 au score CVSS de 10.
-Cisco affirme que la vulnérabilité est largement exploitée. La vulnérabilité permet à un attaquant non authentifié de créer un compte aux privilèges maximales. Il n&rsquo;existe pas de correctif pour cette vulnérabilité pour le moment.]]></description>
 </item>
 </channel>
 </rss>

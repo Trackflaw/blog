@@ -6,8 +6,15 @@
     <description>Recent content in News on Trackflaw | Expert en sécurité informatique</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 18 Mar 2024 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - Les4ActusCyber : semaine du 25 mars</title>
+      <link>http://localhost:1313/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/</link>
+      <pubDate>Mon, 25 Mar 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Porte dérobée critique découverte dans XZ Utils RedHat a alerté sur une porte dérobée dans XZ Utils, une bibliothèque de compression de données populaire, touchant les versions 5.</description>
+    </item>
     <item>
       <title>Arrestation de trois suspects concernant la Cyberattaque contre France Travail - Les4ActusCyber : semaine du 18 mars</title>
       <link>http://localhost:1313/news/arrestation-concernant-la-cyberattaque-contre-france-travail-18032024/</link>

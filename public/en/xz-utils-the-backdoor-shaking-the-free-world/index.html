@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>XZ Utils: the backdoor shaking the free world and cybersecurity - Trackflaw | Cybersecurity expert</title><meta name="Description" content="XZ Utils has a significant backdoor in its latest versions 5.6.0 and 5.6.1. However, its exploitation is not trivial."><meta property="og:title" content="XZ Utils: the backdoor shaking the free world and cybersecurity" />
+<meta property="og:description" content="XZ Utils has a significant backdoor in its latest versions 5.6.0 and 5.6.1. However, its exploitation is not trivial." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/" /><meta property="og:image" content="http://localhost:1313/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-01T10:21:17+01:00" />
+<meta property="article:modified_time" content="2024-04-01T10:21:17+01:00" /><meta property="og:site_name" content="Trackflaw | Expert en sécurité offensive" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" /><meta name="twitter:title" content="XZ Utils: the backdoor shaking the free world and cybersecurity"/>
+<meta name="twitter:description" content="XZ Utils has a significant backdoor in its latest versions 5.6.0 and 5.6.1. However, its exploitation is not trivial."/>
+      <meta name="twitter:site" content="@trackflaw"/>
+<meta name="application-name" content="Trackflaw | Expert en sécurité offensive">
+<meta name="apple-mobile-web-app-title" content="Trackflaw | Expert en sécurité offensive"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/" /><link rel="prev" href="http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "XZ Utils: the backdoor shaking the free world and cybersecurity",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/en\/xz-utils-the-backdoor-shaking-the-free-world\/"
+        },"image": ["http:\/\/localhost:1313\/images\/logo.png"],"genre": "posts","keywords": "Penetration Testing, Pentest, Audit","wordcount":  973 ,
+        "url": "http:\/\/localhost:1313\/en\/xz-utils-the-backdoor-shaking-the-free-world\/","datePublished": "2024-04-01T10:21:17+01:00","dateModified": "2024-04-01T10:21:17+01:00","publisher": {
+            "@type": "Organization",
+            "name": "Thibaud Robin - Trackflaw","logo": "http:\/\/localhost:1313\/images\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Thibaud Robin"
+            },"description": "XZ Utils has a significant backdoor in its latest versions 5.6.0 and 5.6.1. However, its exploitation is not trivial."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/en/" title="Trackflaw | Cybersecurity expert"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/en/posts/" title="Posts"> Posts </a><a class="menu-item" href="/en/news/" title="News"> News </a><a class="menu-item" href="/en/about/" title="About"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/en/xz-utils-the-backdoor-shaking-the-free-world/" selected>English</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/en/" title="Trackflaw | Cybersecurity expert"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/en/posts/" title="Posts">Posts</a><a class="menu-item" href="/en/news/" title="News">News</a><a class="menu-item" href="/en/about/" title="About">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/en/xz-utils-the-backdoor-shaking-the-free-world/" selected>English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">XZ Utils: the backdoor shaking the free world and cybersecurity</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author">
+                    <a href="https://www.linkedin.com/in/thibaud-robin/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="thibaud-picture-big" aria-hidden="true"></i>Thibaud Robin</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="01/04/2024">01/04/2024</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;973 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png"
+        title="XZ Utils has a significant backdoor in its latest versions 5.6.0 and 5.6.1. However, its exploitation is not trivial." /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#tldr">TL;DR</a></li>
+    <li><a href="#the-origin">The origin</a></li>
+    <li><a href="#technical-details">Technical Details</a></li>
+    <li><a href="#exploitation">Exploitation</a>
+      <ul>
+        <li><a href="#detection">Detection</a></li>
+        <li><a href="#step-by-step">Step by Step</a></li>
+      </ul>
+    </li>
+    <li><a href="#risks">Risks</a></li>
+    <li><a href="#correction">Correction</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#in-conclusion">In Conclusion</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="-new-and-scandalous-backdoor-in-xz-utils-on-linux">🕶️ New and scandalous backdoor in XZ Utils on Linux</h1>
+<h2 id="introduction">Introduction</h2>
+<p>On <strong>March 29, 2024</strong>, a major security flaw was discovered in <code>XZ Utils</code>, a package widely used in popular Linux distributions. This flaw, known as <strong>CVE-2024-3094</strong>, allows attackers to <strong>execute code remotely</strong> on affected systems.</p>
+<h2 id="tldr">TL;DR</h2>
+<p><strong>CVE-2024-3094</strong> introduces a backdoor into the OpenSSH server, allowing attackers in possession of a <strong>UNIQUE</strong> private key to launch commands before the authentication step.</p>
+<ul>
+<li>This backdoor <strong>cannot be used</strong> without possessing the proper private key.</li>
+<li>The proper private key is not <strong>public</strong>.</li>
+<li>It allows commands to be executed as <code>root</code> user.</li>
+<li>A patch is <strong>available</strong>.</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/1.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/1.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/1.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/1.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/1.png"
+        title="XZ Utils" /></p>
+<h2 id="the-origin">The origin</h2>
+<p>The origin of this flaw comes from an individual named <strong>Jia Tan</strong> who joined the XZ Utils project in <strong>2022</strong>. Over time, he gained the trust of other contributors and obtained increasingly significant permissions, allowing him to release <strong>new versions of the software</strong>.</p>
+<p>It was in versions <code>5.6.0</code> and <code>5.6.1</code> of <code>XZ Utils</code> that <strong>Jia Tan</strong> introduced a backdoor, malicious code capable of taking control of affected systems. This code, absent from the public repository of the project, was added only in the compressed source code versions available for download by users on GitHub.</p>
+<p>The operation of the backdoor is <strong>highly complex</strong> and relies on several techniques to evade detection. Notably, it uses specific <strong>compiler functions</strong>, <strong>hidden files</strong>, and <strong>scripts executed during the compilation</strong> of the <code>XZ Utils</code> library.</p>
+<p>🎯 Its ultimate goal is to replace a function of the <strong>SSH</strong> library, allowing attackers to connect to the system <strong>without authentication</strong> and execute any command.</p>
+<h2 id="technical-details">Technical Details</h2>
+<p>The technicality of the backdoor is fascinating and uses a clever system to bypass authentication:</p>
+<ol>
+<li>The malicious functionalities are primarily located in the file <code>/usr/lib/liblzma.so.5.6.1</code>.</li>
+<li>The payload hijacks the <code>RSA_public_decrypt</code> function used for signature verification.</li>
+<li>The malicious code then examines the public <code>RSA</code> module (modulo n) transmitted in the <code>RSA</code> structure (4th argument of <code>RSA_public_decrypt</code>). This value is communicated by the attacker during SSH authentication.</li>
+<li>The backdoor decrypts and verifies the signature using a public ED448 key (below)</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">0a 31 fd 3b 2f 1f c6 92 92 68 32 52 c8 c1 ac 28
+</span></span><span class="line"><span class="cl">34 d1 f2 c9 75 c4 76 5e b1 f6 88 58 88 93 3e 48
+</span></span><span class="line"><span class="cl">10 0c b0 6c 3a be 14 ee 89 55 d2 45 00 c7 7f 6e
+</span></span><span class="line"><span class="cl">20 d3 2c 60 2b 2c 6d 31 00
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li>Only the attacker possesses the private key linked to this public key.</li>
+<li>If the signature is valid, the command sent by the attacker is passed into <code>system()</code> and executed as <code>root</code>.</li>
+</ol>
+<div class="details admonition tips open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>More Info!<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">If you want more technical details, you can check out the excellent article at <a href="https://jfrog.com/blog/xz-backdoor-attack-cve-2024-3094-all-you-need-to-know/" target="_blank" rel="noopener noreffer ">https://jfrog.com/blog/xz-backdoor-attack-cve-2024-3094-all-you-need-to-know/</a></div>
+        </div>
+    </div>
+<h2 id="exploitation">Exploitation</h2>
+<p>So, the big question! Is it easily exploitable? The answer is <strong>NO</strong>.</p>
+<h3 id="detection">Detection</h3>
+<p>To start, you can use the command below to check if you are vulnerable:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">strings <span class="se">\`</span>which xz<span class="se">\`</span> <span class="p">|</span> grep <span class="s1">&#39;5\\.6\\.[01]&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">XZ_5.6.0
+</span></span><span class="line"><span class="cl">xz <span class="o">(</span>XZ Utils<span class="o">)</span> 5.6.1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Here&rsquo;s another command that confirms your vulnerability:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">strings <span class="se">\`</span>which xz<span class="se">\`</span> <span class="p">|</span> grep <span class="s1">&#39;5\\.6\\.[01]&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">xz <span class="o">(</span>XZ Utils<span class="o">)</span> 5.6.1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In another case, a healthy machine will return nothing.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">strings <span class="se">\`</span>which xz<span class="se">\`</span> <span class="p">|</span> grep <span class="s1">&#39;5\\.6\\.[01]&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="step-by-step">Step by Step</h3>
+<p>The exploitation is not very complex. However, it&rsquo;s important to keep in mind that mass exploitation is not possible because <strong>you do not know the attacker&rsquo;s private key.</strong></p>
+<p>In our lab, we will modify the attacker&rsquo;s public key with ours to ensure the correct signature.</p>
+<p>To begin, it&rsquo;s necessary to install the vulnerable version on the machine to be exploited.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt remove xz-utils
+</span></span><span class="line"><span class="cl">wget https://snapshot.debian.org/archive/debian/20240328T025657Z/pool/main/x/xz-utils/liblzma5_5.6.1-1_amd64.deb
+</span></span><span class="line"><span class="cl">dpkg -i liblzma5_5.6.1-1_amd64.deb 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo1.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo1.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo1.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo1.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo1.png"
+        title="alt text" /></p>
+<p>Verify that you are indeed vulnerable with the command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">xz -V                                
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">xz <span class="o">(</span>XZ Utils<span class="o">)</span> 5.6.1
+</span></span><span class="line"><span class="cl">liblzma 5.6.1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Locate and modify the backdoor signature:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo find / -name <span class="s2">&#34;liblzma.so.5.6.1&#34;</span> 2&gt; /dev/null
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># /usr/lib/x86_64-linux-gnu/liblzma.so.5.6.1</span>
+</span></span><span class="line"><span class="cl">                                                                                                                   
+</span></span><span class="line"><span class="cl">shasum -a <span class="m">256</span> /usr/lib/x86_64-linux-gnu/liblzma.so.5.6.1
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 605861f833fc181c7cdcabd5577ddb8989bea332648a8f498b4eef89b8f85ad4  /usr/lib/x86_64-linux-gnu/liblzma.so.5.6.1</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="details admonition tips open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>More Info!<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">If you need help with this step: <a href="https://github.com/amlweems/xzbot" target="_blank" rel="noopener noreffer ">https://github.com/amlweems/xzbot</a></div>
+        </div>
+    </div>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo2.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo2.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo2.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo2.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo2.png"
+        title="alt text" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo3.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo3.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo3.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo3.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo3.png"
+        title="alt text" /></p>
+<p>Start the <code>SSH</code> service:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo systemctl start ssh
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo4.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo4.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo4.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo4.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo4.png"
+        title="alt text" /></p>
+<p>Build the PoC binary and open a <code>netcat</code> listener.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">go build .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Other terminal</span>
+</span></span><span class="line"><span class="cl">nc -lvp <span class="m">4444</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo5.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo5.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo5.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo5.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo5.png"
+        title="alt text" /></p>
+<p>Trigger the backdoor with the command <code>xzbot -addr 127.0.0.1 -cmd '&lt;command&gt;'</code>. The example below triggers the execution of a reverse shell.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo6.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo6.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo6.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo6.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo6.png"
+        title="alt text" /></p>
+<p>Finally, some articles mention the presence of a KillSwitch via the environment variable <code>yolAbejyiejuvnup=Evjtgvsh5okmkAvj</code>. This seems to have no effect 🤔</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo7.png"
+        data-srcset="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo7.png, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo7.png 1.5x, /images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo7.png 2x"
+        data-sizes="auto"
+        alt="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo7.png"
+        title="alt text" /></p>
+<h2 id="risks">Risks</h2>
+<p>🤔 Is there a risk to my company?</p>
+<p><strong>Yes, but quite low!</strong></p>
+<p>As mentioned in the article above, it&rsquo;s not possible to use the backdoor <strong>without having the private key</strong>. Only the attacker who originated the backdoor is capable of using it.</p>
+<p>However, to date, we do not know who the actual actor behind this malicious code is. Out of caution, it is therefore strongly advised to patch your instances.</p>
+<h2 id="correction">Correction</h2>
+<p>The fix is quite simple. There are 2 solutions:</p>
+<ul>
+<li>Upgrade to version <code>5.6.1-r2</code>.</li>
+<li>Downgrade to version <code>5.4.6</code>.</li>
+</ul>
+<p>Generic update example on a <code>Debian</code> system:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt-dist upgrade -y
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="demo">Demo</h2>
+<p>A short demonstration below to present the exploitation of the vulnerability on a vulnerable virgin machine.</p>
+<p><video src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/exploit.mp4" controls autoplay loop title="Exploiting the XZ Utils backdoor" style="width:100%"></video></p>
+<h2 id="in-conclusion">In Conclusion</h2>
+<p>The backdoor attack in <code>XZ Utils</code> is a striking example of the dangers associated with free software. Trust in contributors is essential, but it should not prevent the implementation of security measures to prevent such incidents.</p>
+<p>In the case of the <code>XZ Utils</code> attack, regular penetration testing could have detected the backdoor at an early stage.</p>
+<ul>
+<li><strong>Source code analysis</strong>: auditors could have analyzed the source code of <code>XZ Utils</code> to identify anomalies or potential vulnerabilities.</li>
+<li><strong>Penetration testing</strong>: comprehensive penetration tests could have been carried out to identify other security flaws in the system.</li>
+</ul>
+<p><strong>Trackflaw</strong> is ready to assist you with these crucial steps, get in touch with us! 👋</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.akamai.com/blog/security-research/critical-linux-backdoor-xz-utils-discovered-what-to-know" target="_blank" rel="noopener noreffer ">https://www.akamai.com/blog/security-research/critical-linux-backdoor-xz-utils-discovered-what-to-know</a></li>
+<li><a href="https://jfrog.com/blog/xz-backdoor-attack-cve-2024-3094-all-you-need-to-know/" target="_blank" rel="noopener noreffer ">https://jfrog.com/blog/xz-backdoor-attack-cve-2024-3094-all-you-need-to-know/</a></li>
+<li><a href="https://github.com/amlweems/xzbot" target="_blank" rel="noopener noreffer ">https://github.com/amlweems/xzbot</a></li>
+<li><a href="https://snapshot.debian.org/package/xz-utils/5.6.1-1/" target="_blank" rel="noopener noreffer ">https://snapshot.debian.org/package/xz-utils/5.6.1-1/</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 01/04/2024</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/en/xz-utils-the-backdoor-shaking-the-free-world/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/" data-title="XZ Utils: the backdoor shaking the free world and cybersecurity" data-via="trackflaw" data-hashtags="Penetration Testing,Pentest,Audit"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/" data-hashtag="Penetration Testing"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/" data-title="XZ Utils: the backdoor shaking the free world and cybersecurity"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/" data-title="XZ Utils: the backdoor shaking the free world and cybersecurity"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/" data-title="XZ Utils: the backdoor shaking the free world and cybersecurity" data-image="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/en/tags/penetration-testing/">Penetration Testing</a>,&nbsp;<a href="/en/tags/pentest/">Pentest</a>,&nbsp;<a href="/en/tags/audit/">Audit</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/en/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/en/why-do-an-intrusion-test-on-its-wordpress-site/" class="prev" rel="prev" title="Why do an intrusion test on its WordPress site"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Why do an intrusion test on its WordPress site</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Trackflaw</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.fr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/en/index.json","lunrLanguageCode":"en","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRE4WGVY4F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRE4WGVY4F');
+</script></body>
+</html>

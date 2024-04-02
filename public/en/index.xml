@@ -3,9 +3,20 @@
         <title>Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>XZ Utils: the backdoor shaking the free world and cybersecurity</title>
+    <link>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</link>
+    <pubDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" referrerpolicy="no-referrer">
+            </div>🕶️ New and scandalous backdoor in XZ Utils on Linux Introduction On March 29, 2024, a major security flaw was discovered in XZ Utils, a package widely used in popular Linux distributions. This flaw, known as CVE-2024-3094, allows attackers to execute code remotely on affected systems.
+TL;DR CVE-2024-3094 introduces a backdoor into the OpenSSH server, allowing attackers in possession of a UNIQUE private key to launch commands before the authentication step.]]></description>
+</item>
+<item>
     <title>Why do an intrusion test on its WordPress site</title>
     <link>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</link>
     <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
@@ -109,17 +120,6 @@ Choosing a penetration testing provider is an important decision. It&rsquo;s imp
             </div>💉 Reverse tab nabbing, phishing on steroids. Are you familiar with reverse tab nabbing? 🐟 Reverse tab nabbing is a phishing attack technique that involves redirecting a tab&rsquo;s original page to a malicious one. This technique is particularly vicious as it can trick users into thinking they&rsquo;re still on the legitimate site they originally visited.
 An example To help you understand this attack, here&rsquo;s a realistic scenario.
 1️⃣ A victim browses a vulnerable site and clicks on a teaser link pointing to https://legit-store.]]></description>
-</item>
-<item>
-    <title>CVE-2023-20198 Cisco IOS-XE ZeroDay - Or how to create your own botnet?</title>
-    <link>http://localhost:1313/en/cisco-cve-2023-20198/</link>
-    <pubDate>Fri, 20 Oct 2023 10:00:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/cisco-cve-2023-20198/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/cisco-cve-2023-20198/cisco.png" referrerpolicy="no-referrer">
-            </div>🧟 Cisco CVE-2023-20198 - Or how to create your own botnet? Introduction On October 16, 2023, Cisco disclosed a critical privilege elevation vulnerability via the web interface under the identifier CVE-2023-20198 with a CVSS score of 10.
-Cisco claims that the vulnerability is widely exploited. The vulnerability allows an unauthenticated attacker to create an account with maximum privileges. There is no patch for this vulnerability at the moment.]]></description>
 </item>
 </channel>
 </rss>
