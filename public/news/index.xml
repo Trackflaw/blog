@@ -6,8 +6,15 @@
     <description>Recent content in News on Trackflaw | Expert en sécurité informatique</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 11 Mar 2024 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2024 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arrestation de trois suspects concernant la Cyberattaque contre France Travail - Les4ActusCyber : semaine du 18 mars</title>
+      <link>http://localhost:1313/news/arrestation-concernant-la-cyberattaque-contre-france-travail-18032024/</link>
+      <pubDate>Mon, 18 Mar 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/arrestation-concernant-la-cyberattaque-contre-france-travail-18032024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;GitHub lance Autofix, un outil corrigeant automatiquement les failles de sécurité GitHub dévoile en bêta publique code scanning autofix pour les clients Advanced Security, offrant des correctifs AI pour éviter de nouvelles vulnérabilités en JavaScript, TypeScript, Java, et Python.</description>
+    </item>
     <item>
       <title>Nouvelle condamnation dans l&#39;affaire LockBit - Les4ActusCyber : semaine du 11 mars</title>
       <link>http://localhost:1313/news/nouvelle-condamnation-affaire-lockbit-11032024/</link>
