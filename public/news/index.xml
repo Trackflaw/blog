@@ -4,10 +4,17 @@
     <title>News on Trackflaw | Expert en sécurité informatique</title>
     <link>http://localhost:1313/news/</link>
     <description>Recent content in News on Trackflaw | Expert en sécurité informatique</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.0</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 25 Mar 2024 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2024 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suite du procès concernant la navigation privée de Google - Les4ActusCyber : semaine du 01 avril</title>
+      <link>http://localhost:1313/news/suite-proc%C3%A8s-navigation-priv%C3%A9e-google-01042024/</link>
+      <pubDate>Mon, 01 Apr 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/suite-proc%C3%A8s-navigation-priv%C3%A9e-google-01042024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Suite de l&amp;rsquo;affaire des enregistrements de navigation privée de Google Google a accepté d&amp;rsquo;effacer des milliards d&amp;rsquo;enregistrements de navigation des utilisateurs pour régler un recours collectif accusant l&amp;rsquo;entreprise de suivi non consenti en mode Incognito.</description>
+    </item>
     <item>
       <title>Sulfureuse porte dérobée découverte dans XZ Utils sur Linux - Les4ActusCyber : semaine du 25 mars</title>
       <link>http://localhost:1313/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/</link>

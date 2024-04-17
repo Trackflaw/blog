@@ -3,7 +3,18 @@
         <title>Penetration Testing - Tag - Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/tags/penetration-testing/</link>
         <description>Penetration Testing - Tag - Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/penetration-testing/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/penetration-testing/" rel="self" type="application/rss+xml" /><item>
+    <title>XZ Utils: the backdoor shaking the free world and cybersecurity</title>
+    <link>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</link>
+    <pubDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" referrerpolicy="no-referrer">
+            </div>🕶️ New and scandalous backdoor in XZ Utils on Linux Introduction On March 29, 2024, a major security flaw was discovered in XZ Utils, a package widely used in popular Linux distributions. This flaw, known as CVE-2024-3094, allows attackers to execute code remotely on affected systems.
+TL;DR CVE-2024-3094 introduces a backdoor into the OpenSSH server, allowing attackers in possession of a UNIQUE private key to launch commands before the authentication step.]]></description>
+</item>
+<item>
     <title>How to Hack a 20 billion euro multinational corporation (legally)?</title>
     <link>http://localhost:1313/en/multinational-hacking-with-file-upload-and-ssrf/</link>
     <pubDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</pubDate>
