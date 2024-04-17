@@ -57,7 +57,7 @@
                     href="http://localhost:1313/en/"
                     /></url><url>
             <loc>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</loc><lastmod>2024-04-01T10:21:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/en/tags/test-dintrusion/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/test-dintrusion/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/test-dintrusion/"
@@ -66,7 +66,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/test-dintrusion/"
                     /></url><url>
-            <loc>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/en/ghostrace-new-concern-cpu-vulnerability/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/en/tags/cve/</loc><lastmod>2024-02-02T06:13:21&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
