@@ -3,9 +3,21 @@
         <title>Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 23 Apr 2024 10:01:20 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>What budget to provide for its intrusion test</title>
+    <link>http://localhost:1313/en/what-budget-to-provide-for-its-intrusion-test/</link>
+    <pubDate>Tue, 23 Apr 2024 10:01:20 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/what-budget-to-provide-for-its-intrusion-test/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quel-budget-pr%c3%a9voir-pour-son-test-intrusion/logo.en.png" referrerpolicy="no-referrer">
+            </div>💰 How much does a computer intrusion test cost in 2024? Cybersecurity: a 21st-century issue In an ever-evolving digital world, computer intrusion tests are becoming increasingly crucial for ensuring the security of a company&rsquo;s information systems. 🎯
+Whether it&rsquo;s to protect sensitive data or to maintain business operations, cybersecurity is at the heart of every organization&rsquo;s concerns.
+One of the most frequent questions that companies ask is the cost of a penetration test in 2024.]]></description>
+</item>
+<item>
     <title>XZ Utils: the backdoor shaking the free world and cybersecurity</title>
     <link>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</link>
     <pubDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</pubDate>
@@ -108,18 +120,6 @@ Choosing a penetration testing provider is an important decision. It&rsquo;s imp
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pwncloud/pwncloud.png" referrerpolicy="no-referrer">
             </div>]]></description>
-</item>
-<item>
-    <title>Reverse tab nabbing, phishing on steroids.</title>
-    <link>http://localhost:1313/en/reverse-tabnabbing-phishing-on-steroids/</link>
-    <pubDate>Thu, 16 Nov 2023 17:44:12 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/reverse-tabnabbing-phishing-on-steroids/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/reverse-tabnabbing/main.png" referrerpolicy="no-referrer">
-            </div>💉 Reverse tab nabbing, phishing on steroids. Are you familiar with reverse tab nabbing? 🐟 Reverse tab nabbing is a phishing attack technique that involves redirecting a tab&rsquo;s original page to a malicious one. This technique is particularly vicious as it can trick users into thinking they&rsquo;re still on the legitimate site they originally visited.
-An example To help you understand this attack, here&rsquo;s a realistic scenario.
-1️⃣ A victim browses a vulnerable site and clicks on a teaser link pointing to https://legit-store.]]></description>
 </item>
 </channel>
 </rss>
