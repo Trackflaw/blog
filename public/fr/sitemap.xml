@@ -2,25 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/tags/audit/</loc><lastmod>2024-04-23T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/audit/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/tags/audit/"
-                    /></url><url>
-            <loc>http://localhost:1313/tags/pentest/</loc><lastmod>2024-04-23T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/pentest/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/tags/pentest/"
-                    /></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-04-23T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-05-24T13:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/posts/"
@@ -29,26 +11,7 @@
                     hreflang="fr"
                     href="http://localhost:1313/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</loc><lastmod>2024-04-23T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2024-04-23T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/tags/"
-                    /></url><url>
-            <loc>http://localhost:1313/tags/test-dintrusion/</loc><lastmod>2024-04-23T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/test-dintrusion/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/tags/test-dintrusion/"
-                    /></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-04-23T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/</loc><lastmod>2024-05-24T13:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/"
@@ -57,12 +20,52 @@
                     hreflang="fr"
                     href="http://localhost:1313/"
                     /></url><url>
-            <loc>http://localhost:1313/news/lourde-perte-groupe-derichebourg-attaque-cyber-15042024/</loc><lastmod>2024-04-15T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:1313/news/</loc><lastmod>2024-04-15T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://localhost:1313/news/nouveaut%C3%A9s-piratage-pr%C3%A9occupant-psg-08042024/</loc><lastmod>2024-04-08T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</loc><lastmod>2024-04-01T10:21:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>http://localhost:1313/news/suite-proc%C3%A8s-navigation-priv%C3%A9e-google-01042024/</loc><lastmod>2024-04-01T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>http://localhost:1313/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/</loc><lastmod>2024-03-25T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/tags/audit/</loc><lastmod>2024-05-13T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/audit/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/audit/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/pentest/</loc><lastmod>2024-05-13T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/pentest/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/pentest/"
+                    /></url><url>
+            <loc>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</loc><lastmod>2024-05-13T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2024-05-13T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/test-dintrusion/</loc><lastmod>2024-05-13T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/test-dintrusion/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/test-dintrusion/"
+                    /></url><url>
+            <loc>http://localhost:1313/news/identification-administrateur-principal-lockbit-06052024/</loc><lastmod>2024-05-06T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/news/</loc><lastmod>2024-05-06T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://localhost:1313/news/nouvelle-l%C3%A9gislation-britannique-mots-de-passe-par-d%C3%A9faut-29042024/</loc><lastmod>2024-04-29T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/news/13-millions-dam%C3%A9ricains-fuite-de-donn%C3%A9es-22042024/</loc><lastmod>2024-04-22T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/news/lourde-perte-groupe-derichebourg-attaque-cyber-15042024/</loc><lastmod>2024-04-15T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/nouveaut%C3%A9s-piratage-pr%C3%A9occupant-psg-08042024/</loc><lastmod>2024-04-08T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</loc><lastmod>2024-04-01T10:21:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/suite-proc%C3%A8s-navigation-priv%C3%A9e-google-01042024/</loc><lastmod>2024-04-01T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/sulfureuse-porte-d%C3%A9rob%C3%A9e-xz-utils-sur-linux-25032024/</loc><lastmod>2024-03-25T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</loc><lastmod>2024-03-20T10:54:14&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/cpu/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/ghostrace/</loc><lastmod>2024-03-19T15:39:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

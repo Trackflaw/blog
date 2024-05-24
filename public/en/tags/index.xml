@@ -3,28 +3,28 @@
         <title>Tags - Tag - Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/tags/</link>
         <description>Tags - Tag - Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 23 Apr 2024 10:01:20 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 13 May 2024 10:01:20 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Audit</title>
     <link>http://localhost:1313/en/tags/audit/</link>
-    <pubDate>Tue, 23 Apr 2024 10:01:20 &#43;0100</pubDate>
+    <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/en/tags/audit/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Pentest</title>
-    <link>http://localhost:1313/en/tags/pentest/</link>
-    <pubDate>Tue, 23 Apr 2024 10:01:20 &#43;0100</pubDate>
+    <title>Penetration Test</title>
+    <link>http://localhost:1313/en/tags/penetration-test/</link>
+    <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/tags/pentest/</guid>
+    <guid>http://localhost:1313/en/tags/penetration-test/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Test D&#39;intrusion</title>
-    <link>http://localhost:1313/en/tags/test-dintrusion/</link>
-    <pubDate>Tue, 23 Apr 2024 10:01:20 &#43;0100</pubDate>
+    <title>Pentest</title>
+    <link>http://localhost:1313/en/tags/pentest/</link>
+    <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/tags/test-dintrusion/</guid>
+    <guid>http://localhost:1313/en/tags/pentest/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -33,6 +33,14 @@
     <pubDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/en/tags/penetration-testing/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Test D&#39;intrusion</title>
+    <link>http://localhost:1313/en/tags/test-dintrusion/</link>
+    <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/tags/test-dintrusion/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -73,14 +81,6 @@
     <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/en/tags/cloud/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Pwncloud</title>
-    <link>http://localhost:1313/en/tags/pwncloud/</link>
-    <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/tags/pwncloud/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

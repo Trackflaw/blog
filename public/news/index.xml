@@ -4,10 +4,31 @@
     <title>News on Trackflaw | Expert en sécurité informatique</title>
     <link>http://localhost:1313/news/</link>
     <description>Recent content in News on Trackflaw | Expert en sécurité informatique</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 15 Apr 2024 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identification de l&#39;administrateur principal de LockBit - Les4ActusCyber : semaine du 06 mai</title>
+      <link>http://localhost:1313/news/identification-administrateur-principal-lockbit-06052024/</link>
+      <pubDate>Mon, 06 May 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/identification-administrateur-principal-lockbit-06052024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Dmitry Khoroshev identifié comme l&amp;rsquo;administrateur du ransomware LockBit La National Crime Agency du Royaume-Uni a révélé l&amp;rsquo;identité de l&amp;rsquo;administrateur de LockBit, le Russe Dmitry Khoroshev, également visé par des sanctions internationales et une offre de récompense américaine de 10 millions de dollars pour des informations menant à son arrestation.</description>
+    </item>
+    <item>
+      <title>Nouvelle législation britannique contre les mots de passe par défaut - Les4ActusCyber : semaine du 29 avril</title>
+      <link>http://localhost:1313/news/nouvelle-l%C3%A9gislation-britannique-mots-de-passe-par-d%C3%A9faut-29042024/</link>
+      <pubDate>Mon, 29 Apr 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/nouvelle-l%C3%A9gislation-britannique-mots-de-passe-par-d%C3%A9faut-29042024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Nouvelle législation britannique contre les mots de passe par défaut Le NCSC du Royaume-Uni mandate l&amp;rsquo;abolition des mots de passe par défaut pour les appareils intelligents dès le 29 avril 2024, via la loi PSTI.</description>
+    </item>
+    <item>
+      <title>13 millions d&#39;américains affectés par une fuite de données - Les4ActusCyber : semaine du 22 avril</title>
+      <link>http://localhost:1313/news/13-millions-dam%C3%A9ricains-fuite-de-donn%C3%A9es-22042024/</link>
+      <pubDate>Mon, 22 Apr 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/13-millions-dam%C3%A9ricains-fuite-de-donn%C3%A9es-22042024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Fuite massive de données chez Kaiser Permanente, 13 millions d&amp;rsquo;américains affectés Kaiser Permanente a révélé une violation de données majeure touchant 13,4 millions d&amp;rsquo;Américains.</description>
+    </item>
     <item>
       <title>Lourde perte pour le groupe Derichebourg à la suite d&#39;une cyberattaque - Les4ActusCyber : semaine du 15 avril</title>
       <link>http://localhost:1313/news/lourde-perte-groupe-derichebourg-attaque-cyber-15042024/</link>
