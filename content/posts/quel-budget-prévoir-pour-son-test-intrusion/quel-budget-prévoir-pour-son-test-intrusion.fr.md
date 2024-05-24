@@ -1,7 +1,7 @@
 ---
 title: "Quel budget prévoir pour son test intrusion ?"
-description: "FIXME description à remplir"
-date: 2024-04-23T10:01:20+01:00
+description: "Dans le cadre d'un test d'intrusion quel budget anticiper pour sa réalisation ?"
+date: 2024-05-13T10:01:20+01:00
 draft: false
 images: [/images/quel-budget-prévoir-pour-son-test-intrusion/logo.fr.png]
 featuredImage: "/images/quel-budget-prévoir-pour-son-test-intrusion/logo.fr.png"

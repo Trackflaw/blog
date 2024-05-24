@@ -1,7 +1,7 @@
 ---
 title: "What budget to provide for its intrusion test"
-description: "FIXME description à remplir"
-date: 2024-04-23T10:01:20+01:00
+description: "What is the budget for an intrusion test?r"
+date: 2024-05-13T10:01:20+01:00
 draft: false
 images: [/images/quel-budget-prévoir-pour-son-test-intrusion/logo.en.png]
 featuredImage: "/images/quel-budget-prévoir-pour-son-test-intrusion/logo.en.png"
