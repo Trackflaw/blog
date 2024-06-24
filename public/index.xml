@@ -3,17 +3,17 @@
         <title>Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 24 May 2024 11:58:40 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 10 Jun 2024 08:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Quels outils utiliser pour un test d&#39;intrusion ?</title>
+    <title>Quels outils utiliser pour un test d&#39;intrusion (pentest) ?</title>
     <link>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</link>
     <pubDate>Fri, 24 May 2024 11:58:40 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.png" referrerpolicy="no-referrer">
-            </div>🛠️ Les outils dans le domaine des tests d&rsquo;intrusion Enjeux des tests d&rsquo;intrusion Le test d&rsquo;intrusion, également connu sous le nom de pentest (ou vulgairement test de pénétration), est une pratique essentielle pour évaluer la sécurité d&rsquo;un système informatique. Il consiste à simuler des attaques réelles pour identifier et corriger les vulnérabilités avant de véritables attaquants malveillants.
+            </div>🛠️ Les outils dans le domaine des tests d&rsquo;intrusion/pentest Enjeux des tests d&rsquo;intrusion (pentest) Le test d&rsquo;intrusion, également connu sous le nom de pentest et audit de sécurité (ou vulgairement test de pénétration), est une pratique essentielle pour évaluer la sécurité d&rsquo;un système informatique. Il consiste à simuler des attaques réelles pour identifier et corriger les vulnérabilités avant de véritables attaquants malveillants.
 Pour mener à bien un test d&rsquo;intrusion, il est crucial de disposer des bons outils.]]></description>
 </item>
 <item>

@@ -3,7 +3,18 @@
         <title>Audit - Balise - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/tags/audit/</link>
         <description>Audit - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 13 May 2024 10:01:20 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/audit/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 24 May 2024 11:58:40 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/audit/" rel="self" type="application/rss+xml" /><item>
+    <title>Quels outils utiliser pour un test d&#39;intrusion (pentest) ?</title>
+    <link>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</link>
+    <pubDate>Fri, 24 May 2024 11:58:40 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.png" referrerpolicy="no-referrer">
+            </div>🛠️ Les outils dans le domaine des tests d&rsquo;intrusion/pentest Enjeux des tests d&rsquo;intrusion (pentest) Le test d&rsquo;intrusion, également connu sous le nom de pentest et audit de sécurité (ou vulgairement test de pénétration), est une pratique essentielle pour évaluer la sécurité d&rsquo;un système informatique. Il consiste à simuler des attaques réelles pour identifier et corriger les vulnérabilités avant de véritables attaquants malveillants.
+Pour mener à bien un test d&rsquo;intrusion, il est crucial de disposer des bons outils.]]></description>
+</item>
+<item>
     <title>Quel budget prévoir pour son test intrusion ?</title>
     <link>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</link>
     <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>

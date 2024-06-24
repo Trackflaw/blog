@@ -1,15 +1,15 @@
-# Quels outils utiliser pour un test d'intrusion ?
+# Quels outils utiliser pour un test d'intrusion (pentest) ?
 
 
-# 🛠️ Les outils dans le domaine des tests d'intrusion
+# 🛠️ Les outils dans le domaine des tests d'intrusion/pentest
 
-## Enjeux des tests d'intrusion
+## Enjeux des tests d'intrusion (pentest)
 
-Le **test d'intrusion**, également connu sous le nom de **pentest** (ou vulgairement test de pénétration), est une pratique essentielle pour **évaluer la sécurité d'un système informatique**. Il consiste à simuler des attaques réelles pour **identifier** et **corriger** les **vulnérabilités** avant de véritables attaquants malveillants.
+Le **test d'intrusion**, également connu sous le nom de **pentest**  et **audit de sécurité** (ou vulgairement test de pénétration), est une pratique essentielle pour **évaluer la sécurité d'un système informatique**. Il consiste à simuler des attaques réelles pour **identifier** et **corriger** les **vulnérabilités** avant de véritables attaquants malveillants.
 
-Pour mener à bien un test d'intrusion, il est crucial de disposer des bons **outils**. Pourtant, il est difficile de s'y retrouver au vu de la quantité.
+Pour mener à bien un test d'intrusion, il est crucial de disposer des bons **outils**. Cependant, il est difficile de s'y retrouver au vu de la quantité.
 
-Mais pas de panique, dans cet article, nous avons pour vous **lister tous les outils indispensables** pour un pentest efficace afin de répondre au mieux à votre besoin. 🥳
+Mais pas de panique, dans cet article, nous avons listé pour vous tous les **outils indispensables pour un pentest** efficace afin de répondre au mieux à vos besoins. 🥳
 
 ### Rappels
 
@@ -17,7 +17,7 @@ Mais avant toute chose, pourquoi les tests d'intrusion sont-ils importants ? �
 
 Petit récap' rapide :
 
-Les tests d'intrusion permettent de :
+Les tests d'intrusion et les audits de sécurité informatique permettent de :
 
 - **Identifier** les vulnérabilités avant qu'elles ne soient exploitées.
 - **Évaluer** la résilience des systèmes face à des attaques réelles.
@@ -25,7 +25,7 @@ Les tests d'intrusion permettent de :
 - **Se conformer** aux réglementations et aux normes de sécurité.
 - **Former** les équipes de sécurité aux dernières techniques d'attaque et de défense.
 
-Bref, tous ce qui est nécessaire à une bonne gestion d'une entreprise 😉
+Bref, tout ce qui est nécessaire à une bonne gestion d'une entreprise 😉
 
 {{< admonition tip "Plus d'infos !" >}}
 D'ailleurs pour aller plus loin, plusieurs articles sont disponibles pour vous aider à bien choisir votre test d'intrusion.
@@ -37,7 +37,7 @@ D'ailleurs pour aller plus loin, plusieurs articles sont disponibles pour vous a
 ### Outils ou pas d'outils ?
 
 {{< admonition warning "Attention aux belles promesses !" >}}
-Certaines sociétés ont tendance à proposer de véritables test d'intrusion via des **outils automatisés**. Malheureusement, un outil automatisé ne peut pas, pour le moment, obtenir la même exhaustivité qu'un auditeur confirmé (mais peut être très prochainement avec la prochaine innovation de Trackflaw 😉).
+Certaines sociétés ont tendance à proposer de véritables tests d'intrusion via des **outils automatisés**. Malheureusement, un outil automatisé ne peut pas, pour le moment, obtenir la même exhaustivité qu'un auditeur confirmé (mais peut-être très prochainement avec la prochaine innovation de Trackflaw 😉).
 {{< /admonition >}}
 
 Il est donc important de retenir qu'un test d'intrusion efficace et responsable est un **mélange équilibré de tests manuels couplés à des tests automatiques**.
@@ -51,7 +51,7 @@ Les **outils** utilisés pour les tests d'intrusion peuvent être classés en pl
 Pour faciliter la lecture, le contexte à prendre en compte ici est un **pentest/test d'intrusion externe web**.
 
 {{< admonition info "1001 outils" >}}
-Il existe des milliers d'outils. Il est donc impossible ici d'en parler de façon totalement **exhaustif**. Dans cet article, nous vous parlons que des outils **essentiels pour nous** (et pour vous !) et que nous utilisons au quotidien.
+Il existe des milliers d'outils. Il est donc impossible ici d'en parler de façon totalement **exhaustive**. Dans cet article, nous vous parlons que des outils **essentiels pour nous** (et pour vous !) et que nous utilisons au quotidien.
 {{< /admonition >}}
 
 ### 1. Outils de reconnaissance
@@ -64,7 +64,7 @@ Elle consiste à **collecter des informations** sur la cible comme les services 
 
 Quelques exemples d'outils :
 
-- `Nmap` : **nmap** est un scanneur de réseau par excellence, il permet d'identifier les hôtes actifs sur un réseau, les services disponibles et les versions des logiciels en cours d'exécution. Nmap est extrêmement flexible et peut être utilisé pour une reconnaissance complête d'une cible en particulier.
+- `Nmap` : **nmap** est un scanneur de réseau par excellence, il permet d'identifier les hôtes actifs sur un réseau, les services disponibles et les versions des logiciels en cours d'exécution. Nmap est extrêmement flexible et peut être utilisé pour une reconnaissance complète d’une cible en particulier.
   
 - `Subfinder` : **subfinder** est un outil de découverte passive de sous-domaines, optimisé pour la rapidité et la légèreté. Il utilise des sources passives pour identifier les sous-domaines valides d'un site web. [GitHub​](https://github.com/projectdiscovery/subfinder).
 
@@ -111,9 +111,9 @@ Parmi tous ces outils, certains sortent du lot alors que d'autres ne sont vraime
 
 - `Nessus` : scan de vulnérabilité efficace sur des tests d'intrusion interne, il se montre cependant très peu utile et effice sur de l'externe comparé à son prix prohibitf.
   
-- `Qualys` : scan de vulnérabilité spécialisé sur l'externe, il est expert en faux positif et adore surnoté toute les "_vulnérabilités_" décelées (si on peut appeler ça comme ça...) car, non, une configuration TLS supportant la version 1.1 n'est pas une faille critique (mauvais souvenir désolé, rendez l'argent) 😡 
+- `Qualys` : scan de vulnérabilité spécialisé sur l'externe, il est expert en faux positif et adore surnoter toute les "_vulnérabilités_" décelées (si on peut appeler ça comme ça...) car, non, une configuration TLS supportant la version 1.1 n'est pas une faille critique (mauvais souvenir désolé, rendez l'argent) 😡 
 
-- `OpenVAS` : connu dans l'imaginaire collectif comme étant l'outil gratuit de référence en matière de scan de vulnérabilité, les résultats sont très décevants, peu compréhensibles et très brouillon. Il a du mal à se renouveller mais reste un outil intéressant de par sa gratuité.
+- `OpenVAS` : connu dans l'imaginaire collectif comme étant l'outil gratuit de référence en matière de scan de vulnérabilité, les résultats sont très décevants, peu compréhensibles et très brouillon. Il a du mal à se renouveler mais reste un outil intéressant de par sa gratuité.
 {{< /admonition >}}
 
 {{< admonition success "Nos 3 outils de scans préférés chez Trackflaw" >}}
@@ -136,7 +136,7 @@ Une fois les vulnérabilités identifiées, les outils d'exploitation permettent
 {{< admonition warning "Attention à l'utilisation" >}}
 Attention lors de l'utilisation de ces outils !
 
-Ils peuvent causer des dégats importants et engendrer des perturbations de services en cas de mauvaise utilisation. Renseignez vous toujours sur les conséquences de l'outil avant de l'exécuter sur votre cible !
+Ils peuvent causer des dégats importants et engendrer des perturbations de service en cas de mauvaise utilisation. Renseignez vous toujours sur les conséquences de l'outil avant de l'exécuter sur votre cible !
 {{< /admonition >}}
 
 Quelques exemples avec les outils les plus connus :
@@ -165,8 +165,8 @@ Voici les 3 outils must-have pour localiser efficacement des vulnérabilités :
 
 Enfin pour terminé, les outils de post-exploitation sont utilisés après avoir **obtenu un accès initial** afin de maintenir un accès persistant et explorer davantage le système compromis.
 
-{{< admonition danger "Attention (encore !!!) à l'utilisation !!!" >}}
-Comme pour les outils précédents, les outils de post-exploitation peuvent causer de **très gros dégats** si ils sont mal maitrisés. Il peuvent aussi fortement dégrader le niveau de sécurité initial de la cible.
+{{< admonition danger "Encore une fois, attention à l'utilisation !!!" >}}
+Comme pour les outils précédents, les outils de post-exploitation peuvent causer de **très gros dégâts** s'ils sont mal maîtrisés.
 
 Il est donc **fortement** conseillé d'obtenir l'autorisation du commanditaire avant tout utilisation !
 {{< /admonition >}}
@@ -207,11 +207,11 @@ Mais ne partez pas tout de suite, nous avons encore quelques conseils pour vous 
 
 ### Optimiser votre test d'intrusion
 
-Quelques conseils (pas si trivial que ça !) pour bien réaliser et optimiser votre test d'intrusion :
+Quelques conseils (pas si triviaux que ça !) pour bien réaliser et optimiser votre test d'intrusion :
 
 1. **Planification et préparation** : Avant de commencer un test d'intrusion, pensez à bien planifier et définir les objectifs. Cela inclut l'identification des cibles et l'obtention des autorisations nécessaires.
 
-2. **Correler les outils** : Utiliser une combinaison d'outils pour augmenter l'exhaustivté de votre audit peut être une excellente solution. Par exemple, combiner les scripts nse de `Nmap` avec les templates de `Nuclei` tout en utilisant les bons modules d'auxiliary de `Metasploit`.
+2. **Correler les outils** : Utiliser une combinaison d'outils pour augmenter l’exhaustivité de votre audit peut être une excellente solution. Par exemple, combiner les scripts nse de `Nmap` avec les templates de `Nuclei` tout en utilisant les bons modules d'auxiliary de `Metasploit`.
 
 3. **Mise à jour régulière des outils** : Les outils de pentest doivent être mis à jour régulièrement pour s'assurer qu'ils peuvent détecter et exploiter les dernières vulnérabilités. C'est pour cela que nous vous recommandons d'utiliser `Exegol` (plus de détails plus bas dans l'article).
 
@@ -240,7 +240,7 @@ Et pour en savoir plus, une vidéo dédiée est disponible sur la chaine YouTube
 
 Beaucoup d'infos... Mais uniquement l'essentiel ! 😅
 
-Les tests d'intrusion sont une composante **essentielle** de la stratégie de sécurité de toute organisation.
+Les tests d'intrusion et les audits de sécurité informatique en général sont des composantes **essentielles** de la stratégie de sécurité de toute organisation.
 
 En utilisant une combinaison d'outils de reconnaissance, d'analyse de vulnérabilités, d'exploitation et de post-exploitation, les pentesteurs peuvent identifier et corriger les failles de sécurité avant qu'elles ne soient exploitées par des attaquants malveillants.
 

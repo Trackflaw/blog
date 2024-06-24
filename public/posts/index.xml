@@ -3,7 +3,18 @@
         <title>Articles - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/posts/</link>
         <description>Articles | Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 24 May 2024 13:58:40 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 24 May 2024 11:58:40 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Quels outils utiliser pour un test d&#39;intrusion (pentest) ?</title>
+    <link>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</link>
+    <pubDate>Fri, 24 May 2024 11:58:40 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.png" referrerpolicy="no-referrer">
+            </div>🛠️ Les outils dans le domaine des tests d&rsquo;intrusion/pentest Enjeux des tests d&rsquo;intrusion (pentest) Le test d&rsquo;intrusion, également connu sous le nom de pentest et audit de sécurité (ou vulgairement test de pénétration), est une pratique essentielle pour évaluer la sécurité d&rsquo;un système informatique. Il consiste à simuler des attaques réelles pour identifier et corriger les vulnérabilités avant de véritables attaquants malveillants.
+Pour mener à bien un test d&rsquo;intrusion, il est crucial de disposer des bons outils.]]></description>
+</item>
+<item>
     <title>Quel budget prévoir pour son test intrusion ?</title>
     <link>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</link>
     <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>
@@ -106,19 +117,6 @@ Un début d&rsquo;année sous haute tension Le 11 janvier 2024, GitLab, la cél�
             </div>🕵️ Comment bien choisir un prestataire de tests d&rsquo;intrusion en 2024 ? Un test d&rsquo;intrusion est-il utile ? La réponse est oui !
 Les tests d&rsquo;intrusion, aussi connus sous le nom de tests de &ldquo;pénétration&rdquo; (terme à éviter dans le langage courant français 😉), constituent une composante cruciale de la cybersécurité moderne.
 En simulant des attaques informatiques dans des conditions contrôlées, ces tests permettent de détecter les failles de sécurité dans les systèmes d&rsquo;information, les serveurs, les applications web, et autres composants informatiques.]]></description>
-</item>
-<item>
-    <title>Pwncloud : votre propre cloud (non) sécurisé</title>
-    <link>http://localhost:1313/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</link>
-    <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/pwncloud/pwncloud.png" referrerpolicy="no-referrer">
-            </div>☁️ Pwncloud : votre propre cloud (non) sécurisé 1, 2 et 3 vulnérabilités critiques OwnCloud est un logiciel libre offrant une plateforme de services de stockage et partage de fichiers et d&rsquo;applications diverses en ligne. Il est présenté comme une alternative à Dropbox, lequel est basé sur un cloud public.
-Fin novembre 2023, OwnCloud publiait 3 articles concernant 3 vulnérabilités critiques :
-La CVE-2023-49103 :
-Score CVSS de 10 ! 😱 Divulgation d&rsquo;informations d&rsquo;identification et de configuration sensibles dans des déploiements conteneurisés.]]></description>
 </item>
 </channel>
 </rss>

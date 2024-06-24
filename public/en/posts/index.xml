@@ -3,7 +3,18 @@
         <title>All Posts - Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/posts/</link>
         <description>All Posts | Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 24 May 2024 13:58:40 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 24 May 2024 11:58:40 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>What tools to use for a Penetration Test?</title>
+    <link>http://localhost:1313/en/what-tools-to-use-for-an-intrusion-test/</link>
+    <pubDate>Fri, 24 May 2024 11:58:40 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/what-tools-to-use-for-an-intrusion-test/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.en.png" referrerpolicy="no-referrer">
+            </div>🛠️ Tools in the Field of Penetration Testing Importance of Penetration Testing Penetration testing, also known as pentesting (or colloquially as penetration testing), is an essential practice for evaluating the security of an IT system. It involves simulating real attacks to identify and fix vulnerabilities before actual malicious attackers exploit them.
+To conduct a successful penetration test, it&rsquo;s crucial to have the right tools. However, navigating the plethora of available tools can be overwhelming.]]></description>
+</item>
+<item>
     <title>What budget to provide for its intrusion test</title>
     <link>http://localhost:1313/en/what-budget-to-provide-for-its-intrusion-test/</link>
     <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>
@@ -108,16 +119,6 @@ A tense start to the year On January 11, 2024, GitLab, the renowned community pl
             </div>🕵️ How to choose the right penetration testing provider in 2024? Is an penetration test useful? The answer is yes!
 Penetration testing is an essential step in IT security. They help identify vulnerabilities in an IT system and correct them before they are exploited by malicious attackers.
 Choosing a penetration testing provider is an important decision. It&rsquo;s important to select a reliable and competent provider, capable of delivering quality results.]]></description>
-</item>
-<item>
-    <title>Pwncloud : your own (un)secure cloud platform</title>
-    <link>http://localhost:1313/en/pwncloud-your-own-unsecure-platform/</link>
-    <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/pwncloud-your-own-unsecure-platform/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/pwncloud/pwncloud.png" referrerpolicy="no-referrer">
-            </div>]]></description>
 </item>
 </channel>
 </rss>
