@@ -1,7 +1,7 @@
 ---
 title: "Quels outils utiliser pour un test d'intrusion (pentest) ?"
 description: "Comment bien choisir ses outils pour effectuer un test d'intrusion ? Plus de détails dans l'article ci-dessous"
-date: 2024-05-24T11:58:40+01:00
+date: 2024-07-24T11:58:40+01:00
 draft: false
 images: [/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.png]
 featuredImage: "/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.png"
