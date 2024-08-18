@@ -6,6 +6,18 @@
         <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?</title>
+    <link>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
+    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png" referrerpolicy="no-referrer">
+            </div>Test d&rsquo;intrusion et conformité RGPD : l&rsquo;essentiel à retenir Une histoire de protection En tant que dirigeant d&rsquo;entreprise, il est peu probable que vous n&rsquo;ayez jamais entendu le terme RGPD. En effet, il est au coeur des préoccupations numériques des entreprises depuis plusieurs années 🛡️.
+Le Règlement Général sur la Protection des Données (RGPD) impose des normes strictes concernant la protection des données personnelles au sein de l&rsquo;Union Européenne.
+En effet, depuis son entrée en vigueur en mai 2018, les entreprises doivent prendre des mesures rigoureuses pour sécuriser les données qu&rsquo;elles collectent et traitent.]]></description>
+</item>
+<item>
     <title>Quels outils utiliser pour un test d&#39;intrusion (pentest) ?</title>
     <link>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</link>
     <pubDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</pubDate>
@@ -107,18 +119,6 @@ Ces tests, souvent désignés sous les termes de tests en boîte noire, boîte g
             </div>😮 Exposer GitLab publiquement en 2024 : trop dangereux ? Est ce que exposer son propre Gitlab est une bonne pratique de sécurité ? Et bien vous allez voir que non.
 2024 commence fort et donne encore de bonnes raisons de ne pas exposer ce service sur Internet (mais plutôt de l&rsquo;héberger derrière un VPN).
 Un début d&rsquo;année sous haute tension Le 11 janvier 2024, GitLab, la célèbre plateforme communautaire, a publié une annonce importante concernant les nouvelles versions 16.]]></description>
-</item>
-<item>
-    <title>Comment bien choisir un prestataire de tests d&#39;intrusion en 2024 ?</title>
-    <link>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</link>
-    <pubDate>Wed, 03 Jan 2024 15:34:12 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/pentest-provider/main.png" referrerpolicy="no-referrer">
-            </div>🕵️ Comment bien choisir un prestataire de tests d&rsquo;intrusion en 2024 ? Un test d&rsquo;intrusion est-il utile ? La réponse est oui !
-Les tests d&rsquo;intrusion, aussi connus sous le nom de tests de &ldquo;pénétration&rdquo; (terme à éviter dans le langage courant français 😉), constituent une composante cruciale de la cybersécurité moderne.
-En simulant des attaques informatiques dans des conditions contrôlées, ces tests permettent de détecter les failles de sécurité dans les systèmes d&rsquo;information, les serveurs, les applications web, et autres composants informatiques.]]></description>
 </item>
 </channel>
 </rss>

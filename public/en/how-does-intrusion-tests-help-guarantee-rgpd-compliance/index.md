@@ -1,13 +1,5 @@
----
-title: "How penetration tests help ensure GDPR compliance?"
-description: "How to avoid fines related to GDPR? The most effective solution is to conduct penetration tests. A complete guide is available in the article below."
-date: 2024-08-15T12:18:54+01:00
-draft: false
-images: [/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png]
-featuredImage: "/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png"
-featuredImagePreview: "/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png"
-tags: ["Penetration Test", "Pentest", "Audit", "GDPR"]
----
+# How penetration tests help ensure GDPR compliance?
+
 
 # Penetration testing and GDPR compliance: the essentials
 
@@ -144,3 +136,4 @@ Regularly integrating penetration tests into your security strategy is therefore
 ## Sources
 
 - https://www.cnil.fr/fr/definition/sanction
+

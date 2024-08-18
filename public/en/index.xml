@@ -3,9 +3,21 @@
         <title>Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 18 Aug 2024 12:18:54 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>How penetration tests help ensure GDPR compliance?</title>
+    <link>http://localhost:1313/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</link>
+    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png" referrerpolicy="no-referrer">
+            </div>Penetration testing and GDPR compliance: the essentials A matter of protection As a business leader, it is unlikely that you have never heard the term GDPR. Indeed, it has been at the heart of digital concerns for businesses for several years 🛡️.
+The General Data Protection Regulation (GDPR) imposes strict standards regarding the protection of personal data within the European Union.
+Since its implementation in May 2018, companies have had to take rigorous measures to secure the data they collect and process.]]></description>
+</item>
+<item>
     <title>What tools to use for a Penetration Test?</title>
     <link>http://localhost:1313/en/what-tools-to-use-for-an-intrusion-test/</link>
     <pubDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</pubDate>
@@ -109,18 +121,6 @@ These tests, often referred to as black box, gray box, and white box tests, are 
             </div>😮 Publicly exposing GitLab in 2024: too risky? Is exposing one&rsquo;s own GitLab a good security practice? Well, you will see that it is not.
 2024 starts strongly, giving good reasons not to expose this service on the Internet (but rather to host it behind a VPN).
 A tense start to the year On January 11, 2024, GitLab, the renowned community platform, released an important announcement concerning new versions 16.7.2, 16.]]></description>
-</item>
-<item>
-    <title>How to choose the right penetration testing provider in 2024?</title>
-    <link>http://localhost:1313/en/pentest-provider/</link>
-    <pubDate>Wed, 03 Jan 2024 15:34:12 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/pentest-provider/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/pentest-provider/main.png" referrerpolicy="no-referrer">
-            </div>🕵️ How to choose the right penetration testing provider in 2024? Is an penetration test useful? The answer is yes!
-Penetration testing is an essential step in IT security. They help identify vulnerabilities in an IT system and correct them before they are exploited by malicious attackers.
-Choosing a penetration testing provider is an important decision. It&rsquo;s important to select a reliable and competent provider, capable of delivering quality results.]]></description>
 </item>
 </channel>
 </rss>

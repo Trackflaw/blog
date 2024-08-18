@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>GDPR - Tag - Trackflaw | Cybersecurity expert</title>
+        <link>http://localhost:1313/en/tags/gdpr/</link>
+        <description>GDPR - Tag - Trackflaw | Cybersecurity expert</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/gdpr/" rel="self" type="application/rss+xml" /><item>
+    <title>How Penetration Tests Help Ensure GDPR Compliance?</title>
+    <link>http://localhost:1313/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</link>
+    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png" referrerpolicy="no-referrer">
+            </div>Penetration testing and GDPR compliance: the essentials A matter of protection As a business leader, it is unlikely that you have never heard the term GDPR. Indeed, it has been at the heart of digital concerns for businesses for several years 🛡️.
+The General Data Protection Regulation (GDPR) imposes strict standards regarding the protection of personal data within the European Union.
+Since its implementation in May 2018, companies have had to take rigorous measures to secure the data they collect and process.]]></description>
+</item>
+</channel>
+</rss>

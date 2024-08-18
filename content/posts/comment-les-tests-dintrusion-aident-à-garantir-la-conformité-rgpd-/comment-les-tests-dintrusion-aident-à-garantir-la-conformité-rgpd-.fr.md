@@ -2,7 +2,7 @@
 title: "Comment les tests d'intrusion aident à garantir la conformité RGPD ?"
 description: "Comment éviter les amendes liées au RGPD ? La solution la plus efficace est de réaliser des tests d'intrusion. Un guide complet est disponible dans l'article ci-dessous"
 date: 2024-08-15T12:18:54+01:00
-draft: true
+draft: false
 images: [/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png]
 featuredImage: "/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png"
 featuredImagePreview: "/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png"
@@ -21,7 +21,9 @@ En effet, depuis son entrée en vigueur en **mai 2018**, les entreprises doivent
 
 Mais dans quel sens ? 🤔
 
-Le risque principal est évidemment, les **sanctions financières** pouvant aller jusqu'à **20 millions d'euros**. Mais pas de panique ! Juste en dessous, je vous donne les meilleurs astuces pour vous aider à éviter ces désagréments. 😉
+Le risque principal est évidemment. Les **sanctions financières** font le plus peur aux chefs d'entreprise en pouvant aller jusqu'à **20 millions d'euros**.
+
+Mais pas de panique ! Dans la suite de l'article, je vous donne les meilleurs astuces pour vous aider à éviter ces désagréments. 😉
 
 ## Qu'est-ce qu'un test d'intrusion ?
 
@@ -29,7 +31,7 @@ Le risque principal est évidemment, les **sanctions financières** pouvant alle
 
 Avant d'aller plus loin, il est intéressant de définir concrètement le terme de **test d'intrusion**.
 
-Un **test d'intrusion**, aussi appelé vulgairement **"test de pénétration"** ou **"pentest"**, est une **simulation d'attaque sur un système informatique** réalisée par des experts en sécurité (comme Trackflaw par exemple 👤).
+Un **test d'intrusion**, aussi appelé vulgairement **"test de pénétration"** ou **"pentest"**, est une **simulation d'attaque sur un système informatique** réalisée par des experts en sécurité (comme Trackflaw par exemple).
 
 L'objectif est **d'identifier les vulnérabilités** pouvant être exploitées par des cybercriminels pour accéder, nottament, à des données sensibles (données sensibles, RGPD, cela devrait faire _tilt_ 💡).
 
@@ -59,7 +61,7 @@ Mais il y a surtout une deuxième raison bien différente de la première prouva
 
 En effet, les entreprises ne font pas du zèle uniquement pour faire plaisir au gouvernement. Mettre en place sa politique RGPD coute cher, et bon nombre d'entreprise s'en passerait bien 😂
 
-Du coup, le gouvernement a une technique imparable pour donner plus de motivations à respecter la réglémentation : **les amendes** 💰
+Du coup, le gouvernement a une technique imparable pour donner plus de motivations à respecter la réglementation : **les amendes** 💰
 
 Mais du coup, comment un test d'intrusion va vous aider à **éviter les amendes liées au RGPD** ?
 
@@ -71,9 +73,9 @@ En cas de violation de données, le fait de pouvoir démontrer que l'entreprise 
 
 ## Les étapes d'une conformité RGPD réussie
 
-Mais comment bien réussir sa conformité RGPD ?
+Mais comment **bien réussir sa conformité RGPD** ?
 
-Il est crucial de suivre plusieurs étapes. L'objectif n'étant pas de réaliser un guide complet, uniquement les grandes lignes seront abordées 📔
+Il est crucial de suivre plusieurs étapes. L'objectif n'étant pas de réaliser un guide complet, uniquement **les grandes lignes** seront abordées dans cet article 📔
 
 ### 1. L'évaluation des besoins
 
@@ -99,7 +101,7 @@ La deuxième étape est le choix d'un **prestataire qualifié et expérimenté**
 
 Un autre article est d'ailleurs disponible sur notre blog pour vous aider à [bien choisir votre prestataire de test d'intrusion](/choisir-son-prestataire-de-test-intrusion/).
 
-Pour résumer il est important de sélectionner un prestataire de tests d'intrusion ayant une **solide expérience et des références** dans le domaine de la sécurité informatique et de la conformité RGPD. N'hésitez pas à nous contacter pour éclaircir tous besoins. 📨
+Pour résumer il est important de sélectionner un prestataire de tests d'intrusion ayant une **solide expérience et des références** dans le domaine de la sécurité informatique. N'hésitez pas à nous contacter pour éclaircir tous besoins. 📨
 
 ### 3. Bien planifier et exécuter ses tests
 
@@ -127,13 +129,13 @@ Cette étape est loin d'être triviale et nous pouvons **vous accompagner de bou
 
 Enfin, pour terminer, la dernière étape est de capitaliser sur cet audit.
 
-Conservez une documentation détaillée des **tests effectués**, des **failles identifiée**s, et des **mesures correctives prises**. Cette documentation sera précieuse en cas d'audit ou d'incident de sécurité.
+Conservez une documentation détaillée des **tests effectués**, des **failles identifiées**, et des **mesures correctives prises**. Cette documentation sera précieuse en cas d'audit ou d'incident de sécurité.
 
 ## Conclusion
 
 Alors ? Le RGPD est plus clair pour vous maintenant ? 😄
 
-Pour conclure, me test d'intrusion est **bien plus qu'une simple vérification technique**; il s'agit d'un élément clé de la stratégie de conformité au RGPD.
+Pour conclure, un test d'intrusion est **bien plus qu'une simple vérification technique**; il s'agit d'un élément clé de la stratégie de conformité au RGPD.
 
 En identifiant et en corrigeant les vulnérabilités avant qu'elles ne soient exploitées, les tests d'intrusion permettent aux entreprises de **démontrer leur engagement à protéger les données personnelles**. Cela aide non seulement à **éviter les amendes potentiellement dévastatrices**, mais aussi à **renforcer la confiance des clients** et des **partenaires** dans la capacité de l'entreprise à sécuriser les informations sensibles.
 
