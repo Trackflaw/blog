@@ -2,38 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/news/meta-suspend-lapprentissage-ia-%C3%A0-partir-des-donn%C3%A9es-des-utilisateurs-de-lue-10062024/</loc><lastmod>2024-06-10T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/news/</loc><lastmod>2024-06-10T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-06-10T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/"
-                    /></url><url>
-            <loc>http://localhost:1313/news/microsoft-recall-vuln%C3%A9rabilit%C3%A9-pr%C3%A9occupante-stockage-donn%C3%A9es-03062024/</loc><lastmod>2024-06-03T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>http://localhost:1313/news/breachforums-refait-surface-apr%C3%A8s-sa-saisie-par-le-fbi-27052024/</loc><lastmod>2024-05-27T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>http://localhost:1313/tags/audit/</loc><lastmod>2024-05-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/audit/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/tags/audit/"
-                    /></url><url>
-            <loc>http://localhost:1313/tags/pentest/</loc><lastmod>2024-05-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/pentest/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="http://localhost:1313/tags/pentest/"
-                    /></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-05-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-08-18T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/posts/"
@@ -42,8 +11,35 @@
                     hreflang="fr"
                     href="http://localhost:1313/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</loc><lastmod>2024-05-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2024-05-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>http://localhost:1313/</loc><lastmod>2024-08-18T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/audit/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/audit/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/audit/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/pentest/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/pentest/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="http://localhost:1313/tags/pentest/"
+                    /></url><url>
+            <loc>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/tags/"
@@ -52,7 +48,7 @@
                     hreflang="fr"
                     href="http://localhost:1313/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/tags/test-dintrusion/</loc><lastmod>2024-05-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>http://localhost:1313/tags/test-dintrusion/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/tags/test-dintrusion/"
@@ -61,6 +57,16 @@
                     hreflang="fr"
                     href="http://localhost:1313/tags/test-dintrusion/"
                     /></url><url>
+            <loc>http://localhost:1313/news/</loc><lastmod>2024-07-22T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/news/nouvelle-fonctionnalit%C3%A9-scan-google-chrome-22072024/</loc><lastmod>2024-07-22T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/news/panne-massive-mondiale-crowdstrike-15072024/</loc><lastmod>2024-07-15T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://localhost:1313/news/fuite-de-donn%C3%A9es-importantes-op%C3%A9rateur-am%C3%A9ricain-atandt-08072024/</loc><lastmod>2024-07-08T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/vuln%C3%A9rabilit%C3%A9-critique-openssh-permettant-ex%C3%A9cution-code-%C3%A0-distance-01072024/</loc><lastmod>2024-07-01T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/lib%C3%A9ration-de-julian-assange-fondateur-de-wikileaks-24062024/</loc><lastmod>2024-06-24T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/les-%C3%A9tats-unis-interdisent-antivirus-russe-kaspersky-17062024/</loc><lastmod>2024-06-17T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/meta-suspend-lapprentissage-ia-%C3%A0-partir-des-donn%C3%A9es-des-utilisateurs-de-lue-10062024/</loc><lastmod>2024-06-10T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/microsoft-recall-vuln%C3%A9rabilit%C3%A9-pr%C3%A9occupante-stockage-donn%C3%A9es-03062024/</loc><lastmod>2024-06-03T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/news/breachforums-refait-surface-apr%C3%A8s-sa-saisie-par-le-fbi-27052024/</loc><lastmod>2024-05-27T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/news/zoom-d%C3%A9ploie-le-chiffrement-de-bout-en-bout-post-quantique-approuv%C3%A9-par-le-nist-20052024/</loc><lastmod>2024-05-20T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</loc><lastmod>2024-05-13T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/news/le-fbi-saisit-%C3%A0-nouveau-le-forum-breachforums-sur-les-failles-de-s%C3%A9curit%C3%A9-13052024/</loc><lastmod>2024-05-13T08:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

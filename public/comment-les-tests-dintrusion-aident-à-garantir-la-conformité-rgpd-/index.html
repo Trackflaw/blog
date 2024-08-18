@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ? - Trackflaw | Expert en sécurité informatique</title><meta name="Description" content="Comment éviter les amendes liées au RGPD ? La solution la plus efficace est de réaliser des tests d&#39;intrusion. Un guide complet est disponible dans l&#39;article ci-dessous"><meta property="og:url" content="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/">
+  <meta property="og:site_name" content="Trackflaw | Expert en sécurité informatique">
+  <meta property="og:title" content="Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?">
+  <meta property="og:description" content="Comment éviter les amendes liées au RGPD ? La solution la plus efficace est de réaliser des tests d&#39;intrusion. Un guide complet est disponible dans l&#39;article ci-dessous">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-08-15T12:18:54+01:00">
+    <meta property="article:modified_time" content="2024-08-15T12:18:54+01:00">
+    <meta property="article:tag" content="Test D&#39;intrusion">
+    <meta property="article:tag" content="Pentest">
+    <meta property="article:tag" content="Audit">
+    <meta property="article:tag" content="RGPD">
+    <meta property="og:image" content="http://localhost:1313/images/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/logo.png">
+  <meta name="twitter:title" content="Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?">
+  <meta name="twitter:description" content="Comment éviter les amendes liées au RGPD ? La solution la plus efficace est de réaliser des tests d&#39;intrusion. Un guide complet est disponible dans l&#39;article ci-dessous">
+      <meta name="twitter:site" content="@trackflaw">
+<meta name="application-name" content="Trackflaw | Expert en sécurité offensive">
+<meta name="apple-mobile-web-app-title" content="Trackflaw | Expert en sécurité offensive"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" /><link rel="prev" href="http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Comment les tests d'intrusion aident à garantir la conformité RGPD ?",
+        "inLanguage": "fr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-\/"
+        },"image": ["http:\/\/localhost:1313\/images\/logo.png"],"genre": "posts","keywords": "Test d\u0027intrusion, Pentest, Audit, RGPD","wordcount":  1198 ,
+        "url": "http:\/\/localhost:1313\/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-\/","datePublished": "2024-08-15T12:18:54+01:00","dateModified": "2024-08-15T12:18:54+01:00","publisher": {
+            "@type": "Organization",
+            "name": "Thibaud Robin - Trackflaw","logo": "http:\/\/localhost:1313\/images\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Thibaud Robin"
+            },"description": "Comment éviter les amendes liées au RGPD ? La solution la plus efficace est de réaliser des tests d'intrusion. Un guide complet est disponible dans l'article ci-dessous"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="Articles"> Articles </a><a class="menu-item" href="/news/" title="Actualités"> Actualités </a><a class="menu-item" href="/about/" title="A propos"> A propos </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Choisir la langue">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" selected>Français</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="Articles">Articles</a><a class="menu-item" href="/news/" title="Actualités">Actualités</a><a class="menu-item" href="/about/" title="A propos">A propos</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Choisir la langue">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" selected>Français</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenu</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Comment les tests d'intrusion aident à garantir la conformité RGPD ?</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author">
+                    <a href="https://www.linkedin.com/in/thibaud-robin/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="thibaud-picture-big" aria-hidden="true"></i>Thibaud Robin</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="15/08/2024">15/08/2024</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1198 mots&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png"
+        data-srcset="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png 1.5x, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png 2x"
+        data-sizes="auto"
+        alt="/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png"
+        title="Comment éviter les amendes liées au RGPD ? La solution la plus efficace est de réaliser des tests d&#39;intrusion. Un guide complet est disponible dans l&#39;article ci-dessous" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenu</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#une-histoire-de-protection">Une histoire de protection</a></li>
+    <li><a href="#quest-ce-quun-test-dintrusion-">Qu&rsquo;est-ce qu&rsquo;un test d&rsquo;intrusion ?</a></li>
+    <li><a href="#conformité-rgpd-et-test-dintrusion--une-alliance-incontournable">Conformité RGPD et test d&rsquo;intrusion : une alliance incontournable</a></li>
+    <li><a href="#amendes-et-non-conformitées">Amendes et non conformitées</a></li>
+    <li><a href="#les-étapes-dune-conformité-rgpd-réussie">Les étapes d&rsquo;une conformité RGPD réussie</a>
+      <ul>
+        <li><a href="#1-lévaluation-des-besoins">1. L&rsquo;évaluation des besoins</a></li>
+        <li><a href="#2-choisir-son-prestataire-qualifié">2. Choisir son prestataire qualifié</a></li>
+        <li><a href="#3-bien-planifier-et-exécuter-ses-tests">3. Bien planifier et exécuter ses tests</a></li>
+        <li><a href="#4-comprendre-et-corriger-les-faiblesses">4. Comprendre et corriger les faiblesses</a></li>
+        <li><a href="#5-capitaliser">5. Capitaliser</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="test-dintrusion-et-conformité-rgpd--lessentiel-à-retenir">Test d&rsquo;intrusion et conformité RGPD : l&rsquo;essentiel à retenir</h1>
+<h2 id="une-histoire-de-protection">Une histoire de protection</h2>
+<p>En tant que dirigeant d&rsquo;entreprise, il est peu probable que vous n&rsquo;ayez jamais entendu le terme <strong>RGPD</strong>. En effet, il est au coeur des préoccupations numériques des entreprises depuis plusieurs années 🛡️.</p>
+<p><strong>Le Règlement Général sur la Protection des Données (RGPD)</strong> impose des normes strictes concernant la <strong>protection des données personnelles</strong> au sein de l&rsquo;Union Européenne.</p>
+<p>En effet, depuis son entrée en vigueur en <strong>mai 2018</strong>, les entreprises doivent prendre des mesures rigoureuses pour sécuriser les données <strong>qu&rsquo;elles collectent et traitent</strong>. Parmi ces mesures, le test d&rsquo;intrusion s&rsquo;avère être un <strong>outil indispensable pour garantir la conformité au RGPD</strong>.</p>
+<p>Mais dans quel sens ? 🤔</p>
+<p>Le risque principal est évidemment, les <strong>sanctions financières</strong> pouvant aller jusqu&rsquo;à <strong>20 millions d&rsquo;euros</strong>. Mais pas de panique ! Juste en dessous, je vous donne les meilleurs astuces pour vous aider à éviter ces désagréments. 😉</p>
+<h2 id="quest-ce-quun-test-dintrusion-">Qu&rsquo;est-ce qu&rsquo;un test d&rsquo;intrusion ?</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/1.png"
+        data-srcset="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/1.png, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/1.png 1.5x, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/1.png 2x"
+        data-sizes="auto"
+        alt="/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/1.png"
+        title="Pentest" /></p>
+<p>Avant d&rsquo;aller plus loin, il est intéressant de définir concrètement le terme de <strong>test d&rsquo;intrusion</strong>.</p>
+<p>Un <strong>test d&rsquo;intrusion</strong>, aussi appelé vulgairement <strong>&ldquo;test de pénétration&rdquo;</strong> ou <strong>&ldquo;pentest&rdquo;</strong>, est une <strong>simulation d&rsquo;attaque sur un système informatique</strong> réalisée par des experts en sécurité (comme Trackflaw par exemple 👤).</p>
+<p>L&rsquo;objectif est <strong>d&rsquo;identifier les vulnérabilités</strong> pouvant être exploitées par des cybercriminels pour accéder, nottament, à des données sensibles (données sensibles, RGPD, cela devrait faire <em>tilt</em> 💡).</p>
+<p>Les tests d&rsquo;intrusion peuvent être effectués sur différents aspects d&rsquo;une infrastructure, tels que les <strong>systèmes internes</strong>, les <strong>applications web</strong>, ou même les <strong>dispositifs mobiles</strong>.</p>
+<h2 id="conformité-rgpd-et-test-dintrusion--une-alliance-incontournable">Conformité RGPD et test d&rsquo;intrusion : une alliance incontournable</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/2.png"
+        data-srcset="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/2.png, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/2.png 1.5x, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/2.png 2x"
+        data-sizes="auto"
+        alt="/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/2.png"
+        title="Alliance RGPD et pentest" /></p>
+<p>Mais alors pourquoi le test d&rsquo;intrusion est-il <strong>crucial</strong> pour la conformité RGPD ? 🤔</p>
+<p>Et bien, pour plusieurs raisons.</p>
+<p>La première est que le <strong>RGPD</strong> impose aux entreprises de <strong>garantir la confidentialité et la sécurité des données personnelles</strong>.
+Selon <strong>l&rsquo;article 32 du règlement</strong>, les entreprises doivent mettre en place des mesures techniques et organisationnelles appropriées pour <strong>assurer un niveau de sécurité</strong> adapté au risque.
+Cela inclut, entre autres, des mesures pour <strong>protéger les données</strong> contre la <strong>destruction</strong>, la <strong>perte</strong>, <strong>l&rsquo;altération</strong>, la <strong>divulgation</strong> ou <strong>l&rsquo;accès non autorisé</strong>.</p>
+<p>Et c&rsquo;est là qu&rsquo;intervient le test d&rsquo;intrusion. 🕵️</p>
+<p>En identifiant les <strong>failles de sécurité</strong> avant qu&rsquo;elles ne soient exploitées, les tests d&rsquo;intrusion permettent aux entreprises de <strong>prendre des mesures correctives proactives</strong>. Cela contribue non seulement à <strong>renforcer la sécurité globale</strong>, mais aussi à prouver que <strong>l&rsquo;entreprise prend au sérieux ses obligations</strong> en matière de protection des données, un aspect crucial en cas d&rsquo;audit ou de contrôle de conformité par les autorités.</p>
+<p>Mais il y a surtout une deuxième raison bien différente de la première prouvant que les tests d&rsquo;intrusion sont incontournables&hellip;</p>
+<h2 id="amendes-et-non-conformitées">Amendes et non conformitées</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/3.png"
+        data-srcset="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/3.png, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/3.png 1.5x, /images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/3.png 2x"
+        data-sizes="auto"
+        alt="/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/3.png"
+        title="Les amendes" /></p>
+<p>En effet, les entreprises ne font pas du zèle uniquement pour faire plaisir au gouvernement. Mettre en place sa politique RGPD coute cher, et bon nombre d&rsquo;entreprise s&rsquo;en passerait bien 😂</p>
+<p>Du coup, le gouvernement a une technique imparable pour donner plus de motivations à respecter la réglémentation : <strong>les amendes</strong> 💰</p>
+<p>Mais du coup, comment un test d&rsquo;intrusion va vous aider à <strong>éviter les amendes liées au RGPD</strong> ?</p>
+<p>Il est intéressant de noter que les amendes pour non-conformité au RGPD peuvent être <strong>très sévères</strong>, allant jusqu&rsquo;à <strong>20 millions d&rsquo;euros</strong> ou <strong>4 % du chiffre d&rsquo;affaires annuel mondial</strong>, selon le montant le plus élevé. L&rsquo;une des <strong>principales causes</strong> de ces amendes est le <strong>manque de mesures de sécurité adéquates</strong> pour protéger les données personnelles.</p>
+<p>Un <strong>test d&rsquo;intrusion régulier</strong> permet de s&rsquo;assurer que les mesures de sécurité en place sont <strong>efficaces</strong> et <strong>conformes</strong> aux <strong>exigences du RGPD</strong>.</p>
+<p>En cas de violation de données, le fait de pouvoir démontrer que l&rsquo;entreprise a <strong>effectué des tests d&rsquo;intrusion</strong> et <strong>corrigé</strong> les vulnérabilités identifiées peut jouer en sa faveur. Cela peut non seulement <strong>réduire l&rsquo;impact</strong> d&rsquo;une éventuelle amende, mais aussi préserver la réputation de l&rsquo;entreprise.</p>
+<h2 id="les-étapes-dune-conformité-rgpd-réussie">Les étapes d&rsquo;une conformité RGPD réussie</h2>
+<p>Mais comment bien réussir sa conformité RGPD ?</p>
+<p>Il est crucial de suivre plusieurs étapes. L&rsquo;objectif n&rsquo;étant pas de réaliser un guide complet, uniquement les grandes lignes seront abordées 📔</p>
+<h3 id="1-lévaluation-des-besoins">1. L&rsquo;évaluation des besoins</h3>
+<p>La première étape est <strong>l&rsquo;évaluation de vos besoins</strong>.</p>
+<p>L&rsquo;objectif est <strong>d&rsquo;identifier les systèmes et applications</strong> traitant des données personnelles et nécessitant un test d&rsquo;intrusion.</p>
+<p>Quelques exemple que nous relevons très souvent chez nos clients :</p>
+<ul>
+<li>Infrastucture cloud Office365.</li>
+<li>Application web e-commerce.</li>
+<li>Système d&rsquo;information interne.</li>
+<li>Application de comptabilité accessible d&rsquo;internet.</li>
+<li>Etc.</li>
+</ul>
+<h3 id="2-choisir-son-prestataire-qualifié">2. Choisir son prestataire qualifié</h3>
+<p>La deuxième étape est le choix d&rsquo;un <strong>prestataire qualifié et expérimenté</strong>. Et cela tombe bien, on a quelqu&rsquo;un à vous recommander ! 😃</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Trackflaw : expert en cybersécurité<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>Trackflaw</strong> est une startup spécialisée dans les tests d&rsquo;intrusion. Son domaine d&rsquo;expertise varie des tests d&rsquo;intrusion externes, internes et mobiles aux formations spécialisées en sécurité informatique en passant par des missions de gestion de crise.</div>
+        </div>
+    </div>
+<p>Un autre article est d&rsquo;ailleurs disponible sur notre blog pour vous aider à <a href="/choisir-son-prestataire-de-test-intrusion/" rel="">bien choisir votre prestataire de test d&rsquo;intrusion</a>.</p>
+<p>Pour résumer il est important de sélectionner un prestataire de tests d&rsquo;intrusion ayant une <strong>solide expérience et des références</strong> dans le domaine de la sécurité informatique et de la conformité RGPD. N&rsquo;hésitez pas à nous contacter pour éclaircir tous besoins. 📨</p>
+<h3 id="3-bien-planifier-et-exécuter-ses-tests">3. Bien planifier et exécuter ses tests</h3>
+<p>Etape cruciale du processus : la <strong>planification</strong> et l&rsquo;<strong>exécution</strong> des tests d&rsquo;intrusion.</p>
+<p>Définissez clairement les objectifs du test. Posez vous les questions suivantes.</p>
+<ul>
+<li>Que faut-il tester ?</li>
+<li>Il y a t&rsquo;il des applications sensibles, à prioriser ?</li>
+<li>Faut il fournir des comptes, de la documentation ?</li>
+</ul>
+<p>Assurez-vous que le test couvre à la fois les <strong>vulnérabilités techniques</strong> et aussi les failles humaines. Il est donc très interessant de souscrire à une <strong>campagne de phishing pédagogique</strong> pour évaluer la résilience de vos collaborateurs à la cybersécurité.</p>
+<h3 id="4-comprendre-et-corriger-les-faiblesses">4. Comprendre et corriger les faiblesses</h3>
+<p>Surement une des étapes les plus difficiles : <strong>l&rsquo;analyse des résultats</strong> et les <strong>corrections</strong> des failles décelées.</p>
+<p>Après le test, analysez les résultats avec soin. <strong>Corrigez les failles identifiées</strong> et <strong>effectuez un nouveau test (contre-audit)</strong> si nécessaire pour vous assurer que les corrections ont été efficaces.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Trackflaw vous accompagne<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Cette étape est loin d&rsquo;être triviale et nous pouvons <strong>vous accompagner de bout en bout</strong> pour vous permettre de capitaliser au mieux sur l&rsquo;audit effectué.</div>
+        </div>
+    </div>
+<h3 id="5-capitaliser">5. Capitaliser</h3>
+<p>Enfin, pour terminer, la dernière étape est de capitaliser sur cet audit.</p>
+<p>Conservez une documentation détaillée des <strong>tests effectués</strong>, des <strong>failles identifiée</strong>s, et des <strong>mesures correctives prises</strong>. Cette documentation sera précieuse en cas d&rsquo;audit ou d&rsquo;incident de sécurité.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Alors ? Le RGPD est plus clair pour vous maintenant ? 😄</p>
+<p>Pour conclure, me test d&rsquo;intrusion est <strong>bien plus qu&rsquo;une simple vérification technique</strong>; il s&rsquo;agit d&rsquo;un élément clé de la stratégie de conformité au RGPD.</p>
+<p>En identifiant et en corrigeant les vulnérabilités avant qu&rsquo;elles ne soient exploitées, les tests d&rsquo;intrusion permettent aux entreprises de <strong>démontrer leur engagement à protéger les données personnelles</strong>. Cela aide non seulement à <strong>éviter les amendes potentiellement dévastatrices</strong>, mais aussi à <strong>renforcer la confiance des clients</strong> et des <strong>partenaires</strong> dans la capacité de l&rsquo;entreprise à sécuriser les informations sensibles.</p>
+<p>Intégrer régulièrement des tests d&rsquo;intrusion dans votre stratégie de sécurité est donc essentiel pour rester conforme au RGPD et pour protéger votre entreprise contre les menaces croissantes du cyberespace.</p>
+<p>👉 Pour commander un audit : <a href="https://trackflaw.com/commande/" target="_blank" rel="noopener noreffer ">https://trackflaw.com/commande/</a></p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.cnil.fr/fr/definition/sanction" target="_blank" rel="noopener noreffer ">https://www.cnil.fr/fr/definition/sanction</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Mis à jour le 15/08/2024</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/index.md" target="_blank">Lire Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Partager sur Twitter" data-sharer="twitter" data-url="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" data-title="Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?" data-via="trackflaw" data-hashtags="Test d&#39;intrusion,Pentest,Audit,RGPD"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Facebook" data-sharer="facebook" data-url="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" data-hashtag="Test d&#39;intrusion"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" data-title="Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Line" data-sharer="line" data-url="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" data-title="Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur 微博" data-sharer="weibo" data-url="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" data-title="Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?" data-image="/images/comment-les-tests-dintrusion-aident-à-garantir-la-conformité-rgpd-/logo.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href=""></a>,&nbsp;<a href="/tags/pentest/">Pentest</a>,&nbsp;<a href="/tags/audit/">Audit</a>,&nbsp;<a href="/tags/rgpd/">RGPD</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Retour</a></span>&nbsp;|&nbsp;<span><a href="/">Accueil</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/quels-outils-utiliser-pour-un-test-dintrusion-/" class="prev" rel="prev" title="Quels outils utiliser pour un test d&#39;intrusion (pentest) ?"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Quels outils utiliser pour un test d'intrusion (pentest) ?</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Trackflaw</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Remonter en haut">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les commentaires">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.fr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Ok !","link":"En savoir plus","message":"Trackflaw utilise des cookies pour améliorer votre expérience et effectuer des statistiques."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"fr","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRE4WGVY4F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRE4WGVY4F');
+</script></body>
+</html>

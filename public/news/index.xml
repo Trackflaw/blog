@@ -6,8 +6,50 @@
     <description>Recent content in News on Trackflaw | Expert en sécurité informatique</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 10 Jun 2024 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2024 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nouvelle fonctionnalité de scan sur Google Chrome - Les4ActusCyber : semaine du 22 juillet</title>
+      <link>http://localhost:1313/news/nouvelle-fonctionnalit%C3%A9-scan-google-chrome-22072024/</link>
+      <pubDate>Mon, 22 Jul 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/nouvelle-fonctionnalit%C3%A9-scan-google-chrome-22072024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Nouvelle fonctionnalité sur Chrome analysant les fichiers protégés par mot de passe Google a amélioré les avertissements de sécurité de Chrome pour les fichiers suspects et malveillants, avec des messages plus détaillés et des analyses approfondies automatiques pour ceux en mode de protection renforcée.</description>
+    </item>
+    <item>
+      <title>Panne massive mondiale liée à la solution cyber CrowdStrike - Les4ActusCyber : semaine du 15 juillet</title>
+      <link>http://localhost:1313/news/panne-massive-mondiale-crowdstrike-15072024/</link>
+      <pubDate>Mon, 15 Jul 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/panne-massive-mondiale-crowdstrike-15072024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Mise à jour défectueuse de CrowdStrike bloquant les systèmes Windows Une mise à jour défectueuse de l&amp;rsquo;EDR CrowdStrike a provoqué des perturbations sur les systèmes Windows, impactant une très grande quantité d&amp;rsquo;entreprises mondiales causant des écrans bleus (BSOD).</description>
+    </item>
+    <item>
+      <title>Fuite de données importantes chez l&#39;opérateur américain AT&amp;T - Les4ActusCyber : semaine du 08 juillet</title>
+      <link>http://localhost:1313/news/fuite-de-donn%C3%A9es-importantes-op%C3%A9rateur-am%C3%A9ricain-atandt-08072024/</link>
+      <pubDate>Mon, 08 Jul 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/fuite-de-donn%C3%A9es-importantes-op%C3%A9rateur-am%C3%A9ricain-atandt-08072024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Fuite de données importantes chez l&amp;rsquo;opérateur américain AT&amp;amp;T AT&amp;amp;T a confirmé que la majorité de ses clients, ainsi que ceux des MVNO utilisant son réseau, ont été victimes d&amp;rsquo;une violation de données.</description>
+    </item>
+    <item>
+      <title>Vulnérabilité critique d&#39;OpenSSH permettant une exécution de code à distance - Les4ActusCyber : semaine du 01 juillet</title>
+      <link>http://localhost:1313/news/vuln%C3%A9rabilit%C3%A9-critique-openssh-permettant-ex%C3%A9cution-code-%C3%A0-distance-01072024/</link>
+      <pubDate>Mon, 01 Jul 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/vuln%C3%A9rabilit%C3%A9-critique-openssh-permettant-ex%C3%A9cution-code-%C3%A0-distance-01072024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Nouvelle vulnérabilité critique d&amp;rsquo;OpenSSH permettant une exécution de code à distance OpenSSH a publié des mises à jour pour corriger une faille de sécurité critique (CVE-2024-6387) permettant l&amp;rsquo;exécution de code à distance non authentifié en tant que root sur les systèmes Linux basés sur glibc.</description>
+    </item>
+    <item>
+      <title>Libération de Julian Assange, fondateur de WikiLeaks - Les4ActusCyber : semaine du 24 juin</title>
+      <link>http://localhost:1313/news/lib%C3%A9ration-de-julian-assange-fondateur-de-wikileaks-24062024/</link>
+      <pubDate>Mon, 24 Jun 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/lib%C3%A9ration-de-julian-assange-fondateur-de-wikileaks-24062024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Libération de Julian Assange, fondateur de WikiLeaks Julian Assange, fondateur de WikiLeaks, a été libéré au Royaume-Uni après avoir purgé plus de cinq ans de prison.</description>
+    </item>
+    <item>
+      <title>Les États-Unis interdisent l&#39;antivirus russe Kaspersky - Les4ActusCyber : semaine du 17 juin</title>
+      <link>http://localhost:1313/news/les-%C3%A9tats-unis-interdisent-antivirus-russe-kaspersky-17062024/</link>
+      <pubDate>Mon, 17 Jun 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/les-%C3%A9tats-unis-interdisent-antivirus-russe-kaspersky-17062024/</guid>
+      <description>Tous les lundis, Trackflaw revient sur les 4 actualités cyber et techniques importantes de la semaine précédente.&#xA;Plus d’informations sur nos réseaux :&#xA;🔴 Pour s’abonner à la chaine YouTube de Trackflaw.&#xA;📸 Pour suivre l’actualité Cyber sur Instagram.&#xA;👉 Pour visiter le site web de Trackflaw.&#xA;Les États-Unis interdisent l&amp;rsquo;antivirus russe Kaspersky Le gouvernement américain a interdit la vente de l&amp;rsquo;antivirus Kaspersky, invoquant les liens de l&amp;rsquo;entreprise avec le Kremlin et les risques pour la sécurité nationale.</description>
+    </item>
     <item>
       <title>Meta suspend l&#39;apprentissage de l&#39;IA à partir des données des utilisateurs de l&#39;UE - Les4ActusCyber : semaine du 10 juin</title>
       <link>http://localhost:1313/news/meta-suspend-lapprentissage-ia-%C3%A0-partir-des-donn%C3%A9es-des-utilisateurs-de-lue-10062024/</link>
