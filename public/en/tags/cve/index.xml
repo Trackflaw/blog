@@ -11,8 +11,10 @@
     <guid>http://localhost:1313/en/multinational-hacking-with-file-upload-and-ssrf/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png" referrerpolicy="no-referrer">
-            </div>📸 CVE-2023-2520{2|3}: How to hack MULTINATIONAL company with file upload and SSRF? Introduction Information security is now at the heart of our daily lives. On the news, on the internet, on social networks, everyone, with or without knowledge, seems to have already been a victim of a more or less serious computer attack.
-And this can affect small businesses as well as the biggest companies in the CAC40. If you thought the security of the world&rsquo;s biggest companies was inviolable, think again.]]></description>
+            </div><h1 id="-cve-2023-252023-how-to-hack-multinational-company-with-file-upload-and-ssrf">📸 CVE-2023-2520{2|3}: How to hack MULTINATIONAL company with file upload and SSRF?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Information security is now at the <strong>heart of our daily lives</strong>. On the news, on the internet, on social networks, everyone, with or without knowledge, seems to <strong>have already been a victim</strong> of a more or less serious computer attack.</p>
+<p>And this can affect small businesses as well as the biggest companies in the <strong>CAC40</strong>. If you thought the security of the world&rsquo;s biggest companies was inviolable, think again.</p>]]></description>
 </item>
 </channel>
 </rss>

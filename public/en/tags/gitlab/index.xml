@@ -11,9 +11,13 @@
     <guid>http://localhost:1313/en/compromise-gitlab-accounts-with-cve-2023-7028/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/compromettre-comptes-Gitlab-avec-CVE-2023-7028/logo.png" referrerpolicy="no-referrer">
-            </div>😮 Publicly exposing GitLab in 2024: too risky? Is exposing one&rsquo;s own GitLab a good security practice? Well, you will see that it is not.
-2024 starts strongly, giving good reasons not to expose this service on the Internet (but rather to host it behind a VPN).
-A tense start to the year On January 11, 2024, GitLab, the renowned community platform, released an important announcement concerning new versions 16.7.2, 16.]]></description>
+            </div><h1 id="-publicly-exposing-gitlab-in-2024-too-risky">😮 Publicly exposing GitLab in 2024: too risky?</h1>
+<br>
+<br>
+<p>Is exposing one&rsquo;s own GitLab a good security practice? Well, you will see that <strong>it is not</strong>.</p>
+<p>2024 starts strongly, giving good reasons <strong>not to expose this service on the Internet</strong> (but rather to host it behind a VPN).</p>
+<h2 id="a-tense-start-to-the-year">A tense start to the year</h2>
+<p>On January 11, 2024, GitLab, the renowned community platform, released an important announcement concerning new versions 16.7.2, 16.6.4, and 16.5.6 for GitLab Community Edition (CE) and Enterprise Edition (EE).</p>]]></description>
 </item>
 </channel>
 </rss>

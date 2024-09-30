@@ -3,18 +3,26 @@
         <title>Tags - Tag - Trackflaw | Cybersecurity expert</title>
         <link>http://localhost:1313/en/tags/</link>
         <description>Tags - Tag - Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Audit</title>
     <link>http://localhost:1313/en/tags/audit/</link>
-    <pubDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</pubDate>
+    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/en/tags/audit/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>GDPR</title>
+    <link>http://localhost:1313/en/tags/gdpr/</link>
+    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/en/tags/gdpr/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Penetration Test</title>
     <link>http://localhost:1313/en/tags/penetration-test/</link>
-    <pubDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</pubDate>
+    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/en/tags/penetration-test/</guid>
     <description><![CDATA[]]></description>
@@ -22,7 +30,7 @@
 <item>
     <title>Pentest</title>
     <link>http://localhost:1313/en/tags/pentest/</link>
-    <pubDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</pubDate>
+    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/en/tags/pentest/</guid>
     <description><![CDATA[]]></description>
@@ -73,14 +81,6 @@
     <pubDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/en/tags/gitlab/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Cloud</title>
-    <link>http://localhost:1313/en/tags/cloud/</link>
-    <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/tags/cloud/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

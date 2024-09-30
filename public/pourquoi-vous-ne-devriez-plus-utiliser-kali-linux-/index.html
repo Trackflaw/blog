@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Pourquoi vous ne devriez PLUS utiliser Kali Linux ? - Trackflaw | Expert en sécurité informatique</title><meta name="Description" content="Kali Linux est surement le système d&#39;exploitation le plus utilisé dans le monde de l&#39;offensif... à tort ! En fait, il existe beaucoup mieux !"><meta property="og:url" content="http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/">
+  <meta property="og:site_name" content="Trackflaw | Expert en sécurité informatique">
+  <meta property="og:title" content="Pourquoi vous ne devriez PLUS utiliser Kali Linux ?">
+  <meta property="og:description" content="Kali Linux est surement le système d&#39;exploitation le plus utilisé dans le monde de l&#39;offensif... à tort ! En fait, il existe beaucoup mieux !">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-30T15:21:12+01:00">
+    <meta property="article:modified_time" content="2024-09-30T15:21:12+01:00">
+    <meta property="article:tag" content="Test D&#39;intrusion">
+    <meta property="article:tag" content="Pentest">
+    <meta property="article:tag" content="Audit">
+    <meta property="og:image" content="http://localhost:1313/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png">
+  <meta name="twitter:title" content="Pourquoi vous ne devriez PLUS utiliser Kali Linux ?">
+  <meta name="twitter:description" content="Kali Linux est surement le système d&#39;exploitation le plus utilisé dans le monde de l&#39;offensif... à tort ! En fait, il existe beaucoup mieux !">
+      <meta name="twitter:site" content="@trackflaw">
+<meta name="application-name" content="Trackflaw | Expert en sécurité offensive">
+<meta name="apple-mobile-web-app-title" content="Trackflaw | Expert en sécurité offensive"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" /><link rel="prev" href="http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Pourquoi vous ne devriez PLUS utiliser Kali Linux ?",
+        "inLanguage": "fr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-\/"
+        },"image": ["http:\/\/localhost:1313\/images\/logo.png"],"genre": "posts","keywords": "Test d\u0027intrusion, Pentest, Audit","wordcount":  1066 ,
+        "url": "http:\/\/localhost:1313\/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-\/","datePublished": "2024-09-30T15:21:12+01:00","dateModified": "2024-09-30T15:21:12+01:00","publisher": {
+            "@type": "Organization",
+            "name": "Thibaud Robin - Trackflaw","logo": "http:\/\/localhost:1313\/images\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Thibaud Robin"
+            },"description": "Kali Linux est surement le système d'exploitation le plus utilisé dans le monde de l'offensif... à tort ! En fait, il existe beaucoup mieux !"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="Articles"> Articles </a><a class="menu-item" href="/news/" title="Actualités"> Actualités </a><a class="menu-item" href="/about/" title="A propos"> A propos </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Choisir la langue">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" selected>Français</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Trackflaw | Expert en sécurité informatique"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo3.png"
+        data-srcset="/images/logo3.png, /images/logo3.png 1.5x, /images/logo3.png 2x"
+        data-sizes="auto"
+        alt="/images/logo3.png"
+        title="/images/logo3.png" />TRACKFLAW</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Rechercher">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="Articles">Articles</a><a class="menu-item" href="/news/" title="Actualités">Actualités</a><a class="menu-item" href="/about/" title="A propos">A propos</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de thème">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Choisir la langue">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" selected>Français</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenu</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Pourquoi vous ne devriez PLUS utiliser Kali Linux ?</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author">
+                    <a href="https://www.linkedin.com/in/thibaud-robin/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="thibaud-picture-big" aria-hidden="true"></i>Thibaud Robin</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="30/09/2024">30/09/2024</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1066 mots&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png"
+        data-srcset="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png 1.5x, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png"
+        title="Kali Linux est surement le système d&#39;exploitation le plus utilisé dans le monde de l&#39;offensif... à tort ! En fait, il existe beaucoup mieux !" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenu</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lhistoire-de-kali-linux--une-montée-en-puissance">L&rsquo;histoire de Kali Linux : une montée en puissance</a>
+      <ul>
+        <li><a href="#les-origines-de-kali">Les origines de Kali</a></li>
+        <li><a href="#la-naissance-de-backtrack">La naissance de BackTrack</a></li>
+        <li><a href="#un-coup-de-neuf">Un coup de neuf</a></li>
+        <li><a href="#kali-linux-aujourdhui">Kali Linux aujourd’hui</a></li>
+      </ul>
+    </li>
+    <li><a href="#alternatives-à-kali-linux--dautres-os-pour-le-hacking">Alternatives à Kali Linux : d’autres OS pour le hacking</a></li>
+    <li><a href="#exegol--la-nouvelle-révolution-dans-le-hacking-éthique-pentest">Exegol : la nouvelle révolution dans le hacking éthique (pentest)</a>
+      <ul>
+        <li><a href="#problématique">Problématique</a></li>
+        <li><a href="#docker--un-système-de-conteneurisation-révolutionnaire">Docker : Un système de conteneurisation révolutionnaire</a></li>
+        <li><a href="#présentation-dexegol">Présentation d’Exegol</a></li>
+        <li><a href="#fonctionnement-dexegol">Fonctionnement d’Exegol</a></li>
+        <li><a href="#démonstration-et-utilisation">Démonstration et utilisation</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion--aller-vers-le-côté-obscur-tu-dois-">Conclusion : aller vers le côté obscur, tu dois !</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="exegol--la-meilleure-alternative-moderne-à-kali-linux">Exegol : la meilleure alternative moderne à Kali Linux</h1>
+<h2 id="lhistoire-de-kali-linux--une-montée-en-puissance">L&rsquo;histoire de Kali Linux : une montée en puissance</h2>
+<p><strong>Kali Linux</strong> est une distribution <strong>incontournable</strong> que l&rsquo;on ne présente plus destinée aux professionnels de la sécurité et nottament aux <strong>pentesters</strong> et <strong>auditeurs en sécurité offensive</strong>.</p>
+<p>Or, avec l&rsquo;avènement de nouvelles technologies et des alternatives plus légères, <strong>faut-il encore utiliser Kali Linux</strong> ? A travers cet article, revivez l&rsquo;évolution de cet OS, ses alternatives, et comment des solutions comme <strong>Exegol</strong>, basées sur Docker, redéfinissent l&rsquo;usage des environnements de hacking.</p>
+<h3 id="les-origines-de-kali">Les origines de Kali</h3>
+<p><strong>Kali Linux</strong>, tel qu’on le connaît aujourd’hui, est le résultat de plusieurs projets ayant évolué au fil du temps.</p>
+<p>Deux distributions pionnières ont joué un rôle essentiel dans sa création :</p>
+<ul>
+<li><strong>WHAX</strong> : Créé par Mati Aharoni, WHAX était une distribution dédiée aux tests d&rsquo;intrusion.</li>
+<li><strong>Auditor Security Collection</strong> : Développée par Max Moser, cette distribution était également dédiée à la sécurité.</li>
+</ul>
+<p>Ces deux projets étaient basés sur <strong>Knoppix</strong>, une distribution Linux nottament célèbre pour sa bonne stabilité de son mode live, c’est-à-dire sans installation sur le disque dur.</p>
+<h3 id="la-naissance-de-backtrack">La naissance de BackTrack</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/1.png"
+        data-srcset="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/1.png, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/1.png 1.5x, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/1.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/1.png"
+        title="BackTrack" /></p>
+<p>Le <strong>26 mai 2006</strong>, <strong>BackTrack</strong>, un nouveau système d&rsquo;exploitation voit le jour avec sa version 1.0. Conçu pour être un OS complet pour les <strong>tests d&rsquo;intrusion</strong>, il intégrait des outils phares tels que <strong>Metasploit</strong> ou <strong>Nmap</strong>.</p>
+<p><strong>BackTrack 2.0</strong> arrive en <strong>mars 2007</strong> avec des améliorations majeures, notamment l&rsquo;intégration des <strong>versions 2 et 3 de Metasploit Framework</strong> (msf) et une restructuration du menu pour une meilleure accessibilité des outils.</p>
+<p>En <strong>juin 2008</strong>, <strong>BackTrack</strong> passe à sa <strong>version 3.0</strong> avec des fonctionnalités supplémentaires comme <strong>Maltego</strong>, un outil d&rsquo;analyse de données et de renseignements.</p>
+<p><strong>BackTrack 4 R2</strong> en <strong>novembre 2010</strong> améliore encore la compatibilité matérielle.</p>
+<h3 id="un-coup-de-neuf">Un coup de neuf</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/2.png"
+        data-srcset="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/2.png, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/2.png 1.5x, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/2.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/2.png"
+        title="BackTrack" /></p>
+<p>En <strong>août 2012</strong>, avec la version <strong>BackTrack 5 R3</strong>, une restructuration importante s&rsquo;opère avec une base <strong>Ubuntu</strong>. Cependant, c’est le <strong>13 mars 2013</strong> que le tournant majeur a lieu : <strong>BackTrack devient Kali Linux</strong>.</p>
+<p>Sous l’égide <strong>d&rsquo;Offensive Security</strong>, <strong>Kali</strong> est reconstruit à partir de Debian et s&rsquo;appuie sur un système de paquets <strong>Debian</strong>, rendant sa gestion et son développement plus fluides.</p>
+<h3 id="kali-linux-aujourdhui">Kali Linux aujourd’hui</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/3.png"
+        data-srcset="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/3.png, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/3.png 1.5x, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/3.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/3.png"
+        title="BackTrack" /></p>
+<p>Depuis, Kali n’a cessé de se développer :</p>
+<ul>
+<li>En <strong>2019</strong>, l’interface passe de GNOME à XFCE, allégeant l&rsquo;OS.</li>
+<li>En <strong>2020</strong>, le shell par défaut devient <strong>zsh</strong>, offrant une meilleure ergonomie aux utilisateurs.</li>
+</ul>
+<p>De nombreuses autres fonctionnalités suivent les années suivantes.</p>
+<p><strong>Kali Linux</strong> est aujourd&rsquo;hui disponible sous diverses formes : <strong>ISO</strong>, <strong>machine virtuelle (VM)</strong>, <strong>live USB</strong>, et même sur mobile avec <strong>Kali NetHunter</strong>. Une version spéciale pour Windows est également disponible via le Windows Subsystem for Linux (WSL).</p>
+<p>La nouveauté la plus récente est <strong>Kali Purple</strong>, proposant un ensemble d&rsquo;outils pour la défense en cybersécurité, en complément des outils d’attaque.</p>
+<h2 id="alternatives-à-kali-linux--dautres-os-pour-le-hacking">Alternatives à Kali Linux : d’autres OS pour le hacking</h2>
+<p>Même si <strong>Kali</strong> reste populaire, il existe plusieurs alternatives tout aussi performantes :</p>
+<ul>
+<li><strong>BackBox</strong> : Une distribution basée sur Ubuntu, avec un focus particulier sur la simplicité et la légèreté.</li>
+<li><strong>BlackArch</strong> : Basé sur ArchLinux, BlackArch offre une vaste collection d’outils pour les pentests.</li>
+<li><strong>Parrot OS</strong> : Construit sur Debian, Parrot OS se distingue par son interface élégante et son orientation vers la sécurité et la vie privée.</li>
+</ul>
+<h2 id="exegol--la-nouvelle-révolution-dans-le-hacking-éthique-pentest">Exegol : la nouvelle révolution dans le hacking éthique (pentest)</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/4.png"
+        data-srcset="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/4.png, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/4.png 1.5x, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/4.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/4.png"
+        title="Exegol" /></p>
+<h3 id="problématique">Problématique</h3>
+<p>Les environnements de pentesting comme <strong>Kali Linux</strong> ou ses alternatives nécessitent souvent des <strong>installations complexes</strong>, des <strong>configurations manuelles</strong>, et peuvent être <strong>lourds</strong> pour certaines machines. C’est là <strong>qu’Exegol</strong>, une solution innovante basée sur Docker, <strong>entre en jeu</strong>.</p>
+<h3 id="docker--un-système-de-conteneurisation-révolutionnaire">Docker : Un système de conteneurisation révolutionnaire</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/5.png"
+        data-srcset="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/5.png, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/5.png 1.5x, /images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/5.png 2x"
+        data-sizes="auto"
+        alt="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/5.png"
+        title="Docker" /></p>
+<p><strong>Docker</strong> est un système de conteneurisation qui permet d&rsquo;exécuter des applications dans des environnements isolés. Il présente plusieurs avantages :</p>
+<ul>
+<li><strong>Sécurité</strong> : Grâce à une isolation stricte, chaque conteneur fonctionne indépendamment des autres.</li>
+<li><strong>Portabilité</strong> : Les conteneurs sont légers et peuvent être facilement déployés sur n’importe quel système.</li>
+<li><strong>Automatisation</strong> : La gestion des conteneurs est simple et peut être entièrement automatisée.</li>
+</ul>
+<h3 id="présentation-dexegol">Présentation d’Exegol</h3>
+<p><strong><a href="https://github.com/ThePorgs/Exegol" target="_blank" rel="noopener noreffer ">Exegol</a></strong> est un environnement de pentesting basé sur Docker, offrant une flexibilité et une facilité d&rsquo;utilisation <strong>incomparables</strong>. Il fonctionne pour n&rsquo;importe quel utilisateur et crée un conteneur pour chaque client.</p>
+<figure><img src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/archi.webp"><figcaption>
+      <h4>Architecture du projet d&#39;Exegol</h4>
+    </figcaption>
+</figure>
+
+<p>Les avantages d&rsquo;Exegol sont multiples :</p>
+<ul>
+<li>Tous les outils sont facilement accessibles, avec des alias et des historiques préconfigurés.</li>
+<li>Le partage de fichiers entre l&rsquo;hôte et le conteneur est possible.</li>
+<li>La journalisation des sessions de shell est automatisée, offrant un suivi complet des opérations.</li>
+<li>L&rsquo;automatisation de tâche est aisée au lancement du conteneur.</li>
+<li>Un accès VNC graphique est disponible à travers le navigateur.</li>
+</ul>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Ce qu&#39;on adore ! 🥰<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ol>
+<li>La description des différents outils installés sur <a href="https://exegol.readthedocs.io/en/latest/exegol-image/tools.html" target="_blank" rel="noopener noreffer ">la documentation</a>.</li>
+<li>Les commandes <strong>déjà enregistrées</strong> (quel gain de temps !). Petit plus, connaissez vous <a href="https://github.com/Orange-Cyberdefense/arsenal" target="_blank" rel="noopener noreffer ">Arsenal</a> pour ne perdre aucune commande ? 🔥</li>
+<li>L&rsquo;utilisation fonctionnelle d&rsquo;applications graphiques comme <strong>Firefox</strong>, <strong>Burp</strong> ou encore <strong>BloodHound</strong> !</li>
+<li>L&rsquo;accès VNC simulant un bureau distant.</li>
+<li>Le montage automatique d&rsquo;un VPN au lancement d&rsquo;un conteneur.</li>
+</ol>
+</div>
+        </div>
+    </div>
+<h3 id="fonctionnement-dexegol">Fonctionnement d’Exegol</h3>
+<p>Exegol repose sur <strong>trois dépôts principaux</strong> :</p>
+<ul>
+<li><strong>Exegol</strong> : Un wrapper Python pour simplifier l’utilisation.</li>
+<li><strong>Ressources</strong> : Un dépôt contenant toutes les ressources nécessaires.</li>
+<li><strong>Dockerfiles</strong> : Des fichiers Docker pour la création des conteneurs d’outils.</li>
+</ul>
+<p>On y retrouve aussi un serveur <strong><a href="https://discord.gg/cXThyp7D6P" target="_blank" rel="noopener noreffer ">Discord</a></strong> et un site internet pour la <strong><a href="https://exegol.readthedocs.io/en/latest/" target="_blank" rel="noopener noreffer ">documentation</a></strong>.</p>
+<p>Petit schéma juste en dessous 👇</p>
+<figure><img src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/techs.webp"><figcaption>
+      <h4>Technologies du projet d&#39;Exegol</h4>
+    </figcaption>
+</figure>
+
+<p>Exegol propose plusieurs images spécialisées comme :</p>
+<ul>
+<li><strong>Web</strong> : Pour les tests de sécurité web.</li>
+<li><strong>OSINT</strong> : Pour l’intelligence en sources ouvertes.</li>
+<li><strong>AD</strong> : Pour les environnements Active Directory.</li>
+<li><strong>Light et Full</strong> : Des versions allégées ou complètes en fonction des besoins.</li>
+</ul>
+<p>Exegol est un projet ouvert aux contributions des développeurs et est régulièrement présenté dans de grandes conférences. Un serveur Discord est également disponible pour échanger avec la communauté.</p>
+<h3 id="démonstration-et-utilisation">Démonstration et utilisation</h3>
+<p>L&rsquo;installation d&rsquo;Exegol est vraiment très simple</p>
+<ol>
+<li>Installez Docker avec la commande appropriée.</li>
+<li>Installez le wrapper Exegol via pip ou depuis les sources. Plus d&rsquo;infos sur la <a href="https://exegol.readthedocs.io/en/latest/getting-started/install.html" target="_blank" rel="noopener noreffer ">page d&rsquo;installation</a>.</li>
+<li>Et c&rsquo;est tout : <code>exegol start master</code> 😃</li>
+</ol>
+<p>Et d&rsquo;ailleurs, on en parle juste la sur la chaine YouTube de Trackflaw 👇</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/RxGkG8HFFHs?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="conclusion--aller-vers-le-côté-obscur-tu-dois-">Conclusion : aller vers le côté obscur, tu dois !</h2>
+<p>Si <strong>Kali Linux</strong> reste une référence, l&rsquo;avenir semble se tourner vers des solutions plus <strong>légères</strong> et <strong>portables</strong> comme Exegol.</p>
+<p>Utiliser <strong>Kali en VM</strong> est de plus en plus révolu face aux avantages offerts par Docker : performances accrues, portabilité, et flexibilité.</p>
+<p>Exegol s’impose ainsi comme un outil du quotidien pour les professionnels du pentesting, offrant une expérience optimisée et moderne.</p>
+<p>Lien vers le projet : <a href="https://github.com/ThePorgs/Exegol" target="_blank" rel="noopener noreffer ">https://github.com/ThePorgs/Exegol</a></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Mis à jour le 30/09/2024</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/index.md" target="_blank">Lire Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Partager sur Twitter" data-sharer="twitter" data-url="http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" data-title="Pourquoi vous ne devriez PLUS utiliser Kali Linux ?" data-via="trackflaw" data-hashtags="Test d&#39;intrusion,Pentest,Audit"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Facebook" data-sharer="facebook" data-url="http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" data-hashtag="Test d&#39;intrusion"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" data-title="Pourquoi vous ne devriez PLUS utiliser Kali Linux ?"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur Line" data-sharer="line" data-url="http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" data-title="Pourquoi vous ne devriez PLUS utiliser Kali Linux ?"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Partager sur 微博" data-sharer="weibo" data-url="http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/" data-title="Pourquoi vous ne devriez PLUS utiliser Kali Linux ?" data-image="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href=""></a>,&nbsp;<a href="/tags/pentest/">Pentest</a>,&nbsp;<a href="/tags/audit/">Audit</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Retour</a></span>&nbsp;|&nbsp;<span><a href="/">Accueil</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/" class="prev" rel="prev" title="Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Comment les tests d'intrusion aident à garantir la conformité RGPD ?</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Trackflaw</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Remonter en haut">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les commentaires">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.fr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Ok !","link":"En savoir plus","message":"Trackflaw utilise des cookies pour améliorer votre expérience et effectuer des statistiques."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"fr","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRE4WGVY4F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRE4WGVY4F');
+</script></body>
+</html>

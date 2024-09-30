@@ -11,8 +11,11 @@
     <guid>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" referrerpolicy="no-referrer">
-            </div>🕶️ New and scandalous backdoor in XZ Utils on Linux Introduction On March 29, 2024, a major security flaw was discovered in XZ Utils, a package widely used in popular Linux distributions. This flaw, known as CVE-2024-3094, allows attackers to execute code remotely on affected systems.
-TL;DR CVE-2024-3094 introduces a backdoor into the OpenSSH server, allowing attackers in possession of a UNIQUE private key to launch commands before the authentication step.]]></description>
+            </div><h1 id="-new-and-scandalous-backdoor-in-xz-utils-on-linux">🕶️ New and scandalous backdoor in XZ Utils on Linux</h1>
+<h2 id="introduction">Introduction</h2>
+<p>On <strong>March 29, 2024</strong>, a major security flaw was discovered in <code>XZ Utils</code>, a package widely used in popular Linux distributions. This flaw, known as <strong>CVE-2024-3094</strong>, allows attackers to <strong>execute code remotely</strong> on affected systems.</p>
+<h2 id="tldr">TL;DR</h2>
+<p><strong>CVE-2024-3094</strong> introduces a backdoor into the OpenSSH server, allowing attackers in possession of a <strong>UNIQUE</strong> private key to launch commands before the authentication step.</p>]]></description>
 </item>
 <item>
     <title>How to Hack a 20 billion euro multinational corporation (legally)?</title>
@@ -22,8 +25,10 @@ TL;DR CVE-2024-3094 introduces a backdoor into the OpenSSH server, allowing atta
     <guid>http://localhost:1313/en/multinational-hacking-with-file-upload-and-ssrf/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png" referrerpolicy="no-referrer">
-            </div>📸 CVE-2023-2520{2|3}: How to hack MULTINATIONAL company with file upload and SSRF? Introduction Information security is now at the heart of our daily lives. On the news, on the internet, on social networks, everyone, with or without knowledge, seems to have already been a victim of a more or less serious computer attack.
-And this can affect small businesses as well as the biggest companies in the CAC40. If you thought the security of the world&rsquo;s biggest companies was inviolable, think again.]]></description>
+            </div><h1 id="-cve-2023-252023-how-to-hack-multinational-company-with-file-upload-and-ssrf">📸 CVE-2023-2520{2|3}: How to hack MULTINATIONAL company with file upload and SSRF?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Information security is now at the <strong>heart of our daily lives</strong>. On the news, on the internet, on social networks, everyone, with or without knowledge, seems to <strong>have already been a victim</strong> of a more or less serious computer attack.</p>
+<p>And this can affect small businesses as well as the biggest companies in the <strong>CAC40</strong>. If you thought the security of the world&rsquo;s biggest companies was inviolable, think again.</p>]]></description>
 </item>
 <item>
     <title>Compromise Jenkins reading files CVE-2024-23897</title>
@@ -33,9 +38,11 @@ And this can affect small businesses as well as the biggest companies in the CAC
     <guid>http://localhost:1313/en/compromise-jenkins-reading-files-cve-2024-23897/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/compromettre-jenkins-lecture-fichiers-CVE-2024-23897/logo.png" referrerpolicy="no-referrer">
-            </div>💣 From a minor verbose error to full compromise The origin On January 25, 2024, researchers from Sonar published 2 vulnerabilities related to the leader in open-source continuous integration and continuous deployment (CI/CD) software: Jenkins.
-Jenkins plays a central role in automating software development processes for a large part of the industry, holding about 44% market share in 2023. The potential impact of these vulnerabilities is therefore significant.
-The most concerning flaw, identified as CVE-2024-23897, allows unauthenticated attackers to read limited data from arbitrary files and &ldquo;read-only&rdquo; authorized attackers to access an entire file on the Jenkins server.]]></description>
+            </div><h1 id="-from-a-minor-verbose-error-to-full-compromise">💣 From a minor verbose error to full compromise</h1>
+<h2 id="the-origin">The origin</h2>
+<p>On <strong>January 25, 2024</strong>, researchers from Sonar published 2 vulnerabilities related to the leader in open-source continuous integration and continuous deployment (CI/CD) software: <strong>Jenkins</strong>.</p>
+<p>Jenkins plays a central role in <strong>automating software development processes</strong> for a large part of the industry, holding about <strong>44% market share in 2023</strong>. The potential impact of these vulnerabilities is therefore <strong>significant</strong>.</p>
+<p>The most concerning flaw, identified as <strong>CVE-2024-23897</strong>, allows unauthenticated attackers to read limited data from arbitrary files and &ldquo;read-only&rdquo; authorized attackers to access an entire file on the Jenkins server.</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,6 +1,6 @@
 ---
 title: "Quelle démarche choisir pour effectuer un test d'intrusion ?"
-description: "Cet article détail et explique au lecteur les différentes démarches d'un test d'intrusion ainsi que comment bien faire son choix."
+description: "Comment bien choisir son test d'intrusion ? Quelles sont les différentes démarches d'un test d'intrusion ? Comment bien faire son choix ? On vous éclaire !"
 date: 2024-01-23T10:39:40+01:00
 draft: false
 images: [/images/quelle-démarche-test-intrusion/logo.png]

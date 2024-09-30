@@ -11,8 +11,10 @@
     <guid>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
-            </div>📂 Comment contourner les mécanismes de dépôt de fichiers ? Introduction Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d&rsquo;autres dommages.
-Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de l&rsquo;Insomni&rsquo;hack Teaser 2019 CTF.]]></description>
+            </div><h1 id="-comment-contourner-les-mécanismes-de-dépôt-de-fichiers-">📂 Comment contourner les mécanismes de dépôt de fichiers ?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d&rsquo;autres dommages.</p>
+<p>Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de <a href="https://ctftime.org/event/686" target="_blank" rel="noopener noreffer ">l&rsquo;Insomni&rsquo;hack Teaser 2019 CTF</a>.</p>]]></description>
 </item>
 </channel>
 </rss>

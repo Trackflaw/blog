@@ -3,9 +3,22 @@
         <title>Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/</link>
         <description>Trackflaw est une startup spécialisée dans la sécurité offensive et particulièrement dans le domaine des tests d&#39;intrusion. Ce blog détaille les différents articles de sécurité informatique de la société Trackflaw : exploitation, audit, vulnérabilités, etc.</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Pourquoi vous ne devriez PLUS utiliser Kali Linux ?</title>
+    <link>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</link>
+    <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png" referrerpolicy="no-referrer">
+            </div><h1 id="exegol--la-meilleure-alternative-moderne-à-kali-linux">Exegol : la meilleure alternative moderne à Kali Linux</h1>
+<h2 id="lhistoire-de-kali-linux--une-montée-en-puissance">L&rsquo;histoire de Kali Linux : une montée en puissance</h2>
+<p><strong>Kali Linux</strong> est une distribution <strong>incontournable</strong> que l&rsquo;on ne présente plus destinée aux professionnels de la sécurité et nottament aux <strong>pentesters</strong> et <strong>auditeurs en sécurité offensive</strong>.</p>
+<p>Or, avec l&rsquo;avènement de nouvelles technologies et des alternatives plus légères, <strong>faut-il encore utiliser Kali Linux</strong> ? A travers cet article, revivez l&rsquo;évolution de cet OS, ses alternatives, et comment des solutions comme <strong>Exegol</strong>, basées sur Docker, redéfinissent l&rsquo;usage des environnements de hacking.</p>]]></description>
+</item>
+<item>
     <title>Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?</title>
     <link>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
     <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
@@ -13,9 +26,11 @@
     <guid>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png" referrerpolicy="no-referrer">
-            </div>Test d&rsquo;intrusion et conformité RGPD : l&rsquo;essentiel à retenir Une histoire de protection En tant que dirigeant d&rsquo;entreprise, il est peu probable que vous n&rsquo;ayez jamais entendu le terme RGPD. En effet, il est au coeur des préoccupations numériques des entreprises depuis plusieurs années 🛡️.
-Le Règlement Général sur la Protection des Données (RGPD) impose des normes strictes concernant la protection des données personnelles au sein de l&rsquo;Union Européenne.
-En effet, depuis son entrée en vigueur en mai 2018, les entreprises doivent prendre des mesures rigoureuses pour sécuriser les données qu&rsquo;elles collectent et traitent.]]></description>
+            </div><h1 id="test-dintrusion-et-conformité-rgpd--lessentiel-à-retenir">Test d&rsquo;intrusion et conformité RGPD : l&rsquo;essentiel à retenir</h1>
+<h2 id="une-histoire-de-protection">Une histoire de protection</h2>
+<p>En tant que dirigeant d&rsquo;entreprise, il est peu probable que vous n&rsquo;ayez jamais entendu le terme <strong>RGPD</strong>. En effet, il est au coeur des préoccupations numériques des entreprises depuis plusieurs années 🛡️.</p>
+<p><strong>Le Règlement Général sur la Protection des Données (RGPD)</strong> impose des normes strictes concernant la <strong>protection des données personnelles</strong> au sein de l&rsquo;Union Européenne.</p>
+<p>En effet, depuis son entrée en vigueur en <strong>mai 2018</strong>, les entreprises doivent prendre des mesures rigoureuses pour sécuriser les données <strong>qu&rsquo;elles collectent et traitent</strong>. Parmi ces mesures, le test d&rsquo;intrusion s&rsquo;avère être un <strong>outil indispensable pour garantir la conformité au RGPD</strong>.</p>]]></description>
 </item>
 <item>
     <title>Quels outils utiliser pour un test d&#39;intrusion (pentest) ?</title>
@@ -25,8 +40,10 @@ En effet, depuis son entrée en vigueur en mai 2018, les entreprises doivent pre
     <guid>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.png" referrerpolicy="no-referrer">
-            </div>🛠️ Les outils dans le domaine des tests d&rsquo;intrusion/pentest Enjeux des tests d&rsquo;intrusion (pentest) Le test d&rsquo;intrusion, également connu sous le nom de pentest et audit de sécurité (ou vulgairement test de pénétration), est une pratique essentielle pour évaluer la sécurité d&rsquo;un système informatique. Il consiste à simuler des attaques réelles pour identifier et corriger les vulnérabilités avant de véritables attaquants malveillants.
-Pour mener à bien un test d&rsquo;intrusion, il est crucial de disposer des bons outils.]]></description>
+            </div><h1 id="-les-outils-dans-le-domaine-des-tests-dintrusionpentest">🛠️ Les outils dans le domaine des tests d&rsquo;intrusion/pentest</h1>
+<h2 id="enjeux-des-tests-dintrusion-pentest">Enjeux des tests d&rsquo;intrusion (pentest)</h2>
+<p>Le <strong>test d&rsquo;intrusion</strong>, également connu sous le nom de <strong>pentest</strong>  et <strong>audit de sécurité</strong> (ou vulgairement test de pénétration), est une pratique essentielle pour <strong>évaluer la sécurité d&rsquo;un système informatique</strong>. Il consiste à simuler des attaques réelles pour <strong>identifier</strong> et <strong>corriger</strong> les <strong>vulnérabilités</strong> avant de véritables attaquants malveillants.</p>
+<p>Pour mener à bien un test d&rsquo;intrusion, il est crucial de disposer des bons <strong>outils</strong>. Cependant, il est difficile de s&rsquo;y retrouver au vu de la quantité.</p>]]></description>
 </item>
 <item>
     <title>Quel budget prévoir pour son test intrusion ?</title>
@@ -36,9 +53,11 @@ Pour mener à bien un test d&rsquo;intrusion, il est crucial de disposer des bon
     <guid>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quel-budget-pr%c3%a9voir-pour-son-test-intrusion/logo.fr.png" referrerpolicy="no-referrer">
-            </div>💰 Combien coûte un test d&rsquo;intrusion informatique en 2024 ? La cybersécurité : un enjeu du XXIe siècle Dans un monde numérique en constante évolution, les tests d&rsquo;intrusion informatique deviennent de plus en plus cruciaux pour assurer la sécurité des systèmes d&rsquo;information d&rsquo;une entreprise. 🎯
-Que ce soit pour protéger des données sensibles ou pour maintenir les opérations commerciales, la cybersécurité est au cœur des préoccupations de chaque organisation.
-L&rsquo;une des questions les plus fréquentes que se posent les entreprises est le coût d&rsquo;un test d&rsquo;intrusion en 2024.]]></description>
+            </div><h1 id="-combien-coûte-un-test-dintrusion-informatique-en-2024-">💰 Combien coûte un test d&rsquo;intrusion informatique en 2024 ?</h1>
+<h2 id="la-cybersécurité--un-enjeu-du-xxie-siècle">La cybersécurité : un enjeu du XXIe siècle</h2>
+<p>Dans un monde numérique en constante évolution, <strong>les tests d&rsquo;intrusion informatique</strong> deviennent de plus en plus cruciaux pour assurer la sécurité des systèmes d&rsquo;information d&rsquo;une entreprise. 🎯</p>
+<p>Que ce soit pour protéger des données sensibles ou pour maintenir les opérations commerciales, la <strong>cybersécurité</strong> est au cœur des préoccupations de chaque organisation.</p>
+<p>L&rsquo;une des questions les plus fréquentes que se posent les entreprises est le <strong>coût d&rsquo;un test d&rsquo;intrusion en 2024</strong>. Cet article est la pour vous guider à travers les divers facteurs influençant le coût d&rsquo;un test d&rsquo;intrusion et comment budgetiser efficacement cette opération essentielle.</p>]]></description>
 </item>
 <item>
     <title>XZ Utils : la backdoor faisant trembler le monde libre et de la cybersécurité</title>
@@ -48,8 +67,11 @@ L&rsquo;une des questions les plus fréquentes que se posent les entreprises est
     <guid>http://localhost:1313/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" referrerpolicy="no-referrer">
-            </div>🕶️ Nouvelle et sulfureuse porte dérobée dans XZ Utils sur Linux Introduction Le 29 mars 2024, une faille de sécurité majeure a été découverte dans XZ Utils, un paquet largement utilisé dans les distributions Linux populaires. Cette faille, connue sous le nom de CVE-2024-3094, permet aux attaquants d&rsquo;exécuter du code à distance sur les systèmes affectés.
-TL;DR La CVE-2024-3094 introduit un backdoor dans le serveur OpenSSH, permettant à des attaquants en possession d&rsquo;une clef privée UNIQUE de lancer des commandes avant l&rsquo;étape d&rsquo;authentification.]]></description>
+            </div><h1 id="-nouvelle-et-sulfureuse-porte-dérobée-dans-xz-utils-sur-linux">🕶️ Nouvelle et sulfureuse porte dérobée dans XZ Utils sur Linux</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Le <strong>29 mars 2024</strong>, une faille de sécurité majeure a été découverte dans <code>XZ Utils</code>, un paquet largement utilisé dans les distributions Linux populaires. Cette faille, connue sous le nom de <strong>CVE-2024-3094</strong>, permet aux attaquants <strong>d&rsquo;exécuter du code à distance</strong> sur les systèmes affectés.</p>
+<h2 id="tldr">TL;DR</h2>
+<p>La <strong>CVE-2024-3094</strong> introduit un backdoor dans le serveur OpenSSH, permettant à des attaquants en possession d&rsquo;une clef privée <strong>UNIQUE</strong> de lancer des commandes avant l&rsquo;étape d&rsquo;authentification.</p>]]></description>
 </item>
 <item>
     <title>Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?</title>
@@ -59,9 +81,11 @@ TL;DR La CVE-2024-3094 introduit un backdoor dans le serveur OpenSSH, permettant
     <guid>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" referrerpolicy="no-referrer">
-            </div>Pourquoi un test d&rsquo;intrusion est OBLIGATOIRE sur votre site Wordpress en 2024 ? Introduction WordPress, en tant que l&rsquo;un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d&rsquo;entreprise.
-Sa popularité s&rsquo;accompagne toutefois de risques de sécurité accrus, rendant les tests d&rsquo;intrusion cruciaux pour protéger ces sites contre les cyberattaques.
-📈 Quelques statistiques faramineuses (selon lesmakers.]]></description>
+            </div><h1 id="pourquoi-un-test-dintrusion-est-obligatoire-sur-votre-site-wordpress-en-2024-">Pourquoi un test d&rsquo;intrusion est OBLIGATOIRE sur votre site Wordpress en 2024 ?</h1>
+<h2 id="introduction">Introduction</h2>
+<p><strong>WordPress</strong>, en tant que l&rsquo;un des systèmes de gestion de contenu (CMS) <strong>les plus utilisés au monde</strong>, alimente une part significative des sites web, allant des blogs personnels aux sites d&rsquo;entreprise.</p>
+<p>Sa popularité s&rsquo;accompagne toutefois de risques de sécurité accrus, rendant les tests d&rsquo;intrusion cruciaux pour protéger ces sites contre les cyberattaques.</p>
+<p>📈 Quelques statistiques faramineuses (selon lesmakers.fr) :</p>]]></description>
 </item>
 <item>
     <title>GhostRace : nouvelle vulnérabilité CPU préoccupante</title>
@@ -71,9 +95,12 @@ Sa popularité s&rsquo;accompagne toutefois de risques de sécurité accrus, ren
     <guid>http://localhost:1313/ghostrace-nouvelle-vuln%C3%A9rabilit%C3%A9-cpu-pr%C3%A9occupante/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/GhostRace-nouvelle-vuln%c3%a9rabilit%c3%a9-CPU-pr%c3%a9occupante/logo.fr.png" referrerpolicy="no-referrer">
-            </div>👻 GhostRace : Spectre v2.0 ? TL;DR Une nouvelle classe de vulnérabilités d&rsquo;exécution spéculative a été découverte courant mars 2024, appelée GhostRace. Cette attaque est particulièrement dangereuse car elle peut être utilisée pour exploiter un grand nombre de logiciels, y compris les navigateurs web, les systèmes d&rsquo;exploitation et les applications critiques.
-En théorie Mais comment fonctionne l&rsquo;attaque GhostRace ? 🤔
-L&rsquo;attaque GhostRace (CVE-2024-2193) repose sur l&rsquo;exploitation de failles dans les primitives de synchronisation, qui sont des outils logiciels utilisés pour coordonner l&rsquo;exécution de plusieurs processus ou threads.]]></description>
+            </div><h1 id="-ghostrace--spectre-v20-">👻 GhostRace : Spectre v2.0 ?</h1>
+<h2 id="tldr">TL;DR</h2>
+<p>Une nouvelle classe de vulnérabilités <strong>d&rsquo;exécution spéculative</strong> a été découverte courant mars 2024, appelée <strong>GhostRace</strong>. Cette attaque est particulièrement dangereuse car elle peut être utilisée pour exploiter un grand nombre de logiciels, y compris les navigateurs web, les systèmes d&rsquo;exploitation et les applications critiques.</p>
+<h2 id="en-théorie">En théorie</h2>
+<p>Mais comment fonctionne l&rsquo;attaque <strong>GhostRace</strong> ? 🤔</p>
+<p>L&rsquo;attaque <strong>GhostRace</strong> (<a href="https://www.cve.org/CVERecord?id=CVE-2024-2193" target="_blank" rel="noopener noreffer ">CVE-2024-2193</a>) repose sur l&rsquo;exploitation de failles dans les primitives de synchronisation, qui sont des outils logiciels utilisés pour coordonner l&rsquo;exécution de plusieurs processus ou threads.</p>]]></description>
 </item>
 <item>
     <title>Comment hacker (légalement) une multinationale de 20 milliards d&#39;euros ?</title>
@@ -83,8 +110,10 @@ L&rsquo;attaque GhostRace (CVE-2024-2193) repose sur l&rsquo;exploitation de fai
     <guid>http://localhost:1313/hacker-multinationale-via-file-upload-et-ssrf/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png" referrerpolicy="no-referrer">
-            </div>📸 CVE-2023-2520{2|3} : Comment hacker une MULTINATIONALE avec un dépôt de fichiers et une SSRF ? Introduction La sécurité informatique est maintenant au coeur de notre quotidien. Aux infos, sur internet, sur les réseaux, tout le monde, avec ou sans connaissance, semble déjà avoir été victime d’une attaque informatique plus ou moins grave.
-Et cela peut toucher des petites entreprises comme les plus grosses du CAC40. Si vous pensiez que la sécurité des plus grosses sociétés de ce monde est inviolable, détrompez vous.]]></description>
+            </div><h1 id="-cve-2023-252023--comment-hacker-une-multinationale-avec-un-dépôt-de-fichiers-et-une-ssrf-">📸 CVE-2023-2520{2|3} : Comment hacker une MULTINATIONALE avec un dépôt de fichiers et une SSRF ?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>La sécurité informatique est maintenant au <strong>coeur de notre quotidien</strong>. Aux infos, sur internet, sur les réseaux, tout le monde, avec ou sans connaissance, semble <strong>déjà avoir été victime</strong> d’une attaque informatique plus ou moins grave.</p>
+<p>Et cela peut toucher des petites entreprises comme les plus grosses du <strong>CAC40</strong>. Si vous pensiez que la sécurité des plus grosses sociétés de ce monde est inviolable, détrompez vous.</p>]]></description>
 </item>
 <item>
     <title>Compromettre Jenkins via une simple lecture de fichiers : CVE-2024-23897</title>
@@ -94,8 +123,10 @@ Et cela peut toucher des petites entreprises comme les plus grosses du CAC40. Si
     <guid>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/compromettre-jenkins-lecture-fichiers-CVE-2024-23897/logo.png" referrerpolicy="no-referrer">
-            </div>💣 D&rsquo;une petite erreur verbeuse à une compromission complète A l&rsquo;origine Le 25 janvier 2024, des chercheurs de chez Sonar publient 2 vulnérabilités concernant le leader des logiciels d&rsquo;intégration et de déploiement continus open-source (CI/CD) : Jenkins.
-Jenkins joue un rôle central dans l&rsquo;automatisation des processus de développement logiciel pour une grande partie de l&rsquo;industrie, avec une part de marché d&rsquo;environ 44% en 2023. L&rsquo;impact potentiel de ces vulnérabilités est donc considérable.]]></description>
+            </div><h1 id="-dune-petite-erreur-verbeuse-à-une-compromission-complète">💣 D&rsquo;une petite erreur verbeuse à une compromission complète</h1>
+<h2 id="a-lorigine">A l&rsquo;origine</h2>
+<p>Le <strong>25 janvier 2024</strong>, des chercheurs de chez Sonar publient 2 vulnérabilités concernant le leader des logiciels d&rsquo;intégration et de déploiement continus open-source (CI/CD) : <strong>Jenkins</strong>.</p>
+<p>Jenkins joue un rôle central dans <strong>l&rsquo;automatisation des processus</strong> de développement logiciel pour une grande partie de l&rsquo;industrie, avec une part de marché d&rsquo;environ <strong>44% en 2023</strong>. L&rsquo;impact potentiel de ces vulnérabilités est donc <strong>considérable</strong>.</p>]]></description>
 </item>
 <item>
     <title>Quelle démarche choisir pour effectuer un test d&#39;intrusion ?</title>
@@ -105,20 +136,10 @@ Jenkins joue un rôle central dans l&rsquo;automatisation des processus de déve
     <guid>http://localhost:1313/quelle-d%C3%A9marche-test-intrusion/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quelle-d%c3%a9marche-test-intrusion/logo.png" referrerpolicy="no-referrer">
-            </div>🤔 Comment bien choisir sa démarche pour effectuer un test d&rsquo;intrusion ? Boite noire, boite grise, boite blanche ? Dans le monde en constante évolution de la cybersécurité, où les cyberattaques deviennent de plus en plus sophistiquées, la réalisation de tests d&rsquo;intrusion est devenue une nécessité pour les entreprises soucieuses de protéger leurs systèmes informatiques et données sensibles.
-Ces tests, souvent désignés sous les termes de tests en boîte noire, boîte grise et boîte blanche, sont des composantes cruciales de toute stratégie de sécurité informatique robuste.]]></description>
-</item>
-<item>
-    <title>Compromettre des comptes Gitlab avec la vulnérabilité CVE-2023-7028</title>
-    <link>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</link>
-    <pubDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/compromettre-comptes-Gitlab-avec-CVE-2023-7028/logo.png" referrerpolicy="no-referrer">
-            </div>😮 Exposer GitLab publiquement en 2024 : trop dangereux ? Est ce que exposer son propre Gitlab est une bonne pratique de sécurité ? Et bien vous allez voir que non.
-2024 commence fort et donne encore de bonnes raisons de ne pas exposer ce service sur Internet (mais plutôt de l&rsquo;héberger derrière un VPN).
-Un début d&rsquo;année sous haute tension Le 11 janvier 2024, GitLab, la célèbre plateforme communautaire, a publié une annonce importante concernant les nouvelles versions 16.]]></description>
+            </div><h1 id="-comment-bien-choisir-sa-démarche-pour-effectuer-un-test-dintrusion-">🤔 Comment bien choisir sa démarche pour effectuer un test d&rsquo;intrusion ?</h1>
+<h2 id="boite-noire-boite-grise-boite-blanche-">Boite noire, boite grise, boite blanche ?</h2>
+<p>Dans le monde en constante évolution de la cybersécurité, où les cyberattaques deviennent de plus en plus sophistiquées, la réalisation de tests d&rsquo;intrusion est <strong>devenue une nécessité</strong> pour les entreprises soucieuses de protéger leurs systèmes informatiques et données sensibles.</p>
+<p>Ces tests, souvent désignés sous les termes de tests en <strong>boîte noire</strong>, <strong>boîte grise</strong> et <strong>boîte blanche</strong>, sont des composantes cruciales de toute stratégie de sécurité informatique robuste. Chacun de ces types de tests offre une approche unique pour évaluer la sécurité des systèmes d&rsquo;information et identifier les vulnérabilités potentielles susceptibles d&rsquo;être exploitées par des attaquants informatiques.</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -52,11 +52,12 @@
 
     {{- /* Summary content */ -}}
     <div class="content">
-        {{- with .Summary -}}
-            {{- dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
-        {{- else -}}
-            {{- .Description | safeHTML -}}
-        {{- end -}}
+        {{- .Description | safeHTML -}}
+        
+        <!-- {{- with .Summary -}}
+            {{- partial "function/content.html" (dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome) | safeHTML -}} -->
+        <!-- {{- else -}} -->
+        <!-- {{- end -}} -->
     </div>
 
     {{- /* Footer */ -}}

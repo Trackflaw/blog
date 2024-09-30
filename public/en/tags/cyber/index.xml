@@ -11,8 +11,10 @@
     <guid>http://localhost:1313/en/approach-penetration-test/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quelle-d%c3%a9marche-test-intrusion/logo.png" referrerpolicy="no-referrer">
-            </div>🤔 How to choose the right approach for conducting a penetration test? Black Box, Gray Box, White Box? In the constantly evolving world of cybersecurity, where cyberattacks are becoming increasingly sophisticated, conducting penetration tests has become a necessity for businesses concerned about protecting their IT systems and sensitive data.
-These tests, often referred to as black box, gray box, and white box tests, are crucial components of any robust IT security strategy.]]></description>
+            </div><h1 id="-how-to-choose-the-right-approach-for-conducting-a-penetration-test">🤔 How to choose the right approach for conducting a penetration test?</h1>
+<h2 id="black-box-gray-box-white-box">Black Box, Gray Box, White Box?</h2>
+<p>In the constantly evolving world of cybersecurity, where cyberattacks are becoming increasingly sophisticated, conducting penetration tests has become a necessity for businesses concerned about protecting their IT systems and sensitive data.</p>
+<p>These tests, often referred to as black box, gray box, and white box tests, are crucial components of any robust IT security strategy. Each type of test offers a unique approach to assessing information system security and identifying potential vulnerabilities that could be exploited by cyber attackers.</p>]]></description>
 </item>
 </channel>
 </rss>

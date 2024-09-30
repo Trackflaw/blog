@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/en/posts/</loc><lastmod>2024-08-18T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/posts/</loc><lastmod>2024-09-30T17:21:12&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/posts/"
@@ -11,7 +11,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/en/</loc><lastmod>2024-08-18T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/en/</loc><lastmod>2024-09-30T17:21:12&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/"
@@ -20,7 +20,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/audit/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/audit/</loc><lastmod>2024-08-15T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/audit/"
@@ -29,8 +29,10 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/audit/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/penetration-test/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>http://localhost:1313/en/tags/pentest/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/gdpr/</loc><lastmod>2024-08-15T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</loc><lastmod>2024-08-15T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/en/tags/penetration-test/</loc><lastmod>2024-08-15T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:1313/en/tags/pentest/</loc><lastmod>2024-08-15T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/pentest/"
@@ -39,7 +41,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/pentest/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/</loc><lastmod>2024-08-15T12:18:54&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/tags/"
@@ -48,7 +50,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/en/what-tools-to-use-for-an-intrusion-test/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/en/what-tools-to-use-for-an-intrusion-test/</loc><lastmod>2024-07-24T11:58:40&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/en/what-budget-to-provide-for-its-intrusion-test/</loc><lastmod>2024-05-13T10:01:20&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/en/tags/penetration-testing/</loc><lastmod>2024-04-01T10:21:17&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
