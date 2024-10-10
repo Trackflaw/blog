@@ -3,10 +3,10 @@
         <title>Tags - Balise - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/tags/</link>
         <description>Tags - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Audit</title>
     <link>http://localhost:1313/tags/audit/</link>
-    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
+    <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/tags/audit/</guid>
     <description><![CDATA[]]></description>
@@ -14,9 +14,17 @@
 <item>
     <title>Pentest</title>
     <link>http://localhost:1313/tags/pentest/</link>
-    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
+    <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/tags/pentest/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Test D&#39;intrusion</title>
+    <link>http://localhost:1313/tags/test-dintrusion/</link>
+    <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/tags/test-dintrusion/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -25,14 +33,6 @@
     <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
     <author>Thibaud Robin</author>
     <guid>http://localhost:1313/tags/rgpd/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Test D&#39;intrusion</title>
-    <link>http://localhost:1313/tags/test-dintrusion/</link>
-    <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/tags/test-dintrusion/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>

@@ -3,7 +3,20 @@
         <title>Articles - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/posts/</link>
         <description>Articles | Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 30 Sep 2024 17:21:12 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Pourquoi vous ne devriez PLUS utiliser Kali Linux ?</title>
+    <link>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</link>
+    <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png" referrerpolicy="no-referrer">
+            </div><h1 id="exegol--la-meilleure-alternative-moderne-à-kali-linux">Exegol : la meilleure alternative moderne à Kali Linux</h1>
+<h2 id="lhistoire-de-kali-linux--une-montée-en-puissance">L&rsquo;histoire de Kali Linux : une montée en puissance</h2>
+<p><strong>Kali Linux</strong> est une distribution <strong>incontournable</strong> que l&rsquo;on ne présente plus destinée aux professionnels de la sécurité et nottament aux <strong>pentesters</strong> et <strong>auditeurs en sécurité offensive</strong>.</p>
+<p>Or, avec l&rsquo;avènement de nouvelles technologies et des alternatives plus légères, <strong>faut-il encore utiliser Kali Linux</strong> ? A travers cet article, revivez l&rsquo;évolution de cet OS, ses alternatives, et comment des solutions comme <strong>Exegol</strong>, basées sur Docker, redéfinissent l&rsquo;usage des environnements de hacking.</p>]]></description>
+</item>
+<item>
     <title>Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?</title>
     <link>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
     <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
@@ -125,22 +138,6 @@
 <h2 id="boite-noire-boite-grise-boite-blanche-">Boite noire, boite grise, boite blanche ?</h2>
 <p>Dans le monde en constante évolution de la cybersécurité, où les cyberattaques deviennent de plus en plus sophistiquées, la réalisation de tests d&rsquo;intrusion est <strong>devenue une nécessité</strong> pour les entreprises soucieuses de protéger leurs systèmes informatiques et données sensibles.</p>
 <p>Ces tests, souvent désignés sous les termes de tests en <strong>boîte noire</strong>, <strong>boîte grise</strong> et <strong>boîte blanche</strong>, sont des composantes cruciales de toute stratégie de sécurité informatique robuste. Chacun de ces types de tests offre une approche unique pour évaluer la sécurité des systèmes d&rsquo;information et identifier les vulnérabilités potentielles susceptibles d&rsquo;être exploitées par des attaquants informatiques.</p>]]></description>
-</item>
-<item>
-    <title>Compromettre des comptes Gitlab avec la vulnérabilité CVE-2023-7028</title>
-    <link>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</link>
-    <pubDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/compromettre-comptes-Gitlab-avec-CVE-2023-7028/logo.png" referrerpolicy="no-referrer">
-            </div><h1 id="-exposer-gitlab-publiquement-en-2024--trop-dangereux-">😮 Exposer GitLab publiquement en 2024 : trop dangereux ?</h1>
-<br>
-<br>
-<p>Est ce que exposer son propre Gitlab est une bonne pratique de sécurité ? Et bien vous allez voir que <strong>non</strong>.</p>
-<p>2024 commence fort et donne encore de bonnes raisons de <strong>ne pas exposer ce service sur Internet</strong> (mais plutôt de l&rsquo;héberger derrière un VPN).</p>
-<h2 id="un-début-dannée-sous-haute-tension">Un début d&rsquo;année sous haute tension</h2>
-<p>Le 11 janvier 2024, GitLab, la célèbre plateforme communautaire, a publié une annonce importante concernant les nouvelles versions <code>16.7.2, 16.6.4 et 16.5.6</code> pour GitLab Community Edition (CE) et Enterprise Edition (EE).</p>]]></description>
 </item>
 </channel>
 </rss>

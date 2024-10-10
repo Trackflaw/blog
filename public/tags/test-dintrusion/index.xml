@@ -3,7 +3,20 @@
         <title>Test D&#39;intrusion - Balise - Trackflaw | Expert en sécurité informatique</title>
         <link>http://localhost:1313/tags/test-dintrusion/</link>
         <description>Test D&#39;intrusion - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/test-dintrusion/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/test-dintrusion/" rel="self" type="application/rss+xml" /><item>
+    <title>Pourquoi vous ne devriez PLUS utiliser Kali Linux ?</title>
+    <link>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</link>
+    <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
+    <author>Thibaud Robin</author>
+    <guid>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png" referrerpolicy="no-referrer">
+            </div><h1 id="exegol--la-meilleure-alternative-moderne-à-kali-linux">Exegol : la meilleure alternative moderne à Kali Linux</h1>
+<h2 id="lhistoire-de-kali-linux--une-montée-en-puissance">L&rsquo;histoire de Kali Linux : une montée en puissance</h2>
+<p><strong>Kali Linux</strong> est une distribution <strong>incontournable</strong> que l&rsquo;on ne présente plus destinée aux professionnels de la sécurité et nottament aux <strong>pentesters</strong> et <strong>auditeurs en sécurité offensive</strong>.</p>
+<p>Or, avec l&rsquo;avènement de nouvelles technologies et des alternatives plus légères, <strong>faut-il encore utiliser Kali Linux</strong> ? A travers cet article, revivez l&rsquo;évolution de cet OS, ses alternatives, et comment des solutions comme <strong>Exegol</strong>, basées sur Docker, redéfinissent l&rsquo;usage des environnements de hacking.</p>]]></description>
+</item>
+<item>
     <title>Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?</title>
     <link>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
     <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
@@ -127,19 +140,6 @@
 <p>La réponse est <strong>oui</strong> !</p>
 <p>Les <strong>tests d&rsquo;intrusion</strong>, aussi connus sous le nom de <strong>tests de &ldquo;pénétration&rdquo;</strong> (terme à éviter dans le langage courant français 😉), constituent une composante cruciale de la <strong>cybersécurité</strong> moderne.</p>
 <p>En simulant des attaques informatiques dans des conditions contrôlées, ces tests permettent de <strong>détecter les failles de sécurité</strong> dans les <strong>systèmes d&rsquo;information</strong>, les <strong>serveurs</strong>, les <strong>applications web</strong>, et autres composants informatiques. L&rsquo;objectif est d&rsquo;identifier les vulnérabilités avant qu&rsquo;elles ne soient exploitées par des <strong>pirates informatiques</strong> ou des acteurs <strong>malveillants</strong>, garantissant ainsi la <strong>sécurisation</strong> des <strong>données sensibles</strong> et des <strong>informations confidentielles</strong>.</p>]]></description>
-</item>
-<item>
-    <title>Htaccess, ou comment contourner les mécanismes de dépôt de fichiers.</title>
-    <link>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</link>
-    <pubDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
-            </div><h1 id="-comment-contourner-les-mécanismes-de-dépôt-de-fichiers-">📂 Comment contourner les mécanismes de dépôt de fichiers ?</h1>
-<h2 id="introduction">Introduction</h2>
-<p>Une vulnérabilité de type dépôt de fichier est une faille de sécurité permettant à un attaquant de déposer un fichier malveillant sur un système cible. Ce fichier malveillant peut ensuite être utilisé pour exécuter un code arbitraire, voler des données ou causer d&rsquo;autres dommages.</p>
-<p>Il existe de multiples façon de contourner les mécanismes de dépôt de fichier. Cet article est inspirée du challenge l33t-hoster de <a href="https://ctftime.org/event/686" target="_blank" rel="noopener noreffer ">l&rsquo;Insomni&rsquo;hack Teaser 2019 CTF</a>.</p>]]></description>
 </item>
 </channel>
 </rss>
