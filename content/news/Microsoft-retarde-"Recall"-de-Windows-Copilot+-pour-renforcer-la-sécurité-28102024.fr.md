@@ -1,5 +1,5 @@
 ---
-title: "Microsoft retarde "Recall" de Windows Copilot+ pour renforcer la sécurité - Les4ActusCyber : semaine du 28 octobre"
+title: "Microsoft retarde 'Recall' de Windows Copilot+ pour renforcer la sécurité - Les4ActusCyber : semaine du 28 octobre"
 date: 2024-10-28T08:00:00+0000
 draft: false
 images: [/images/logo.png]
