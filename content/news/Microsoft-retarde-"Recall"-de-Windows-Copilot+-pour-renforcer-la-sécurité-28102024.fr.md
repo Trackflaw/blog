@@ -11,7 +11,7 @@ hiddenFromHomePage: True
 <div class="flex-container">
    <div class="flex-items">
    <iframe width="456" height="811" src="https://www.youtube.com/embed/4osPomQuIJo" 
-   title="Microsoft retarde "Recall" de Windows Copilot+ pour renforcer la sécurité - #Les4ActusCyber : semaine du 28 octobre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+   title="Microsoft retarde Recall de Windows Copilot+ pour renforcer la sécurité - #Les4ActusCyber : semaine du 28 octobre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </div>
 
