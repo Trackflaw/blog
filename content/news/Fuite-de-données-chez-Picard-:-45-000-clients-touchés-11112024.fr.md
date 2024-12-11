@@ -10,7 +10,7 @@ hiddenFromHomePage: True
     
 <div class="flex-container">
    <div class="flex-items">
-   <iframe width="456" height="811" src="https://www.youtube.com/shorts/79rxVjx4LEo" 
+   <iframe width="456" height="811" src="https://www.youtube.com/embed/79rxVjx4LEo" 
    title="Fuite de données chez Picard : 45 000 clients touchés - #Les4ActusCyber : semaine du 11 novembre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </div>

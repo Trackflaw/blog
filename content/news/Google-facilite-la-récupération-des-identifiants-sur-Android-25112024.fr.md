@@ -10,7 +10,7 @@ hiddenFromHomePage: True
     
 <div class="flex-container">
    <div class="flex-items">
-   <iframe width="456" height="811" src="https://www.youtube.com/shorts/ZzayYlPuZKw" 
+   <iframe width="456" height="811" src="https://www.youtube.com/embed/ZzayYlPuZKw" 
    title="Google facilite la récupération des identifiants sur Android - #Les4ActusCyber : semaine du 25 novembre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </div>
