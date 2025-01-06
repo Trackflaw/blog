@@ -1,6 +1,6 @@
 ---
 title: "Amende pour Apple conernant une violation de confidentialité sur Siri - Les4ActusCyber : semaine du 30 décembre"
-date: 2025-12-30T08:00:00+0000
+date: 2024-12-30T08:00:00+0000
 draft: false
 images: [/images/logo.png]
 featuredImage: "/images/logo.png"

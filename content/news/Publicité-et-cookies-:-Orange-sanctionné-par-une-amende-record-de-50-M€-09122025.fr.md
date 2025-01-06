@@ -1,6 +1,6 @@
 ---
 title: "Publicité et cookies : Orange sanctionné par une amende record de 50 M€ - Les4ActusCyber : semaine du 09 décembre"
-date: 2025-12-09T08:00:00+0000
+date: 2024-12-09T08:00:00+0000
 draft: false
 images: [/images/logo.png]
 featuredImage: "/images/logo.png"
