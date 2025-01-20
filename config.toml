@@ -86,7 +86,7 @@ paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = "G-TRE4WGVY4"
 # copyright description used only for seo schema
-copyright = "Trackflaw 2024"
+copyright = "Trackflaw 2025"
 
 # whether to use robots.txt
 enableRobotsTXT = true
