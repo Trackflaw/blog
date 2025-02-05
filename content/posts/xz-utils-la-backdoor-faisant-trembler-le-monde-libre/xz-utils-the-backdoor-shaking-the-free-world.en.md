@@ -24,7 +24,7 @@ On **March 29, 2024**, a major security flaw was discovered in `XZ Utils`, a pac
 - It allows commands to be executed as `root` user.
 - A patch is **available**.
 
-![XZ Utils](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/1.png)
+![XZ Utils](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/1.png)
 
 ## The origin
 
@@ -100,7 +100,7 @@ wget https://snapshot.debian.org/archive/debian/20240328T025657Z/pool/main/x/xz-
 dpkg -i liblzma5_5.6.1-1_amd64.deb 
 ```
 
-![alt text](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo1.png)
+![alt text](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/demo1.png)
 
 Verify that you are indeed vulnerable with the command:
 
@@ -127,9 +127,9 @@ shasum -a 256 /usr/lib/x86_64-linux-gnu/liblzma.so.5.6.1
 If you need help with this step: https://github.com/amlweems/xzbot
 {{< /admonition >}}
 
-![alt text](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo2.png)
+![alt text](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/demo2.png)
 
-![alt text](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo3.png)
+![alt text](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/demo3.png)
 
 Start the `SSH` service:
 
@@ -137,7 +137,7 @@ Start the `SSH` service:
 sudo systemctl start ssh
 ```
 
-![alt text](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo4.png)
+![alt text](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/demo4.png)
 
 Build the PoC binary and open a `netcat` listener.
 
@@ -148,15 +148,15 @@ go build .
 nc -lvp 4444
 ```
 
-![alt text](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo5.png)
+![alt text](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/demo5.png)
 
 Trigger the backdoor with the command `xzbot -addr 127.0.0.1 -cmd '<command>'`. The example below triggers the execution of a reverse shell.
 
-![alt text](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo6.png)
+![alt text](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/demo6.png)
 
 Finally, some articles mention the presence of a KillSwitch via the environment variable `yolAbejyiejuvnup=Evjtgvsh5okmkAvj`. This seems to have no effect 🤔
 
-![alt text](/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/demo7.png)
+![alt text](/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/demo7.png)
 
 ## Risks
 
@@ -184,7 +184,7 @@ sudo apt update && sudo apt-dist upgrade -y
 
 A short demonstration below to present the exploitation of the vulnerability on a vulnerable virgin machine.
 
-<video src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/exploit.mp4" controls autoplay loop title="Exploiting the XZ Utils backdoor" style="width:100%"></video>
+<video src="/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/exploit.mp4" controls autoplay loop title="Exploiting the XZ Utils backdoor" style="width:100%"></video>
 
 ## In Conclusion
 
