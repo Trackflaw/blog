@@ -3,9 +3,9 @@ title: "XZ Utils: the backdoor shaking the free world and cybersecurity"
 description: "XZ Utils has a significant backdoor in its latest versions 5.6.0 and 5.6.1. However, its exploitation is not trivial."
 date: 2024-04-01T10:21:17+01:00
 draft: false
-images: [/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png]
-featuredImage: "/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png"
-featuredImagePreview: "/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png"
+images: [/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/logo.png]
+featuredImage: "/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/logo.png"
+featuredImagePreview: "/images/xz-utils-la-backdoor-faisant-trembler-le-monde-libre/logo.png"
 tags: ["Penetration Testing", "Pentest", "Audit"]
 ---
 
