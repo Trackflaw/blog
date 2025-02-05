@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Penetration Testing - Tag - Trackflaw | Cybersecurity expert</title>
-        <link>https://trackflaw.com/en/tags/penetration-testing/</link>
+        <link>http://localhost:1313/en/tags/penetration-testing/</link>
         <description>Penetration Testing - Tag - Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/en/tags/penetration-testing/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/penetration-testing/" rel="self" type="application/rss+xml" /><item>
     <title>Why You Should STOP Using Kali Linux</title>
-    <link>https://trackflaw.com/en/why-should-you-no-longer-use-kali-linux/</link>
+    <link>http://localhost:1313/en/why-should-you-no-longer-use-kali-linux/</link>
     <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://trackflaw.com/en/why-should-you-no-longer-use-kali-linux/</guid>
+    <guid>http://localhost:1313/en/why-should-you-no-longer-use-kali-linux/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="exegol-the-best-modern-alternative-to-kali-linux">Exegol: The Best Modern Alternative to Kali Linux</h1>
@@ -18,10 +18,10 @@
 </item>
 <item>
     <title>XZ Utils: the backdoor shaking the free world and cybersecurity</title>
-    <link>https://trackflaw.com/en/xz-utils-the-backdoor-shaking-the-free-world/</link>
+    <link>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</link>
     <pubDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://trackflaw.com/en/xz-utils-the-backdoor-shaking-the-free-world/</guid>
+    <guid>http://localhost:1313/en/xz-utils-the-backdoor-shaking-the-free-world/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-new-and-scandalous-backdoor-in-xz-utils-on-linux">🕶️ New and scandalous backdoor in XZ Utils on Linux</h1>
@@ -32,10 +32,10 @@
 </item>
 <item>
     <title>How to Hack a 20 billion euro multinational corporation (legally)?</title>
-    <link>https://trackflaw.com/en/multinational-hacking-with-file-upload-and-ssrf/</link>
+    <link>http://localhost:1313/en/multinational-hacking-with-file-upload-and-ssrf/</link>
     <pubDate>Fri, 02 Feb 2024 06:13:21 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://trackflaw.com/en/multinational-hacking-with-file-upload-and-ssrf/</guid>
+    <guid>http://localhost:1313/en/multinational-hacking-with-file-upload-and-ssrf/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hacker-multinationale-via-file-upload-et-ssrf/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-cve-2023-252023-how-to-hack-multinational-company-with-file-upload-and-ssrf">📸 CVE-2023-2520{2|3}: How to hack MULTINATIONAL company with file upload and SSRF?</h1>
@@ -45,10 +45,10 @@
 </item>
 <item>
     <title>Compromise Jenkins reading files CVE-2024-23897</title>
-    <link>https://trackflaw.com/en/compromise-jenkins-reading-files-cve-2024-23897/</link>
+    <link>http://localhost:1313/en/compromise-jenkins-reading-files-cve-2024-23897/</link>
     <pubDate>Thu, 01 Feb 2024 11:47:21 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://trackflaw.com/en/compromise-jenkins-reading-files-cve-2024-23897/</guid>
+    <guid>http://localhost:1313/en/compromise-jenkins-reading-files-cve-2024-23897/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/compromettre-jenkins-lecture-fichiers-CVE-2024-23897/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-from-a-minor-verbose-error-to-full-compromise">💣 From a minor verbose error to full compromise</h1>

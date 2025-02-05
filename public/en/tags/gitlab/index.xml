@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Gitlab - Tag - Trackflaw | Cybersecurity expert</title>
-        <link>https://trackflaw.com/en/tags/gitlab/</link>
+        <link>http://localhost:1313/en/tags/gitlab/</link>
         <description>Gitlab - Tag - Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/en/tags/gitlab/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/gitlab/" rel="self" type="application/rss+xml" /><item>
     <title>How to compromise Gitlab accounts with CVE-2023-7028 vulnerability</title>
-    <link>https://trackflaw.com/en/compromise-gitlab-accounts-with-cve-2023-7028/</link>
+    <link>http://localhost:1313/en/compromise-gitlab-accounts-with-cve-2023-7028/</link>
     <pubDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://trackflaw.com/en/compromise-gitlab-accounts-with-cve-2023-7028/</guid>
+    <guid>http://localhost:1313/en/compromise-gitlab-accounts-with-cve-2023-7028/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/compromettre-comptes-Gitlab-avec-CVE-2023-7028/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-publicly-exposing-gitlab-in-2024-too-risky">😮 Publicly exposing GitLab in 2024: too risky?</h1>

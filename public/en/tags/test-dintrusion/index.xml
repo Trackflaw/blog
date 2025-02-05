@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Test D&#39;intrusion - Tag - Trackflaw | Cybersecurity expert</title>
-        <link>https://trackflaw.com/en/tags/test-dintrusion/</link>
+        <link>http://localhost:1313/en/tags/test-dintrusion/</link>
         <description>Test D&#39;intrusion - Tag - Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/en/tags/test-dintrusion/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/test-dintrusion/" rel="self" type="application/rss+xml" /><item>
     <title>Why do an intrusion test on its WordPress site</title>
-    <link>https://trackflaw.com/en/why-do-an-intrusion-test-on-its-wordpress-site/</link>
+    <link>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</link>
     <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://trackflaw.com/en/why-do-an-intrusion-test-on-its-wordpress-site/</guid>
+    <guid>http://localhost:1313/en/why-do-an-intrusion-test-on-its-wordpress-site/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="why-a-penetration-test-is-mandatory-for-your-wordpress-site-in-2024">Why a Penetration Test is MANDATORY for Your Wordpress Site in 2024?</h1>
@@ -39,10 +39,10 @@
 </item>
 <item>
     <title>GhostRace: New concern CPU vulnerability</title>
-    <link>https://trackflaw.com/en/ghostrace-new-concern-cpu-vulnerability/</link>
+    <link>http://localhost:1313/en/ghostrace-new-concern-cpu-vulnerability/</link>
     <pubDate>Tue, 19 Mar 2024 15:39:17 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://trackflaw.com/en/ghostrace-new-concern-cpu-vulnerability/</guid>
+    <guid>http://localhost:1313/en/ghostrace-new-concern-cpu-vulnerability/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/GhostRace-nouvelle-vuln%c3%a9rabilit%c3%a9-CPU-pr%c3%a9occupante/logo.en.png" referrerpolicy="no-referrer">
             </div><h1 id="-ghostrace-specter-v20">👻 GhostRace: Specter v2.0?</h1>

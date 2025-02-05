@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>RGPD - Balise - Trackflaw | Expert en sécurité informatique</title>
-        <link>https://trackflaw.com/tags/rgpd/</link>
+        <link>http://localhost:1313/tags/rgpd/</link>
         <description>RGPD - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/tags/rgpd/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/rgpd/" rel="self" type="application/rss+xml" /><item>
     <title>Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?</title>
-    <link>https://trackflaw.com/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
+    <link>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
     <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</guid>
+    <guid>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="test-dintrusion-et-conformité-rgpd--lessentiel-à-retenir">Test d&rsquo;intrusion et conformité RGPD : l&rsquo;essentiel à retenir</h1>

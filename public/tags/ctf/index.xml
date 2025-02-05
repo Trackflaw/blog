@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>CTF - Balise - Trackflaw | Expert en sécurité informatique</title>
-        <link>https://trackflaw.com/tags/ctf/</link>
+        <link>http://localhost:1313/tags/ctf/</link>
         <description>CTF - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/tags/ctf/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/ctf/" rel="self" type="application/rss+xml" /><item>
     <title>Htaccess, ou comment contourner les mécanismes de dépôt de fichiers.</title>
-    <link>https://trackflaw.com/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</link>
+    <link>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</link>
     <pubDate>Wed, 04 Oct 2023 16:00:00 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</guid>
+    <guid>http://localhost:1313/comment-contourner-d%C3%A9p%C3%B4t-fichiers/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/bypass-file-upload/htaccess.png" referrerpolicy="no-referrer">
             </div><h1 id="-comment-contourner-les-mécanismes-de-dépôt-de-fichiers-">📂 Comment contourner les mécanismes de dépôt de fichiers ?</h1>

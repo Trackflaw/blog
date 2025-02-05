@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Test D&#39;intrusion - Balise - Trackflaw | Expert en sécurité informatique</title>
-        <link>https://trackflaw.com/tags/test-dintrusion/</link>
+        <link>http://localhost:1313/tags/test-dintrusion/</link>
         <description>Test D&#39;intrusion - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/tags/test-dintrusion/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/test-dintrusion/" rel="self" type="application/rss+xml" /><item>
     <title>Pourquoi vous ne devriez PLUS utiliser Kali Linux ?</title>
-    <link>https://trackflaw.com/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</link>
+    <link>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</link>
     <pubDate>Mon, 30 Sep 2024 15:21:12 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</guid>
+    <guid>http://localhost:1313/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pourquoi-vous-ne-devriez-plus-utiliser-kali-linux-/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="exegol--la-meilleure-alternative-moderne-à-kali-linux">Exegol : la meilleure alternative moderne à Kali Linux</h1>
@@ -18,10 +18,10 @@
 </item>
 <item>
     <title>Comment les tests d&#39;intrusion aident à garantir la conformité RGPD ?</title>
-    <link>https://trackflaw.com/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
+    <link>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</link>
     <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</guid>
+    <guid>http://localhost:1313/comment-les-tests-dintrusion-aident-%C3%A0-garantir-la-conformit%C3%A9-rgpd-/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="test-dintrusion-et-conformité-rgpd--lessentiel-à-retenir">Test d&rsquo;intrusion et conformité RGPD : l&rsquo;essentiel à retenir</h1>
@@ -32,10 +32,10 @@
 </item>
 <item>
     <title>Quels outils utiliser pour un test d&#39;intrusion (pentest) ?</title>
-    <link>https://trackflaw.com/quels-outils-utiliser-pour-un-test-dintrusion-/</link>
+    <link>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</link>
     <pubDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/quels-outils-utiliser-pour-un-test-dintrusion-/</guid>
+    <guid>http://localhost:1313/quels-outils-utiliser-pour-un-test-dintrusion-/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-les-outils-dans-le-domaine-des-tests-dintrusionpentest">🛠️ Les outils dans le domaine des tests d&rsquo;intrusion/pentest</h1>
@@ -45,10 +45,10 @@
 </item>
 <item>
     <title>Quel budget prévoir pour son test intrusion ?</title>
-    <link>https://trackflaw.com/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</link>
+    <link>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</link>
     <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</guid>
+    <guid>http://localhost:1313/quel-budget-pr%C3%A9voir-pour-son-test-intrusion/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quel-budget-pr%c3%a9voir-pour-son-test-intrusion/logo.fr.png" referrerpolicy="no-referrer">
             </div><h1 id="-combien-coûte-un-test-dintrusion-informatique-en-2024-">💰 Combien coûte un test d&rsquo;intrusion informatique en 2024 ?</h1>
@@ -59,10 +59,10 @@
 </item>
 <item>
     <title>XZ Utils : la backdoor faisant trembler le monde libre et de la cybersécurité</title>
-    <link>https://trackflaw.com/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</link>
+    <link>http://localhost:1313/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</link>
     <pubDate>Mon, 01 Apr 2024 10:21:17 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</guid>
+    <guid>http://localhost:1313/xz-utils--la-backdoor-faisant-trembler-le-monde-libre/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/xz-utils-:-la-backdoor-faisant-trembler-le-monde-libre/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-nouvelle-et-sulfureuse-porte-dérobée-dans-xz-utils-sur-linux">🕶️ Nouvelle et sulfureuse porte dérobée dans XZ Utils sur Linux</h1>
@@ -73,10 +73,10 @@
 </item>
 <item>
     <title>Pourquoi faire un test d&#39;intrusion sur son site Wordpress en 2024 ?</title>
-    <link>https://trackflaw.com/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</link>
+    <link>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</link>
     <pubDate>Wed, 20 Mar 2024 10:54:14 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</guid>
+    <guid>http://localhost:1313/pourquoi-faire-un-test-intrusion-sur-son-site-wordpress/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wordpress/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="pourquoi-un-test-dintrusion-est-obligatoire-sur-votre-site-wordpress-en-2024-">Pourquoi un test d&rsquo;intrusion est OBLIGATOIRE sur votre site Wordpress en 2024 ?</h1>
@@ -87,10 +87,10 @@
 </item>
 <item>
     <title>Compromettre Jenkins via une simple lecture de fichiers : CVE-2024-23897</title>
-    <link>https://trackflaw.com/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</link>
+    <link>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</link>
     <pubDate>Thu, 01 Feb 2024 11:47:21 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</guid>
+    <guid>http://localhost:1313/compromettre-jenkins-lecture-fichiers-cve-2024-23897/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/compromettre-jenkins-lecture-fichiers-CVE-2024-23897/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-dune-petite-erreur-verbeuse-à-une-compromission-complète">💣 D&rsquo;une petite erreur verbeuse à une compromission complète</h1>
@@ -100,10 +100,10 @@
 </item>
 <item>
     <title>Quelle démarche choisir pour effectuer un test d&#39;intrusion ?</title>
-    <link>https://trackflaw.com/quelle-d%C3%A9marche-test-intrusion/</link>
+    <link>http://localhost:1313/quelle-d%C3%A9marche-test-intrusion/</link>
     <pubDate>Tue, 23 Jan 2024 10:39:40 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/quelle-d%C3%A9marche-test-intrusion/</guid>
+    <guid>http://localhost:1313/quelle-d%C3%A9marche-test-intrusion/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quelle-d%c3%a9marche-test-intrusion/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-comment-bien-choisir-sa-démarche-pour-effectuer-un-test-dintrusion-">🤔 Comment bien choisir sa démarche pour effectuer un test d&rsquo;intrusion ?</h1>
@@ -113,10 +113,10 @@
 </item>
 <item>
     <title>Compromettre des comptes Gitlab avec la vulnérabilité CVE-2023-7028</title>
-    <link>https://trackflaw.com/compromettre-comptes-gitlab-avec-cve-2023-7028/</link>
+    <link>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</link>
     <pubDate>Fri, 19 Jan 2024 17:32:30 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/compromettre-comptes-gitlab-avec-cve-2023-7028/</guid>
+    <guid>http://localhost:1313/compromettre-comptes-gitlab-avec-cve-2023-7028/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/compromettre-comptes-Gitlab-avec-CVE-2023-7028/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="-exposer-gitlab-publiquement-en-2024--trop-dangereux-">😮 Exposer GitLab publiquement en 2024 : trop dangereux ?</h1>
@@ -129,10 +129,10 @@
 </item>
 <item>
     <title>Comment bien choisir un prestataire de tests d&#39;intrusion en 2024 ?</title>
-    <link>https://trackflaw.com/choisir-son-prestataire-de-test-intrusion/</link>
+    <link>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</link>
     <pubDate>Wed, 03 Jan 2024 15:34:12 &#43;0100</pubDate>
     <author>Auteur</author>
-    <guid>https://trackflaw.com/choisir-son-prestataire-de-test-intrusion/</guid>
+    <guid>http://localhost:1313/choisir-son-prestataire-de-test-intrusion/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pentest-provider/main.png" referrerpolicy="no-referrer">
             </div><h1 id="-comment-bien-choisir-un-prestataire-de-tests-dintrusion-en-2024-">🕵️ Comment bien choisir un prestataire de tests d&rsquo;intrusion en 2024 ?</h1>
