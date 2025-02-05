@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Penetration Test - Tag - Trackflaw | Cybersecurity expert</title>
-        <link>http://localhost:1313/en/tags/penetration-test/</link>
+        <link>https://trackflaw.com/en/tags/penetration-test/</link>
         <description>Penetration Test - Tag - Trackflaw | Cybersecurity expert</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/penetration-test/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/en/tags/penetration-test/" rel="self" type="application/rss+xml" /><item>
     <title>How penetration tests help ensure GDPR compliance?</title>
-    <link>http://localhost:1313/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</link>
+    <link>https://trackflaw.com/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</link>
     <pubDate>Thu, 15 Aug 2024 12:18:54 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</guid>
+    <author>Author</author>
+    <guid>https://trackflaw.com/en/how-does-intrusion-tests-help-guarantee-rgpd-compliance/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/comment-les-tests-dintrusion-aident-%c3%a0-garantir-la-conformit%c3%a9-rgpd-/logo.png" referrerpolicy="no-referrer">
             </div><h1 id="penetration-testing-and-gdpr-compliance-the-essentials">Penetration testing and GDPR compliance: the essentials</h1>
@@ -19,10 +19,10 @@
 </item>
 <item>
     <title>What tools to use for a Penetration Test?</title>
-    <link>http://localhost:1313/en/what-tools-to-use-for-an-intrusion-test/</link>
+    <link>https://trackflaw.com/en/what-tools-to-use-for-an-intrusion-test/</link>
     <pubDate>Wed, 24 Jul 2024 11:58:40 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/what-tools-to-use-for-an-intrusion-test/</guid>
+    <author>Author</author>
+    <guid>https://trackflaw.com/en/what-tools-to-use-for-an-intrusion-test/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quels-outils-utiliser-pour-un-test-dintrusion/logo.en.png" referrerpolicy="no-referrer">
             </div><h1 id="-tools-in-the-field-of-penetration-testing">🛠️ Tools in the Field of Penetration Testing</h1>
@@ -32,10 +32,10 @@
 </item>
 <item>
     <title>What budget to provide for its intrusion test</title>
-    <link>http://localhost:1313/en/what-budget-to-provide-for-its-intrusion-test/</link>
+    <link>https://trackflaw.com/en/what-budget-to-provide-for-its-intrusion-test/</link>
     <pubDate>Mon, 13 May 2024 10:01:20 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/en/what-budget-to-provide-for-its-intrusion-test/</guid>
+    <author>Author</author>
+    <guid>https://trackflaw.com/en/what-budget-to-provide-for-its-intrusion-test/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/quel-budget-pr%c3%a9voir-pour-son-test-intrusion/logo.en.png" referrerpolicy="no-referrer">
             </div><h1 id="-how-much-does-a-computer-intrusion-test-cost-in-2024">💰 How much does a computer intrusion test cost in 2024?</h1>

@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Pwncloud - Balise - Trackflaw | Expert en sécurité informatique</title>
-        <link>http://localhost:1313/tags/pwncloud/</link>
+        <link>https://trackflaw.com/tags/pwncloud/</link>
         <description>Pwncloud - Balise - Trackflaw | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/pwncloud/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</lastBuildDate><atom:link href="https://trackflaw.com/tags/pwncloud/" rel="self" type="application/rss+xml" /><item>
     <title>Pwncloud : votre propre cloud (non) sécurisé</title>
-    <link>http://localhost:1313/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</link>
+    <link>https://trackflaw.com/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</link>
     <pubDate>Fri, 08 Dec 2023 15:05:00 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</guid>
+    <author>Auteur</author>
+    <guid>https://trackflaw.com/pwncloud-votre-propre-cloud-non-s%C3%A9curis%C3%A9/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/pwncloud/pwncloud.png" referrerpolicy="no-referrer">
             </div><h1 id="-pwncloud--votre-propre-cloud-non-sécurisé">☁️ Pwncloud : votre propre cloud (non) sécurisé</h1>
@@ -29,10 +29,10 @@
 </item>
 <item>
     <title>CVE-2023-23397 - La réunion Outlook qui exfiltre votre mot de passe.</title>
-    <link>http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/</link>
+    <link>https://trackflaw.com/rappel-de-r%C3%A9union-vous-veut-du-mal/</link>
     <pubDate>Fri, 24 Mar 2023 17:25:42 &#43;0100</pubDate>
-    <author>Thibaud Robin</author>
-    <guid>http://localhost:1313/rappel-de-r%C3%A9union-vous-veut-du-mal/</guid>
+    <author>Auteur</author>
+    <guid>https://trackflaw.com/rappel-de-r%C3%A9union-vous-veut-du-mal/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/cve-outlook/CVE-2023-23397.png" referrerpolicy="no-referrer">
             </div><h1 id="-le-rappel-de-réunion-qui-vous-veut-du-mal">⏰ Le rappel de réunion qui vous veut du mal</h1>
