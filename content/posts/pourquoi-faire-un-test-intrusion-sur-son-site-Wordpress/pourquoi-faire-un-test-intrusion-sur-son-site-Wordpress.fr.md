@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi faire un test d'intrusion sur son site Wordpress en 2024 ?"
+title: "Pourquoi faire un test d'intrusion sur son site Wordpress en 2025 ?"
 description: "WordPress, en tant que l’un des systèmes de gestion de contenu (CMS) les plus utilisés au monde, alimente une part significative des sites web, allant des blogs personnels aux sites d’entreprise."
 date: 2024-03-20T10:54:14+01:00
 draft: false
@@ -9,7 +9,7 @@ featuredImagePreview: "/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wor
 tags: ["Test d'intrusion", "Pentest", "Audit"]
 ---
 
-# Pourquoi un test d'intrusion est OBLIGATOIRE sur votre site Wordpress en 2024 ?
+# Pourquoi un test d'intrusion est OBLIGATOIRE sur votre site Wordpress en 2025 ?
 
 ## Introduction
 

@@ -1,5 +1,5 @@
 ---
-title: "Why do an intrusion test on its WordPress site"
+title: "Why do an intrusion test on its WordPress site in 2025"
 description: "WordPress, as one of the most widely used content management systems (CMS) in the world, powers a significant portion of websites, ranging from personal blogs to corporate sites."
 date: 2024-03-20T10:54:14+01:00
 draft: false
@@ -9,7 +9,7 @@ featuredImagePreview: "/images/pourquoi-faire-un-test-intrusion-sur-son-site-Wor
 tags: ["Test d'intrusion", "Pentest", "Audit"]
 ---
 
-# Why a Penetration Test is MANDATORY for Your Wordpress Site in 2024?
+# Why a Penetration Test is MANDATORY for Your Wordpress Site in 2025 ?
 
 ## Introduction
 
